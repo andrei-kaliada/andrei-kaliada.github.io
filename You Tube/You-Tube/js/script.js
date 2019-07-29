@@ -56,7 +56,7 @@ function switchMode(){
 
         nightMode.style.color = "#fff";
 
-        logo.src = "/logo/youtube_night.svg";
+        logo.src = "youtube_night.svg";
     } else{
         document.body.classList.remove('night');
         night = false;
@@ -72,7 +72,7 @@ function switchMode(){
 
         nightMode.style.color = "#000";
 
-        logo.src = "/logo/youtube.svg";
+        logo.src = "youtube.svg";
 
     }
 
@@ -146,7 +146,6 @@ function search(target){
             'type':''
         });
     }).then(function(response){
-        console.log(response.result);
         while( videosWrapper.firstChild){
             videosWrapper.removeChild(videosWrapper.firstChild);
         }
