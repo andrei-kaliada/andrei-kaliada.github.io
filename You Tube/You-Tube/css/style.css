@@ -141,7 +141,11 @@ body.night {
 .header__item {
   display: flex;
   align-items: center;
-  margin-right: 35px
+  margin: 10px 0;
+}
+
+.header__item:last-child{
+  margin-left: 10px;
 }
 
 .header__item-switch {
@@ -249,3 +253,17 @@ hr {
   overflow: auto;
   
 }
+
+.logo__wrapper{
+  margin:20px 0;
+}
+
+.header__wrapper{
+  display: flex;
+}
+
+@media screen and (max-width:450px){
+  .header__wrapper{
+    display: block;
+  }
+};
