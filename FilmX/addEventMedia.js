@@ -1,4 +1,4 @@
-import {showFullInfo} from '/js/filmsDescription.js';
+import {showFullInfo} from 'filmsDescription.js';
 
 function addEventMedia() {
     const media = movies.querySelectorAll('.cardPoster[data-id]');

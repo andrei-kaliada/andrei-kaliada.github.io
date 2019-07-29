@@ -1,6 +1,6 @@
-import {getTrandingDay} from '/js/trandingDayResponse.js';
-import {cutText} from '/js/filmsDescription.js';
-import {addEventMedia} from '/js/addEventMedia.js';
+import {getTrandingDay} from 'trandingDayResponse.js';
+import {cutText} from 'filmsDescription.js';
+import {addEventMedia} from 'addEventMedia.js';
 
 
 
