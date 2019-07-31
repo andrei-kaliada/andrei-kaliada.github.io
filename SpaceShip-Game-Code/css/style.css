@@ -1,0 +1,16 @@
+body {
+  background: url(/image/cosmos-1853491_1280.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  cursor: none;
+}
+
+body .wrapper {
+  width: 600px;
+  margin: 0 auto;
+}
+
+body .wrapper .valueExpl p {
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */
