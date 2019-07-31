@@ -1,0 +1,24 @@
+<div class="pop-app" ng-show="popUp">
+    <h2>Back call</h2>
+    <div class="formMessage">
+        <form name="contactForm" ng-submit="sendMessage()" novalidate>
+            <input type="text" placeholder="Your name:" name="name" ng-model="contact.name" ng-required="true"><br>
+            <div class="invalidForm" ng-show="contactForm.name.$touched && contactForm.name.$invalid">
+                <span>Enter your name</span>
+            </div>
+            <input type="email" placeholder="Your email:" name="email" ng-model="contact.email" ng-required="true"
+                ng-disabled="contactForm.name.$invalid"><br>
+            <div class="invalidForm" ng-show="contactForm.email.$touched && contactForm.email.$invalid">
+                <span>Enter your email</span>
+            </div>
+            <input type="tel" placeholder="Your number phone:" name="number" ng-model="contact.number"
+                ng-required="true" ng-disabled="contactForm.email.$invalid"><br>
+            <div class="invalidForm" ng-show="contactForm.number.$touched && contactForm.number.$invalid">
+                <span>Enter your number</span>
+            </div>
+            <textarea name="message" cols="30" rows="10" placeholder="Message text:" name="message"></textarea>
+            <button type="submit" class="sendMessage" ng-click="closeModal()"
+                ng-disabled="contactForm.$invalid"><span>Send</span></button>
+        </form>
+    </div>
+</div>

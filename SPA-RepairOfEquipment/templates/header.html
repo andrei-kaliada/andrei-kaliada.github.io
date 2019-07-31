@@ -1,0 +1,41 @@
+<header ng-controller="headerController">
+    <div class="popUpBg" ng-show="popUp"></div>
+    <div class="container">
+        <div class="row header-wrapper">
+            <div class="col-1">
+                <a href="#"><img src="img/logo.png" alt="logo"></a>
+            </div>
+            <div class="col-8 navigation">
+                <div navigation-directive></div>
+            </div>
+            <div class="col-3">
+                <a href="" class="btnCall" ng-click="showCall()"><span>Request a call</span></a>
+                <div class="smallBtnMenu">
+                    <a href="" class="menu-btn" ng-click="showResponsivePopUp()">
+                        <span></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-md-center">
+            <div class="modal-wrapper">
+                <div class="closePopUp">
+                    <img src="/img/imgClosePopUp.png" ng-click="closePopUp()" alt="imgClosePopUp" ng-show="popUp">
+                </div>
+                <form-directive></form-directive>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bgMenuResponsive" ng-style="responsNav">
+        <div class="row">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div navigation-directive></div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
