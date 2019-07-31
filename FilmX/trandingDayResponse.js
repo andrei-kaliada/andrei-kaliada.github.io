@@ -1,5 +1,5 @@
-import {addEventMedia} from 'addEventMedia.js';
-import {cutText} from 'filmsDescription.js';
+import {addEventMedia} from '/addEventMedia.js';
+import {cutText} from '/filmsDescription.js';
 
 const movies = document.querySelector('#movies'),
     imagePoster = 'https://image.tmdb.org/t/p/w500';
