@@ -1,5 +1,5 @@
 body {
-  background:#000 url(/cosmos-1853491_1280.jpg) no-repeat;
+  background: #000 url(/cosmos-1853491_1280.jpg) no-repeat;
   background-position: center;
   background-size: cover;
   cursor: none;
@@ -8,9 +8,20 @@ body {
 body .wrapper {
   width: 600px;
   margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .wrapper .valueExpl {
+  margin-left: 10px;
 }
 
 body .wrapper .valueExpl p {
+  font-size: 30px;
   color: #fff;
 }
 /*# sourceMappingURL=style.css.map */
