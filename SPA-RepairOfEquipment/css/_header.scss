@@ -1,0 +1,304 @@
+// html{
+
+//   width: 100%;
+//   max-width: 100%;
+//   overflow-x: hidden;
+// }
+
+.popUpBg {
+  width: 100%;
+  min-height: 100%;
+  position: fixed;
+  top: 0;
+  background: rgba(38, 38, 38, 0.6);
+  z-index: 999;
+  opacity: 1;
+  transition: 0.2s linear all;
+}
+
+.header-wrapper {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+
+nav {
+  ul {
+    display: flex;
+    margin-top: 15px;
+
+    li {
+      padding-right: 20px;
+
+      a {
+        font: 20px 'FiraSans-Book', sans-serif;
+        color: #4d4d4d;
+        text-decoration: none;
+
+        &:hover {
+          color: #feaf02;
+        }
+      }
+    }
+  }
+}
+
+.callNum {
+  font: 18px 'FiraSans-Heavy', sans-serif;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.btnCall {
+  display: block;
+  text-align: center;
+  background: url(/img/btnCall.png) no-repeat;
+  width: 200px;
+  height: 50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border: 0;
+  border-radius: 50px 50px 50px 50px;
+
+
+  &:hover {
+    opacity: 0.9;
+    text-decoration: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+
+  span {
+    display: block;
+    padding-top: 12px;
+    color: #fff;
+    font: 20px 'FiraSans-Book', sans-serif;
+
+  }
+}
+
+.pop-app {
+  width: 450px;
+  height: 480px;
+  background-color: #fff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  opacity: 1;
+  transition: 0.2s linear all;
+
+  h2 {
+    margin-top: 20px;
+    font: 40px 'FiraSans-Bold', sans-serif;
+  }
+
+  .formMessage {
+    input {
+      width: 425px;
+      height: 40px;
+      margin-top: 15px;
+      border: 1px solid #e7e7e7;
+      border-radius: 50px 50px 50px 50px;
+      text-decoration: none;
+      padding-left: 10px;
+      color: #808080;
+      outline: none;
+      font: 16px 'FiraSans-Medium', sans-serif;
+
+      &.ng-invalid.ng-touched {
+        border: 1px solid red;
+      }
+    }
+
+    textarea {
+      width: 425px;
+      max-height: 100px;
+      margin-top: 20px;
+      border: 1px solid #e7e7e7;
+      border-radius: 30px 30px 30px 30px;
+      text-decoration: none;
+      padding-top: 10px;
+      padding-left: 15px;
+      color: #808080;
+      font: 16px 'FiraSans-Medium', sans-serif;
+      outline: none;
+    }
+
+    .invalidForm {
+      span {
+        color: red;
+        display: block;
+      }
+
+    }
+
+    .sendMessage {
+      display: block;
+      width: 385px;
+      height: 50px;
+      background: url(/img/btnSendMessagePopUp.png) no-repeat;
+      text-align: center;
+      margin: 20px 0 0 35px;
+      text-decoration: none;
+      border-radius: 50px 50px 50px 50px;
+      border: 0;
+      outline: none;
+
+      &[disabled="disabled"] {
+        opacity: 0.4;
+        cursor: not-allowed !important;
+      }
+
+      &:hover {
+
+        text-decoration: none;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      }
+
+      span {
+        display: block;
+        color: #fff;
+        font: 20px 'FiraSans-Book', sans-serif;
+      }
+    }
+
+  }
+
+}
+
+.modal-wrapper {
+  position: fixed;
+  z-index: 999;
+
+  a {
+    text-decoration: none;
+  }
+
+  .closePopUp {
+    position: absolute;
+    top: -40px;
+    right: -30px;
+    cursor: pointer;
+
+    &:hover {
+      opacity: 0.7;
+
+    }
+  }
+}
+
+.ng-hide {
+  transition: 0.2s linear all;
+  opacity: 0;
+}
+
+main.ng-enter {
+  transition: 0.2s linear all;
+  opacity: 0;
+}
+
+main.ng-enter.ng-enter-active {
+  opacity: 1;
+}
+
+.smallBtnMenu {
+  display: none;
+  background: url(/img/smallBtnMenu.png) no-repeat;
+  width: 40px;
+  height: 40px;
+
+  .menu-btn {
+    display: block;
+    position: relative;
+    width: 40px;
+    height: 40px;
+
+    span {
+      position: absolute;
+      top: 50%;
+      margin-top: -1px;
+      left: 50%;
+      margin-left: -10px;
+      width: 20px;
+      height: 2px;
+      background-color: #fff;
+
+
+      &::before {
+        content: '';
+        transform: translateY(-5px);
+        position: absolute;
+        top: 50%;
+        margin-top: -1px;
+        left: 50%;
+        margin-left: -10px;
+        width: 20px;
+        height: 2px;
+        background-color: #fff;
+        display: block;
+        transition: 0.3s;
+
+      }
+
+      &::after {
+        content: '';
+        transform: translateY(5px);
+        position: absolute;
+        top: 50%;
+        margin-top: -1px;
+        left: 50%;
+        margin-left: -10px;
+        width: 20px;
+        height: 2px;
+        background-color: #fff;
+        display: block;
+        transition: 0.2s;
+      }
+
+
+    }
+
+    &-active {
+      span {
+        height: 0;
+
+        &::before {
+          transform: rotate(45deg);
+        }
+
+        &::after {
+          transform: rotate(-45deg);
+        }
+      }
+    }
+
+  }
+}
+
+
+@media(max-width: 991.98px) {
+
+  .bgMenu {
+    display: none;
+  }
+
+  .header-wrapper {
+
+    display: flex;
+    justify-content: space-between;
+
+    .smallBtnMenu {
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    .btnCall {
+      display: none;
+    }
+
+    .navigation {
+      display: none;
+    }
+  }
+}
+
+

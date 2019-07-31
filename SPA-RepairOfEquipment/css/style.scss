@@ -1,0 +1,20 @@
+@import "_fonts";
+@import "_header";
+@import "_menu";
+@import "_promotions";
+
+
+body
+{
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  p{
+    font:20px "FiraSans-Light", sans-serif;
+  }
+
+  h2{
+    font:30px 'FiraSans-Bold',sans-serif;
+
+  }
+}
