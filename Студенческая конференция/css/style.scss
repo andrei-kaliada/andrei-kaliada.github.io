@@ -1,0 +1,26 @@
+@import "media";
+@import "fonts";
+@import "header";
+@import "main";
+@import "navigation";
+@import "footer";
+@import "pagination";
+@import "menuBtn";
+@import "registration";
+@import "signIn";
+@import "forgetPassword";
+@import "myProfile";
+
+html {
+    height: 100%;
+  }
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    margin: 0;
+  }
+main {
+    flex-grow: 1;
+  }
+
