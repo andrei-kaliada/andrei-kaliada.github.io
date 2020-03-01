@@ -1,0 +1,47 @@
+.portlet{
+    border:1px solid #e3e3e3;
+    border-radius: 3px;
+    padding: 20px;
+}
+
+.profile-sidebar-portlet{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+
+    .profile-userpic{
+        img{
+            width: 100%;
+            margin-top: 30px;
+        border-radius: 50%;
+        overflow: hidden;
+        }
+    }
+
+    .profile-usertitle-name{
+        margin: 20px;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .profile-userbuttons{
+        margin-top: 5px;
+
+        button{
+            margin-top: 5px;
+        }
+    }
+
+    
+}
+
+.caption-md{
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
