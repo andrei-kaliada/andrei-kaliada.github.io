@@ -67,7 +67,7 @@
                       <div class="card-img-left d-none d-md-flex">
                       </div>
                       <div class="card-body">
-                        <h5 class="card-title text-center">Регистрация</h5>
+                        <h5 class="card-title text-center">Заявка</h5>
                         <form class="form-signin">
                             <label for="inputUserame">Имя:</label>
                           <div class="form-label-group">
@@ -79,16 +79,7 @@
                             <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required>
                             <label for="inputEmail">Электронная почта</label>
                           </div>
-                          <label for="inputPassword">Пароль:</label>
-                          <div class="form-label-group">
-                            <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
-                            <label for="inputPassword">Пароль</label>
-                          </div>
-                          <label for="inputConfirmPassword">Подтвердите пароль:</label>
-                          <div class="form-label-group">
-                            <input type="password" id="inputConfirmPassword" class="form-control" placeholder="Password" required>
-                            <label for="inputConfirmPassword">Подтвердите пароль</label>
-                          </div>
+                          
                           <label for="datepicker">Дата:</label>
                           <input id="datepicker" placeholder="Выберите дату"/>
                           
@@ -97,8 +88,12 @@
                             <textarea class="form-control"  rows="5" id="comment" placeholder="Введите сообщение"></textarea>
                           </div>
 
-                        
-                          <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Зарегистрироваться</button>
+                          <div class="custom-file loadFile">
+                            <input type="file" class="custom-file-input" id="customFile">
+                            <label class="custom-file-label" for="customFile">Выберите файл</label>
+                          </div>
+
+                          <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Подать заявку</button>
                           <a class="d-block text-center mt-2 small" href="../Студенческая конференция/signIn.html">Войти</a>
                           <hr class="my-4">
                           
@@ -130,12 +125,15 @@
             </div>
         </div>
     </footer>
-
-
     <script>
         $('#datepicker').datepicker({
             uiLibrary: 'bootstrap4'
         });
+
+        $(".custom-file-input").on("change", function () {
+                var fileName = $(this).val().split("\\").pop();
+                $(this).siblings(".custom-file-label").addClass("selected").html(fileName);
+            });
     </script>
 </body>
 </html>
