@@ -1,0 +1,75 @@
+.reply {
+    display: block;
+    opacity: 1;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .3);
+     transition: .5s;
+     z-index: 30;
+}
+.reply__body {
+    position: relative;
+    margin: 70px auto 0;
+    width: 575px;
+    height: 480px;
+    overflow: auto;
+    padding: 20px 40px;
+    background: #fff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, .15);
+    border-radius: 4px;
+}
+.reply__title {
+    font-weight: 500;
+    line-height: 18px;
+    font-size: 18px;
+    text-align: center;
+}
+.reply form {
+    margin-top: 20px;
+}
+.reply__wrapper {
+    display: flex; 
+    justify-content: space-between;
+}
+.reply label {
+    display: block;
+    font-weight: 500;
+    line-height: 18px;
+    font-size: 16px;
+    margin-top: 10px
+}
+.reply label span {
+    color: red
+}
+.reply input {
+    margin-top: 10px;
+    border:1px solid #1a76dc;
+    border-radius:4px;
+    width:228px;
+    height:35px;
+    outline:0;
+    padding:0 10px;
+}
+
+.reply textarea{
+    margin-top:10px;
+    width:100%;
+    height:140px;
+    resize:none;
+    border:1px solid #1a76dc;
+    border-radius: 4px;
+    outline: 0;
+    padding: 10px;
+}
+.reply.minibutton {
+    margin-top: 20px;
+}
+.reply__close {
+    position: absolute;
+    top: 0;
+    right: 7px;
+    font-size: 25px;
+    cursor: pointer;
+}

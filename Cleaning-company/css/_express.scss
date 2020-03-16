@@ -1,0 +1,13 @@
+.express{
+
+    &__info{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        p{
+            align-items: center;
+        }
+    }
+}

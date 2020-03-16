@@ -1,0 +1,65 @@
+.section-footer{
+    margin: 30px 0;
+   
+
+    &__map{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    &__contacts{
+
+       
+        &-title{
+            text-align: center;
+            margin-bottom: 20px;
+            
+        }
+
+        &-address{
+            margin-bottom: 20px;
+
+            address{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                
+            }
+
+        }
+        
+
+        &-messangers{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            margin-bottom: 20px;
+        }
+
+
+        
+    }
+
+    &__contacts-security{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        a{
+            color:#000;
+           
+            &:hover{
+                text-decoration: none;
+            }
+        }
+    }
+
+    &__service{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+}

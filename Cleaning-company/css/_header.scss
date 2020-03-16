@@ -1,0 +1,106 @@
+.margin-head{
+    margin: 10px 0;
+}
+
+.navigationPanel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 0;
+    transition: 0.5s all;
+    
+    ul{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        li{
+            transition: 0.5s all;
+            font:0 "Nunito";
+            a{
+                text-decoration: none;
+                color:#212529;
+            }
+        }
+    }
+}
+
+.addNavigationPanel{
+    
+    height: 100px;
+    ul{
+        li{
+            font:24px "Nunito";
+        }
+    }
+}
+
+.header-wrapper {
+    display: flex;
+    align-items: center;
+    
+
+    .header__nav {
+        nav {
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    .header__logo {
+        margin-left: 20px;
+        a {
+            display: flex;
+             justify-content: center;
+             align-items: center;
+             text-decoration: none;
+             color:#000;
+            p {
+                font-weight: 500;
+                line-height: 20px;
+                margin-bottom: 0;
+
+                span {
+                    text-transform: uppercase;
+                }
+            }
+        }
+
+        img{
+            width: 64px;
+            height: 64px;
+        }
+
+    }
+
+    
+}
+
+
+.header__contacts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+
+    &-phone{
+        a{
+            text-decoration: none;
+            color:#000;
+
+            &:hover{
+                color:#000;
+                text-decoration: none;
+            }
+        }   
+    }
+    
+}
+
+
+.header__btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+
+}

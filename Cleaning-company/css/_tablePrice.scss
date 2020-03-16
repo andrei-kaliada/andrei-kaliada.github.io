@@ -1,0 +1,18 @@
+.table-price{
+    margin-top: 50px;
+
+    &__title{
+        h2{
+            text-align: center;
+            margin-bottom: 30px;
+        }
+    }
+
+    &__btn{
+        text-align:center;
+    }
+
+    &__table{
+        margin-top: 30px;
+    }
+}
