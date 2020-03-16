@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Cleaning-company/css/style.css">
+    <link rel="stylesheet" href="../Cleaning-company/bootstrap-4.4.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../Cleaning-company/slick/slick.css">
+    <link rel="stylesheet" href="../Cleaning-company/slick/slick-theme.css">
+    
+    <title>Клининговая компания</title>
+</head>
+<body>
+    <header>
+        
+        <div class="container-fluid">
+            <div class="container margin-head">
+                <div class="row navigationPanel">
+                    <div class="col-md-12">
+                        <ul>
+                            <li><a href="../Cleaning-company/index.html">Главная</a></li>
+                            <li><a href="../Cleaning-company/price.html">Прайс лист</a></li>
+                            <li><a href="../Cleaning-company/service.html ">Отдельные услуги</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 ">
+                        <div class="header-wrapper">
+                            <div class="header__nav">
+                                <nav>
+                                    <div class="wrapper-header__button">
+                                        <a href="#" class="menu-btn">
+                                          <span></span>
+                                        </a>
+                                    </div>
+                                </nav>
+                            </div>
+                            <div class="header__logo">
+                                <a href="index.html">
+                                    <img src="../Cleaning-company/image/logo.jpg" alt="logoImage">
+                                    <p>клининговая <br>
+                                     компания <br>
+                                      <span>рокет</span>
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="col-md-3 header__contacts">
+                        <div class="header__contacts-phone">
+                            <a href="tel:83366699900">8-336-669-99-00</a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 header__btn">
+                        <div class="header__btn-call">
+                            <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal">
+                                заказать звонок
+                              </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Modal -->
+    <section class="section-modal">
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Заявка</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body">
+                    <form class="form" id="form" name="form">
+                        <div class="form-group">
+                           <label for="name">Ваше имя:</label>
+                           <input type="name" name="name" class="form-control" id="name" placeholder="Ваше имя" required>
+                        </div>
+                        <div class="form-group">
+                           <label for="email">E-mail:</label>
+                           <input type="email" name="email" class="form-control" id="email" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                           <label for="phone">Номер телефона:</label>
+                           <input type="phone" name="phone" class="form-control" id="phone" placeholder="Номер телефона" required>
+                        </div>
+                        <div class="form-group">
+                           <label for="message">Сообщение:</label>
+                           <textarea class="form-control" name="message" rows="3"></textarea>
+                        </div>
+                           <button type="submit" class="btn btn-info">Отправить сообщение</button>
+                        </form>
+                </div>
+               
+            </div>
+            </div>
+        </div>
+    </section>
+     <!-- End Modal -->
+    
+     <main>
+         <!-- Calculate Section -->
+         <div class="container-fluid">
+             <section class="calculate-section">
+                 <div class="container">
+                     <div class="row">
+                         <div class="col-md-9">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi vel molestias, facere eaque nesciunt at odio sit magnam, beatae mollitia aspernatur, ipsa doloribus. Dolorem deleniti quasi voluptatem saepe facere delectus!
+                         </div>
+                         <div class="col-md-3">
+                             Lorem ipsum dolor sit amet consectetur adipisicing elit. At quam alias hic ipsam quis est commodi odio veritatis illo fugit blanditiis soluta quos quia, ea praesentium minus, voluptates, temporibus dolore.
+                         </div>
+                     </div>
+                 </div>
+             </section>
+         </div>
+          <!--End Calculate Section -->
+
+          <!-- Express clean Section -->
+         <div class="container-fluid">
+            <section class="express-clean-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="express-clean-section__text">
+                                <p>экспресс уборка 900 руб</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="express-clean-section__btn">
+                                <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal">
+                                    заказать
+                                  </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+         <!--End Express clean Section-->
+
+          <!-- Express clean Section -->
+          <div class="container-fluid">
+            <section class="work-photos">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="work-photos__title">
+                                <h2>Фото работ</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="slider-for">
+                                <div class="single-item__slide">
+                                    <div class="twentytwenty-container">
+                                        <img src="../Cleaning-company/image/before-after/clean01.jpg" />
+                                        <img src="../Cleaning-company/image/before-after/clean02.jpg" />
+                                      </div>
+                                </div>
+                                <div class="single-item__slide">
+                                    <div class="twentytwenty-container">
+                                        <img style="width: 100%;" src="../Cleaning-company/image/before-after/clean3.jpg" />
+                                        <img style="width: 100%;" src="../Cleaning-company/image/before-after/clean4.jpg" />
+                                      </div>
+                                </div>
+                                <div class="single-item__slide">
+                                    <div class="twentytwenty-container">
+                                        <img src="../Cleaning-company/image/before-after/clean5.jpg" />
+                                        <img src="../Cleaning-company/image/before-after/clean6.jpg" />
+                                      </div>
+                                </div>
+                                <div class="single-item__slide">
+                                    <div class="twentytwenty-container">
+                                        <img src="../Cleaning-company/image/before-after/clean7.jpg" />
+                                        <img src="../Cleaning-company/image/before-after/clean8.jpg" />
+                                      </div>
+                                </div>
+                                <div class="single-item__slide">
+                                    <div class="twentytwenty-container">
+                                        <img src="../Cleaning-company/image/before-after/clean9.jpg" />
+                                        <img src="../Cleaning-company/image/before-after/clean10.jpg" />
+                                      </div>
+                                </div>
+                                <div class="single-item__slide">
+                                    <div class="twentytwenty-container">
+                                        <img src="../Cleaning-company/image/before-after/clean11.jpg" />
+                                        <img src="../Cleaning-company/image/before-after/clean12.jpg" />
+                                      </div>
+                                </div>
+                                <div class="single-item__slide">
+                                    <div class="twentytwenty-container">
+                                        <img src="../Cleaning-company/image/before-after/clean13.jpg" />
+                                        <img src="../Cleaning-company/image/before-after/clean14.jpg" />
+                                      </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="slider-nav">
+                                <div class="single-item__slide">
+                                    <img style="width: 100%;height: 200px;" src="../Cleaning-company/image/before-after/clean02.jpg" />
+                                </div>
+                                <div class="single-item__slide">
+                                    <img style="width: 100%;height: 100%;" src="../Cleaning-company/image/before-after/clean3.jpg" />
+                                </div>
+                                <div class="single-item__slide">
+                                    <img style="width: 100%;height: 100%;" src="../Cleaning-company/image/before-after/clean5.jpg" />
+                                </div>
+                                <div class="single-item__slide">
+                                    <img style="width: 100%;height: 100%;" src="../Cleaning-company/image/before-after/clean7.jpg" />
+                                </div>
+                                <div class="single-item__slide">
+                                    <img style="width: 100%;height: 100%;" src="../Cleaning-company/image/before-after/clean9.jpg" />
+                                </div>
+                                <div class="single-item__slide">
+                                    <img style="width: 100%;height: 100%;" src="../Cleaning-company/image/before-after/clean11.jpg" />
+                                </div>
+                                <div class="single-item__slide">
+                                    <img style="width: 100%; height: 100%;" src="../Cleaning-company/image/before-after/clean13.jpg" />
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+         <!--End Express clean Section-->
+
+     </main>
+
+
+    <footer>
+        <div class="container-fluid">
+            <div class="container section-footer">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="section-footer__service">
+                            <div class="section-footer__service-title">
+                                <h5>Для физических лиц</h5>
+                            </div>
+                            <div class="section-footer__service-list">
+                                <ul>
+                                    <li>Название услуг</li>
+                                    <li>Название услуг</li>
+                                    <li>Название услуг</li>
+                                    <li>Название услуг</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="section-footer__service">
+                            <div class="section-footer__service-title">
+                                <h5>Для юридических лиц</h5>
+                            </div>
+                            <div class="section-footer__service-list">
+                                <ul>
+                                    <li>Название услуг</li>
+                                    <li>Название услуг</li>
+                                    <li>Название услуг</li>
+                                    <li>Название услуг</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="section-footer__service">
+                            <div class="section-footer__service-title">
+                                <h5>Химчистка</h5>
+                            </div>
+                            <div class="section-footer__service-list">
+                                <ul>
+                                    <li>Название услуг</li>
+                                    <li>Название услуг</li>
+                                    <li>Название услуг</li>
+                                    <li>Название услуг</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="section-footer__service">
+                            <div class="section-footer__service-title">
+                                <h5>Спецуборка</h5>
+                            </div>
+                            <div class="section-footer__service-list">
+                                <ul>
+                                    <li>Название услуг</li>
+                                    <li>Название услуг</li>
+                                    <li>Название услуг</li>
+                                    <li>Название услуг</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>   
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="section-footer__map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2118.8694601838415!2d37.58377938835358!3d55.76086531302004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a36a4c680f9%3A0xafb980444bb2dcc!2z0JzQvtGB0LrQvtCy0YHQutC40Lkg0J_Qu9Cw0L3QtdGC0LDRgNC40Lk!5e0!3m2!1sru!2spl!4v1583917067270!5m2!1sru!2spl"  height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="section-footer__contacts">
+                            <div class="section-footer__contacts-title">
+                                <h2>Контакты</h2>
+                            </div>
+                            <div class="section-footer__contacts-address">
+                                <address>
+                                    <p>Адресс: Москва ул.Пролетарска 86</p>
+                                    <p>Телефон: <a href="tel:8336669990">8-336-669-99-00</a></p>
+                                    <p>e-mail: <a href="mailto:clean@info.com">clean@info.com</a></p>
+                                </address>
+                            </div>
+                            <div class="section-footer__contacts-messangers">
+                                <a href="#" class="fa fa-facebook"></a>
+                                <a href="#" class="fa fa-twitter"></a>
+                                <a href="#" class="fa fa-instagram"></a>
+                            </div>
+                            <div class="section-footer__contacts-security">
+                                <a href="#">политика конфединциальности</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="section-footer__form">
+                            <form class="form" id="form" name="form">
+                                <div class="form-group">
+                                   <label for="name">Ваше имя:</label>
+                                   <input type="name" name="name" class="form-control" id="name" placeholder="Name" required>
+                                </div>
+                                <div class="form-group">
+                                   <label for="email">E-mail:</label>
+                                   <input type="email" name="email" class="form-control" id="email" placeholder="Email" required>
+                                </div>
+                                <div class="form-group">
+                                   <label for="phone">Номер телефона:</label>
+                                   <input type="phone" name="phone" class="form-control" id="phone" placeholder="Phone" required>
+                                </div>
+                                <div class="form-group">
+                                   <label for="message">Сообщение:</label>
+                                   <textarea class="form-control" name="message" rows="3"></textarea>
+                                </div>
+                                   <button type="submit" class="btn btn-info">Отправить сообщение</button>
+                                </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="row">
+        <div class="large-8 ">
+          
+        </div>
+      </div>
+
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+      <script src="../Cleaning-company/bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
+      <script src="../Cleaning-company/slick/slick.min.js"></script>
+      <script src="../Cleaning-company/js/slickSlider.js"></script>
+      <script src="../Cleaning-company/js/jquery.maskedinput.js"></script>
+      <script src="../Cleaning-company/js/jquery.event.move.js"></script>
+      <script src="../Cleaning-company/js/jquery.twentytwenty.js"></script>
+      <script src="../Cleaning-company/js/main.js"></script>
+        <script>
+        
+        </script>
+    </script>
+</body>
+</html>

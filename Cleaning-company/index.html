@@ -1,0 +1,1365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Cleaning-company/css/style.css">
+    <link rel="stylesheet" href="../Cleaning-company/bootstrap-4.4.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../Cleaning-company/slick/slick.css">
+    <link rel="stylesheet" href="../Cleaning-company/slick/slick-theme.css">
+   
+    <title>Клининговая компания</title>
+</head>
+<body>
+    <header>
+        
+        <div class="container-fluid">
+            <div class="container margin-head">
+                <div class="row navigationPanel">
+                    <div class="col-md-12">
+                        <ul>
+                            <li><a href="../Cleaning-company/index.html">Главная</a></li>
+                            <li><a href="../Cleaning-company/price.html">Прайс лист</a></li>
+                            <li><a href="../Cleaning-company/service.html ">Отдельные услуги</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="header-wrapper">
+                            <div class="header__nav">
+                                <nav>
+                                    <div class="wrapper-header__button">
+                                        <a href="#" class="menu-btn">
+                                          <span></span>
+                                        </a>
+                                    </div>
+                                </nav>
+                            </div>
+                            <div class="header__logo">
+                                <a href="index.html">
+                                    <img src="../Cleaning-company/image/logo.jpg" alt="logoImage">
+                                    <p>клининговая <br>
+                                     компания <br>
+                                      <span>рокет</span>
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="col-md-3 header__contacts">
+                        <div class="header__contacts-phone">
+                            <a href="tel:83366699900">8-336-669-99-00</a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 header__btn">
+                        <div class="header__btn-call">
+                            <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal">
+                                заказать звонок
+                              </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- Modal -->
+        <section class="section-modal">
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Заявка</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+                        <form class="form" id="form" name="form">
+                            <div class="form-group">
+                               <label for="name">Ваше имя:</label>
+                               <input type="name" name="name" class="form-control" id="name" placeholder="Ваше имя" required>
+                            </div>
+                            <div class="form-group">
+                               <label for="email">E-mail:</label>
+                               <input type="email" name="email" class="form-control" id="email" placeholder="Email" required>
+                            </div>
+                            <div class="form-group">
+                               <label for="phone">Номер телефона:</label>
+                               <input type="phone" name="phone" class="form-control" id="phone" placeholder="Номер телефона" required>
+                            </div>
+                            <div class="form-group">
+                               <label for="message">Сообщение:</label>
+                               <textarea class="form-control" name="message" rows="3"></textarea>
+                            </div>
+                               <button type="submit" class="btn btn-info">Отправить сообщение</button>
+                            </form>
+                    </div>
+                   
+                </div>
+                </div>
+            </div>
+        </section>
+         <!-- End Modal -->
+        <div class="container-fliud" style="position: relative;">
+            <ul class="body_slides">
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            <section class="section-info">
+                <div class="container" >
+                    <div class="row">
+                        <div class="col-md-6 section-info__wrapper-text">
+                            <h1 class="section-info__title">роккет - клининг</h1>
+                            <div class="section-info__text">
+                                <p>Клининговая компания, предоставляющая сервис профессиональной уборки коммерческих, частных помещений и прилегающих территорий как на постоянной, так и разовой основе</p>
+                            </div>
+                            <div class="section-info__btn">
+                                <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">рассчитать</a>
+                                <a href="../Cleaning-company/price.docx" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">скачать прайс</a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="section-info__image">
+                                <img src="../Cleaning-company/image/sliderImg-3.jpg" alt="infoImg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        
+         <!-- Anchors section -->
+        <div class="container-fluid ">
+            <section class="section-anchors">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <ul class="anchors">
+                            <li>
+                                <a href="#clean">
+                                    <img src="../Cleaning-company/image/arrow-down.png" alt="arrow-down">
+                                    <p>уборка</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#wash">
+                                    <img src="../Cleaning-company/image/arrow-down.png" alt="arrow-down">
+                                    <p>мойка</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#dryCleaning">
+                                    <img src="../Cleaning-company/image/arrow-down.png" alt="arrow-down">
+                                    <p>химчистка</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#special">
+                                    <img src="../Cleaning-company/image/arrow-down.png" alt="arrow-down">
+                                    <p>спецуборка</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        </div>
+         <!-- End Anchors section -->
+
+        <!-- Cleaning section -->
+        <div class="container-fluid wrapper">
+             <section id="clean" class="section-cleaning clean">
+            <div class="container">
+                <div class="row">
+                    <!--what we do start-->
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h2 class="hs_heading" id="cleaning">Уборка</h2>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="hs_tab" style="display: flex;">
+                                    <div class="col-md-4 col-sm-12 nav-wrapper">
+                                        <ul id="myTab" class="nav nav-tabs">
+                                            <li class="active"><a href="#services1" data-toggle="tab">квартира</a></li>
+                                            <li><a href="#services2" data-toggle="tab">коттедж</a></li>
+                                            <li><a href="#services3" data-toggle="tab">коммерческая недвижимость</a></li>
+                                            <li><a href="#services4" data-toggle="tab">прилегающая территория</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-8 col-sm-12">
+                                        <div id="myTabContent" class="tab-content">
+                                            <div class="tab-pane fade in active show" id="services1">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <div class="bg-slider" style="background-image:url(../Cleaning-company/image/cleaningImg/apartament.jpg);">
+                                                           <div class="row">
+                                                               <div class="col-lg-8 col-md-7 col-sm-12">
+                                                                <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">Ежедневная</a>
+                                                                <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">Генеральная</a>
+                                                                <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">Послестроительна</a>
+                                                               </div>
+                                                               <div class="col-lg-4 col-md-5 col-sm-12">
+                                                                <div class="bg-slider__size">
+                                                                    <p class="bg-slider__size-text">50 руб.м2</p>
+                                                                    <div class="bg-slider__size-btn">
+                                                                        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal">
+                                                                            заказать
+                                                                          </button>
+                                                                         <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">подробнее</a>
+                                                                    </div>
+                                                                </div>
+                                                               </div>
+                                                           </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane fade" id="services2">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <div class="bg-slider" style="background-image:url(../Cleaning-company/image/cleaningImg/cottage.jpg);  background-position: center;">
+                                                            <div class="row">
+                                                                <div class="col-lg-8 col-md-7 col-sm-12">
+                                                                 <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">Ежедневная</a>
+                                                                 <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">Генеральная</a>
+                                                                 <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">Послестроительна</a>
+                                                                </div>
+                                                                <div class="col-lg-4 col-md-5 col-sm-12">
+                                                                 <div class="bg-slider__size">
+                                                                     <p class="bg-slider__size-text">50 руб.м2</p>
+                                                                     <div class="bg-slider__size-btn">
+                                                                        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal">
+                                                                            заказать
+                                                                          </button>
+                                                                         <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">подробнее</a>
+                                                                     </div>
+                                                                 </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane fade" id="services3">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <div class="bg-slider" style="background-image:url(../Cleaning-company/image/cleaningImg/commersial.jpg);">
+                                                            <div class="row">
+                                                                <div class="col-lg-8 col-md-7 col-sm-12">
+                                                                 <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">Ежедневная</a>
+                                                                 <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">Генеральная</a>
+                                                                 <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">Послестроительна</a>
+                                                                </div>
+                                                                <div class="col-lg-4 col-md-5 col-sm-12">
+                                                                 <div class="bg-slider__size">
+                                                                     <p class="bg-slider__size-text">50 руб.м2</p>
+                                                                     <div class="bg-slider__size-btn">
+                                                                        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal">
+                                                                            заказать
+                                                                          </button>
+                                                                         <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">подробнее</a>
+                                                                     </div>
+                                                                 </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane fade " id="services4">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <div class="bg-slider" style="background-image:url(../Cleaning-company/image/cleaningImg/adjoining.jpg);">
+                                                            <div class="row">
+                                                                <div class="col-lg-8 col-md-7 col-sm-12">
+                                                                 <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">Ежедневная</a>
+                                                                 <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">Генеральная</a>
+                                                                 <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">Послестроительна</a>
+                                                                </div>
+                                                                <div class="col-lg-4 col-md-5 col-sm-12">
+                                                                 <div class="bg-slider__size">
+                                                                     <p class="bg-slider__size-text">50 руб.м2</p>
+                                                                     <div class="bg-slider__size-btn">
+                                                                        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal">
+                                                                            заказать
+                                                                          </button>
+                                                                         <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">подробнее</a>
+                                                                     </div>
+                                                                 </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--what we do end--> 
+                </div>
+            </div>
+        </section>
+        </div>
+        <!-- End Cleaning section -->
+       
+        <!-- Express Wash section -->
+        <div class="container-fluid">
+            <section class="express">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="express__info express__cleaning">
+                            <h2>Експресс уборка 900 рублей</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium suscipit aut dolores vitae a odio reprehenderit. Debitis voluptates officia, amet sed aliquam voluptatibus facere numquam eius nulla quo voluptate blanditiis?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        </div>
+        <!--End Express Wash section -->
+        
+        <!-- Washing section -->
+        <div class="container-fluid wrapper">
+            <section id="wash" class="section-cleaning wash">
+            <div class="container">
+                <div class="row">
+                    <!--what we do start-->
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h2 class="hs_heading" id="wash">Мойка</h2>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="hs_tab" style="display: flex;">
+                                    <div class="col-md-4 col-sm-12 nav-wrapper">
+                                        <ul id="myTab" class="nav nav-tabs">
+                                            <li class="active"><a href="#wash1" data-toggle="tab">окна</a></li>
+                                            <li><a href="#wash2" data-toggle="tab">балконы</a></li>
+                                            <li><a href="#wash3" data-toggle="tab">лоджии</a></li>
+                                            <li><a href="#wash4" data-toggle="tab">фасады</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-8 col-sm-12">
+                                        <div id="myTabContent" class="tab-content">
+                                            <div class="tab-pane fade in active show" id="wash1">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <div class="bg-slider" style="background-image:url(../Cleaning-company/image/cleaningImg/window.jpg);">
+                                                           <div class="row">
+                                                               <div class="col-lg-8 col-md-7 col-sm-12">
+                                                                <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">Ежедневная</a>
+                                                                <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">Генеральная</a>
+                                                                <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">Послестроительна</a>
+                                                               </div>
+                                                               <div class="col-lg-4 col-md-5 col-sm-12">
+                                                                <div class="bg-slider__size">
+                                                                    <p class="bg-slider__size-text">50 руб.м2</p>
+                                                                    <div class="bg-slider__size-btn">
+                                                                        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal">
+                                                                            заказать
+                                                                          </button>
+                                                                         <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">подробнее</a>
+                                                                    </div>
+                                                                </div>
+                                                               </div>
+                                                           </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane fade" id="wash2">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <div class="bg-slider" style="background-image:url(../Cleaning-company/image/cleaningImg/balconies.jpg);">
+                                                            <div class="row">
+                                                                <div class="col-lg-8 col-md-7 col-sm-12">
+                                                                 <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">Ежедневная</a>
+                                                                 <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">Генеральная</a>
+                                                                 <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">Послестроительна</a>
+                                                                </div>
+                                                                <div class="col-lg-4 col-md-5 col-sm-12">
+                                                                 <div class="bg-slider__size">
+                                                                     <p class="bg-slider__size-text">50 руб.м2</p>
+                                                                     <div class="bg-slider__size-btn">
+                                                                        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal">
+                                                                            заказать
+                                                                          </button>
+                                                                         <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">подробнее</a>
+                                                                     </div>
+                                                                 </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane fade" id="wash3">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <div class="bg-slider" style="background-image:url(../Cleaning-company/image/cleaningImg/loggias.jpg);">
+                                                            <div class="row">
+                                                                <div class="col-lg-8 col-md-7 col-sm-12">
+                                                                 <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">Ежедневная</a>
+                                                                 <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">Генеральная</a>
+                                                                 <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">Послестроительна</a>
+                                                                </div>
+                                                                <div class="col-lg-4 col-md-5 col-sm-12">
+                                                                 <div class="bg-slider__size">
+                                                                     <p class="bg-slider__size-text">50 руб.м2</p>
+                                                                     <div class="bg-slider__size-btn">
+                                                                        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal">
+                                                                            заказать
+                                                                          </button>
+                                                                         <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">подробнее</a>
+                                                                     </div>
+                                                                 </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane fade " id="wash4">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <div class="bg-slider" style="background-image:url(../Cleaning-company/image/cleaningImg/facades.jpg);">
+                                                            <div class="row">
+                                                                <div class="col-lg-8 col-md-7 col-sm-12">
+                                                                 <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">Ежедневная</a>
+                                                                 <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">Генеральная</a>
+                                                                 <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">Послестроительна</a>
+                                                                </div>
+                                                                <div class="col-lg-4 col-md-5 col-sm-12">
+                                                                 <div class="bg-slider__size">
+                                                                     <p class="bg-slider__size-text">50 руб.м2</p>
+                                                                     <div class="bg-slider__size-btn">
+                                                                        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal">
+                                                                            заказать
+                                                                          </button>
+                                                                         <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">подробнее</a>
+                                                                     </div>
+                                                                 </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--what we do end--> 
+                </div>
+            </div>
+        </section>
+        </div>
+        <!-- End Washing section -->
+        
+        <!-- Express Wash section -->
+        <div class="container-fluid">
+            <section class="express">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="express__info express__wash">
+                            <h2>Експресс мойка 900 рублей</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium suscipit aut dolores vitae a odio reprehenderit. Debitis voluptates officia, amet sed aliquam voluptatibus facere numquam eius nulla quo voluptate blanditiis?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        </div>
+        <!--End Express Wash section -->
+        
+        <!-- dryCleaning section -->
+        <div class="container-fluid wrapper">
+           <section id="dryCleaning" class="section-cleaning dryCleaning">
+            <div class="container">
+                <div class="row">
+                    <!--what we do start-->
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h2 class="hs_heading" id="wash">Химчистка</h2>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="hs_tab" style="display: flex;">
+                                    <div class="col-md-4 col-sm-12 nav-wrapper">
+                                        <ul id="myTab" class="nav nav-tabs">
+                                            <li class="active"><a href="#dryCleaning1" data-toggle="tab">мягкая мебель</a></li>
+                                            <li><a href="#dryCleaning2" data-toggle="tab">ковролин</a></li>
+                                            <li><a href="#dryCleaning3" data-toggle="tab"></a></li>
+                                            <li><a href="#dryCleaning4" data-toggle="tab"></a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-8 col-sm-12">
+                                        <div id="myTabContent" class="tab-content">
+                                            <div class="tab-pane fade in active show" id="dryCleaning1">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <div class="bg-slider" style="background-image:url(../Cleaning-company/image/cleaningImg/soft.jpg);">
+                                                           <div class="row">
+                                                               <div class="col-lg-8 col-md-7 col-sm-12">
+                                                                <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">Ежедневная</a>
+                                                                <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">Генеральная</a>
+                                                                <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">Послестроительна</a>
+                                                               </div>
+                                                               <div class="col-lg-4 col-md-5 col-sm-12">
+                                                                <div class="bg-slider__size">
+                                                                    <p class="bg-slider__size-text">50 руб.м2</p>
+                                                                    <div class="bg-slider__size-btn">
+                                                                        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal">
+                                                                            заказать
+                                                                          </button>
+                                                                         <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">подробнее</a>
+                                                                    </div>
+                                                                </div>
+                                                               </div>
+                                                           </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane fade" id="dryCleaning2">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <div class="bg-slider" style="background-image:url(../Cleaning-company/image/cleaningImg/covrolin.jpg);">
+                                                            <div class="row">
+                                                                <div class="col-lg-8 col-md-7 col-sm-12">
+                                                                 <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">Ежедневная</a>
+                                                                 <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">Генеральная</a>
+                                                                 <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">Послестроительна</a>
+                                                                </div>
+                                                                <div class="col-lg-4 col-md-5 col-sm-12">
+                                                                 <div class="bg-slider__size">
+                                                                     <p class="bg-slider__size-text">50 руб.м2</p>
+                                                                     <div class="bg-slider__size-btn">
+                                                                        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal">
+                                                                            заказать
+                                                                          </button>
+                                                                         <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">подробнее</a>
+                                                                     </div>
+                                                                 </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                           
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--what we do end--> 
+                </div>
+            </div>
+        </section> 
+        </div>
+        <!-- End dryCleaning section -->
+
+
+        <!-- Express Wash section -->
+        <div class="container-fluid">
+              <section class="express">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="express__info express__dryCleaning">
+                            <h2>Експресс химчистка 900 рублей</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium suscipit aut dolores vitae a odio reprehenderit. Debitis voluptates officia, amet sed aliquam voluptatibus facere numquam eius nulla quo voluptate blanditiis?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        </div>
+         <!--End Express Wash section -->
+         
+         <div class="container-fluid wrapper">
+            <section id="special" class="section-cervice-buttons">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2 class="section-cervice-buttons__title">
+                                спецуборка
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="row ">
+                        <div class="col-md-6 ">
+                            <div class="btn-group-vertical buttons-wrapper">
+                                <button type="button" class="btn btn-secondary">после пожара</button>
+                                <button type="button" class="btn btn-secondary">после трупа</button>
+                                <button type="button" class="btn btn-secondary">озонирование</button>
+                                <button type="button" class="btn btn-secondary">чистка пола</button>
+                              </div>
+                        </div>
+                        <div class="col-md-6 ">
+                            <div class="btn-group-vertical buttons-wrapper">
+                                <button type="button" class="btn btn-secondary">покос травы</button>
+                                <button type="button" class="btn btn-secondary">уборка снега</button>
+                                <button type="button" class="btn btn-secondary">услуги грузчиков</button>
+                                <button type="button" class="btn btn-secondary">чистка пола</button>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+         </div>
+
+        <!-- Express Related-products section -->
+        <div class="container-fluid">
+            <section class="related-products">
+              <div class="container">
+                  <div class="row">
+                      <div class="col-md-12">
+                          <div class="related-products__title">
+                              <h2>Сопутствующие товары</h2>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12">
+                        <div class="related-products__slider">
+                            <div class="sl">
+                                <div class="sl__slide">
+                                    <img  src="../Cleaning-company/image/goods1.jpg" alt="slide1" class="sl__img">
+                                    <div class="sl__text">
+                                        <h4 class="erelated-products__slider-title">Товар 1</h4>
+                                        <p class="erelated-products__price">цена 1900 руб.</p>
+                                    </div>
+                                </div>
+                                <div class="sl__slide">
+                                    <img src="../Cleaning-company/image/goods2.jpg" alt="slide2" class="sl__img">
+                                    <div class="sl__text">
+                                        <h4 class="erelated-products__slider-title">Товар 2</h4>
+                                        <p class="erelated-products__price">цена 1900 руб.</p>
+                                    </div>
+                                </div>
+                                <div class="sl__slide">
+                                    <img src="../Cleaning-company/image/goods3.jpg" alt="slide3" class="sl__img">
+                                    <div class="sl__text">
+                                        <h4 class="erelated-products__slider-title">Товар 3</h4>
+                                        <p class="erelated-products__price">цена 1900 руб.</p>
+                                    </div>
+                                </div>
+                                <div class="sl__slide">
+                                    <img src="../Cleaning-company/image/goods4.jpg" alt="slide4" class="sl__img">
+                                    <div class="sl__text">
+                                        <h4 class="erelated-products__slider-title">Товар 4</h4>
+                                        <p class="erelated-products__price">цена 1900 руб.</p>
+                                    </div>
+                                </div>
+                                <div class="sl__slide">
+                                    <img src="../Cleaning-company/image/goods5.jpg" alt="slide5" class="sl__img">
+                                    <div class="sl__text">
+                                        <h4 class="erelated-products__slider-title">Товар 5</h4>
+                                        <p class="erelated-products__price">цена 1900 руб.</p>
+                                    </div>
+                                </div>
+                                <div class="sl__slide">
+                                    <img src="../Cleaning-company/image/goods6.jpg" alt="slide6" class="sl__img">
+                                    <div class="sl__text">
+                                        <h4 class="erelated-products__slider-title">Товар 6</h4>
+                                        <p class="erelated-products__price">цена 1900 руб.</p>
+                                    </div>
+                                </div>
+                                <div class="sl__slide">
+                                    <img src="../Cleaning-company/image/goods7.jpg" alt="slide7" class="sl__img">
+                                    <div class="sl__text">
+                                        <h4 class="erelated-products__slider-title">Товар 7</h4>
+                                        <p class="erelated-products__price">цена 1900 руб.</p>
+                                    </div>
+                                </div>
+                                <div class="sl__slide">
+                                    <img src="../Cleaning-company/image/goods8.jpg" alt="slide8" class="sl__img">
+                                    <div class="sl__text">
+                                        <h4 class="erelated-products__slider-title">Товар 8</h4>
+                                        <p class="erelated-products__price">цена 1900 руб.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+          </section>
+          </div>
+        <!--End Related Products section -->
+
+
+        <!-- Private clients section -->
+        <div class="container-fluid wrapper">
+            <section class="section-cleaning companies">
+             <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-clients__title">
+                            <h2>Наши клиенты</h2>
+                        </div>
+                    </div>
+                </div>
+                 <div class="row">
+                     <!--what we do start-->
+                     <div class="col-md-12">
+                         <div class="row">
+                             <div class="col-md-12">
+                                 <div class="hs_tab">
+                                     <div class="col-md-4 col-sm-12">
+                                         <div id="myTabContent" class="tab-content">
+                                             <div class="tab-pane fade in active show" id="test1">
+                                                 <div class="row">
+                                                     <div class="col-md-12">
+                                                         <div class="bg-slider" style="background-image:url(../Cleaning-company/image/diplomas/scaned_document1.jpg); width: 100%; height: 500px;">
+                                                            
+                                                         </div>
+                                                     </div>
+                                                 </div>
+                                             </div>
+                                             <div class="tab-pane fade" id="test2">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <div class="bg-slider" style="background-image:url(../Cleaning-company/image/diplomas/scaned_document2.jpg); width: 100%; height: 500px;">
+                                                           
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane fade" id="test3">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <div class="bg-slider" style="background-image:url(../Cleaning-company/image/diplomas/scaned_document3.jpg); width: 100%; height: 500px;">
+                                                           
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane fade" id="test4">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <div class="bg-slider" style="background-image:url(../Cleaning-company/image/diplomas/scaned_document4.jpg); width: 100%; height: 500px;">
+                                                           
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane fade" id="test5">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <div class="bg-slider" style="background-image:url(../Cleaning-company/image/diplomas/scaned_document5.jpg); width: 100%; height: 500px;">
+                                                           
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane fade" id="test6">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <div class="bg-slider" style="background-image:url(../Cleaning-company/image/diplomas/scaned_document6.jpg); width: 100%; height: 500px;">
+                                                           
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane fade" id="test7">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <div class="bg-slider" style="background-image:url(../Cleaning-company/image/diplomas/scaned_document7.jpg); width: 100%; height: 500px;">
+                                                           
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane fade" id="test8">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <div class="bg-slider" style="background-image:url(../Cleaning-company/image/diplomas/scaned_document8.jpg); width: 100%; height: 500px;">
+                                                           
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane fade" id="test9">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <div class="bg-slider" style="background-image:url(../Cleaning-company/image/diplomas/scaned_document9.jpg); width: 100%; height: 500px;">
+                                                           
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane fade" id="test10">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <div class="bg-slider" style="background-image:url(../Cleaning-company/image/diplomas/scaned_document10.jpg); width: 100%; height: 500px;">
+                                                           
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane fade" id="test11">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <div class="bg-slider" style="background-image:url(../Cleaning-company/image/diplomas/scaned_document11.jpg); width: 100%; height: 500px;">
+                                                           
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane fade" id="test12">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <div class="bg-slider" style="background-image:url(../Cleaning-company/image/diplomas/scaned_document12.jpg); width: 100%; height: 500px;">
+                                                           
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane fade" id="test13">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <div class="bg-slider" style="background-image:url(../Cleaning-company/image/diplomas/scaned_document13.jpg); width: 100%; height: 500px;">
+                                                           
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane fade" id="test14">
+                                                <div class="row">
+                                                    <div class="col-md-14">
+                                                        <div class="bg-slider" style="background-image:url(../Cleaning-company/image/diplomas/scaned_document14.jpg); width: 100%; height: 500px;">
+                                                           
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane fade" id="test15">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <div class="bg-slider" style="background-image:url(../Cleaning-company/image/diplomas/scaned_document15.jpg); width: 100%; height: 500px;">
+                                                           
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane fade" id="test16">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <div class="bg-slider" style="background-image:url(../Cleaning-company/image/diplomas/scaned_document16.jpg); width: 100%; height: 500px;">
+                                                           
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane fade" id="test17">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <div class="bg-slider" style="background-image:url(../Cleaning-company/image/diplomas/scaned_document17.jpg); width: 100%; height: 500px;">
+                                                           
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane fade" id="test18">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <div class="bg-slider" style="background-image:url(../Cleaning-company/image/diplomas/scaned_document18.jpg); width: 100%; height: 500px;">
+                                                           
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane fade" id="test19">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <div class="bg-slider" style="background-image:url(../Cleaning-company/image/diplomas/scaned_document19.jpg); width: 100%; height: 500px;">
+                                                           
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane fade" id="test20">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <div class="bg-slider" style="background-image:url(../Cleaning-company/image/diplomas/scaned_document20.jpg); width: 100%; height: 500px;">
+                                                           
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                         </div>
+                                     </div>
+                                     <div class="col-md-8 col-sm-12 nav-wrapper">   
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <ul id="myTab" class="nav">
+                                                        <li class="active">
+                                                            <a href="#test1" data-toggle="tab">
+                                                                <div class="col-md-12">
+                                                                    <img style="width: 100%;" src="../Cleaning-company/image/sberbank.png" alt="">
+                                                                </div>
+                                                            </a>   
+                                                        </li>
+                                                        <li class="active">
+                                                            <a href="#test2" data-toggle="tab">
+                                                                <div class="col-md-12">
+                                                                    <img style="width: 100%;" src="../Cleaning-company/image/sberbank.png" alt="">
+                                                                </div>
+                                                            </a>   
+                                                        </li>
+                                                        <li class="active">
+                                                            <a href="#test3" data-toggle="tab">
+                                                                <div class="col-md-12">
+                                                                    <img style="width: 100%;" src="../Cleaning-company/image/sberbank.png" alt="">
+                                                                </div>
+                                                            </a>   
+                                                        </li>
+                                                        <li class="active">
+                                                            <a href="#test4" data-toggle="tab">
+                                                                <div class="col-md-12">
+                                                                    <img style="width: 100%;" src="../Cleaning-company/image/sberbank.png" alt="">
+                                                                </div>
+                                                            </a>   
+                                                        </li>
+                                                        <li class="active">
+                                                            <a href="#test5" data-toggle="tab">
+                                                                <div class="col-md-12">
+                                                                    <img style="width: 100%;" src="../Cleaning-company/image/sberbank.png" alt="">
+                                                                </div>
+                                                            </a>   
+                                                        </li>
+                                                        <li class="active">
+                                                            <a href="#test6" data-toggle="tab">
+                                                                <div class="col-md-12">
+                                                                    <img style="width: 100%;" src="../Cleaning-company/image/sberbank.png" alt="">
+                                                                </div>
+                                                            </a>   
+                                                        </li>
+                                                        <li class="active">
+                                                            <a href="#test7" data-toggle="tab">
+                                                                <div class="col-md-12">
+                                                                    <img style="width: 100%;" src="../Cleaning-company/image/sberbank.png" alt="">
+                                                                </div>
+                                                            </a>   
+                                                        </li>
+
+
+                                                </ul>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <ul id="myTab" class="nav">
+                                                        <li class="active">
+                                                                <a href="#test8" data-toggle="tab">
+                                                                    <div class="col-md-12">
+                                                                    <img style="width: 100%;" src="../Cleaning-company/image/sberbank.png" alt="">
+                                                                </div>
+                                                            </a> 
+                                                        </li>
+                                                        <li>
+                                                                <a href="#test9" data-toggle="tab">
+                                                                <div class="col-md-12">
+                                                                    <img style="width: 100%;" src="../Cleaning-company/image/sberbank.png" alt="">
+                                                                </div>
+                                                                </a> 
+                                                        </li>
+                                                        <li>
+                                                           
+                                                            <a href="#test10" data-toggle="tab">
+                                                                 <div class="col-md-12">
+                                                                    <img style="width: 100%;" src="../Cleaning-company/image/sberbank.png" alt="">
+                                                            </div>
+                                                            </a> 
+                                                    </li>
+                                                    <li>
+                                                           
+                                                        <a href="#test11" data-toggle="tab">
+                                                             <div class="col-md-12">
+                                                                <img style="width: 100%;" src="../Cleaning-company/image/sberbank.png" alt="">
+                                                        </div>
+                                                        </a> 
+                                                     </li>
+                                                     <li> 
+                                                        <a href="#test12" data-toggle="tab">
+                                                             <div class="col-md-12">
+                                                                <img style="width: 100%;" src="../Cleaning-company/image/sberbank.png" alt="">
+                                                        </div>
+                                                        </a> 
+                                                    </li>
+                                                    <li> 
+                                                        <a href="#test13" data-toggle="tab">
+                                                             <div class="col-md-12">
+                                                                <img style="width: 100%;" src="../Cleaning-company/image/sberbank.png" alt="">
+                                                        </div>
+                                                        </a> 
+                                                    </li>
+                                                    <li> 
+                                                        <a href="#test14" data-toggle="tab">
+                                                             <div class="col-md-12">
+                                                                <img style="width: 100%;" src="../Cleaning-company/image/sberbank.png" alt="">
+                                                        </div>
+                                                        </a> 
+                                                    </li>  
+                                                </ul>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <ul id="myTab" class="nav">
+                                                        <li class="active">
+                                                                <a href="#test15" data-toggle="tab">
+                                                                    <div class="col-md-12">
+                                                                    <img style="width: 100%;" src="../Cleaning-company/image/sberbank.png" alt="">
+                                                                </div>
+                                                            </a> 
+                                                        </li>
+                                                        <li>
+                                                            <a href="#test16" data-toggle="tab">
+                                                            <div class="col-md-12">
+                                                                    <img style="width: 100%;" src="../Cleaning-company/image/sberbank.png" alt="">
+                                                            </div>
+                                                            </a> 
+                                                        </li>   
+                                                        <li>
+                                                            <a href="#test17" data-toggle="tab">
+                                                            <div class="col-md-12">
+                                                                    <img style="width: 100%;" src="../Cleaning-company/image/sberbank.png" alt="">
+                                                            </div>
+                                                            </a> 
+                                                        </li> 
+                                                        <li>
+                                                            <a href="#test18" data-toggle="tab">
+                                                            <div class="col-md-12">
+                                                                    <img style="width: 100%;" src="../Cleaning-company/image/sberbank.png" alt="">
+                                                            </div>
+                                                            </a> 
+                                                        </li> 
+                                                        <li>
+                                                            <a href="#test16" data-toggle="tab">
+                                                            <div class="col-md-12">
+                                                                    <img style="width: 100%;" src="../Cleaning-company/image/sberbank.png" alt="">
+                                                            </div>
+                                                            </a> 
+                                                        </li> 
+                                                        <li>
+                                                            <a href="#test20" data-toggle="tab">
+                                                            <div class="col-md-12">
+                                                                    <img style="width: 100%;" src="../Cleaning-company/image/sberbank.png" alt="">
+                                                            </div>
+                                                            </a> 
+                                                        </li> 
+                                                </ul>
+                                            </div>  
+                                    </div>
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
+                     <!--what we do end--> 
+                 </div>
+             </div>
+         </section> 
+         </div>
+       <!-- End Private clients section -->
+
+          <!-- Rewiews of individuals section -->
+    <div class="container-fluid">
+        <section class="section-clients">
+          <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-clients__private-title">
+                        <h2>Отзывы частных лиц</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row organization-wrapper">
+                <div class="col-md-3 ">
+                  <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                      <div class="flipper">
+                       <div class="front">
+                      <!-- front content -->
+                      <img style="width: 100%;" src="../Cleaning-company/image/privateReview1.jpg" alt="">
+                       </div>
+                       <div class="back">
+                      <!-- back content -->
+                      <h3>Оксана</h3>
+                      <p>
+                        Заказала генеральную уборку довольно сложной квартиры), чистку диванов и матраса, ребята очень хорошо все почистили, убрали. Очень старались! Огромное Вам спасибо. Никаких претензий нет. Молодцы. Советую всем эту компанию.
+                    </p>
+                       </div>
+                      </div>
+                  </div>
+                </div>
+                <div class="col-md-3 ">
+                  <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                      <div class="flipper">
+                       <div class="front">
+                      <!-- front content -->
+                      <img style="width: 100%;" src="../Cleaning-company/image/privateReview2.jpg" alt="">
+                       </div>
+                       <div class="back">
+                      <!-- back content -->
+                      <h3>Дмитрий Руд</h3>
+                      <p>
+                                                
+                        Заказывали уборку с женой в данной клининговой компании. Остались довольны. Опрятные клинеры и не дерут деньги за дополнительные работы, если просишь что-то переложить или сложить вещи!
+                    </p>
+                       </div>
+                      </div>
+                  </div>
+                </div>
+                <div class="col-md-3 ">
+                  <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                      <div class="flipper">
+                       <div class="front">
+                      <!-- front content -->
+                      <img style="width: 100%;" src="../Cleaning-company/image/privateReview3.jpg" alt="">
+                       </div>
+                       <div class="back">
+                      <!-- back content -->
+                      <h3>Евгений Черпаков</h3>
+                      <p>
+                        
+                        По результату своего обращения в компанию могу сказать, что уборка сделана на 5 из 5 , даже окна помыли, теперь все сияет и блестит, это точно лучшая компания в своем ценовом сегменте, хорошо, что обратился именно к ним.
+                    </p>
+                       </div>
+                      </div>
+                  </div>
+                </div>
+                <div class="col-md-3 ">
+                  <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                      <div class="flipper">
+                       <div class="front">
+                      <!-- front content -->
+                      <img style="width: 100%;" src="../Cleaning-company/image/privateReview4.jpg" alt="">
+                       </div>
+                       <div class="back">
+                      <!-- back content -->
+                      <h3>Гасанов Эльмир</h3>
+                      <p>
+                        
+                        По клинингу это пока лучшая компания с которой мне доводилось работать, им не нужно долго объяснять, сразу все поняли с первого раза, дополнительно решил заказать уборку с химчисткой.
+                    </p>
+                       </div>
+                      </div>
+                  </div>
+                </div>
+                
+            </div>
+          </div>
+      </section>
+      </div>
+       <!--End Rewiews of individuals section -->
+
+       <!-- About Us section -->
+
+    <div class="container-fluid wrapper">
+        <section class="section-aboutUs">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="section-aboutUs__img">
+                            <img src="../Cleaning-company/image/groupImg.jpg" alt="groupImg">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="section-aboutUs__info">
+                            <h2>коротко о нас</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore hic quis harum, facilis quibusdam qui consequuntur voluptatum quisquam sed delectus rerum officiis, commodi quos dolor eos odio minima placeat deserunt.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate doloribus sequi nemo. Sint numquam dolor quod atque tempora, commodi deserunt quia fugiat repellat temporibus, dignissimos error porro a recusandae sequi!
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore hic quis harum, facilis quibusdam qui consequuntur voluptatum quisquam sed delectus rerum officiis, commodi quos dolor eos odio minima placeat deserunt.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate doloribus sequi nemo. Sint numquam dolor quod atque tempora, commodi deserunt quia fugiat repellat temporibus, dignissimos error porro a recusandae sequi!
+                                
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="section-aboutUs__advantages">
+                            <img src="../Cleaning-company/image/advantages/advantage.png" alt="advantage">
+                            <p>преимущество</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="section-aboutUs__advantages">
+                            <img src="../Cleaning-company/image/advantages/arrow.png" alt="arrow">
+                            <p>преимущество</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="section-aboutUs__advantages">
+                            <img src="../Cleaning-company/image/advantages/outsorcing.png" alt="outsorcing">
+                            <p>преимущество</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="section-aboutUs__advantages">
+                            <img src="../Cleaning-company/image/advantages/advantages.png" alt="advantages">
+                            <p>преимущество</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+       <!-- End About Us section -->
+
+       
+        
+    </main>
+    <footer>
+        <div class="container-fluid">
+            <div class="container section-footer">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="section-footer__service">
+                            <div class="section-footer__service-title">
+                                <h5>Для физических лиц</h5>
+                            </div>
+                            <div class="section-footer__service-list">
+                                <ul>
+                                    <li>Название услуг</li>
+                                    <li>Название услуг</li>
+                                    <li>Название услуг</li>
+                                    <li>Название услуг</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="section-footer__service">
+                            <div class="section-footer__service-title">
+                                <h5>Для юридических лиц</h5>
+                            </div>
+                            <div class="section-footer__service-list">
+                                <ul>
+                                    <li>Название услуг</li>
+                                    <li>Название услуг</li>
+                                    <li>Название услуг</li>
+                                    <li>Название услуг</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="section-footer__service">
+                            <div class="section-footer__service-title">
+                                <h5>Химчистка</h5>
+                            </div>
+                            <div class="section-footer__service-list">
+                                <ul>
+                                    <li>Название услуг</li>
+                                    <li>Название услуг</li>
+                                    <li>Название услуг</li>
+                                    <li>Название услуг</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="section-footer__service">
+                            <div class="section-footer__service-title">
+                                <h5>Спецуборка</h5>
+                            </div>
+                            <div class="section-footer__service-list">
+                                <ul>
+                                    <li>Название услуг</li>
+                                    <li>Название услуг</li>
+                                    <li>Название услуг</li>
+                                    <li>Название услуг</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>   
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="section-footer__map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2118.8694601838415!2d37.58377938835358!3d55.76086531302004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a36a4c680f9%3A0xafb980444bb2dcc!2z0JzQvtGB0LrQvtCy0YHQutC40Lkg0J_Qu9Cw0L3QtdGC0LDRgNC40Lk!5e0!3m2!1sru!2spl!4v1583917067270!5m2!1sru!2spl"  height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="section-footer__contacts">
+                            <div class="section-footer__contacts-title">
+                                <h2>Контакты</h2>
+                            </div>
+                            <div class="section-footer__contacts-address">
+                                <address>
+                                    <p>Адресс: Москва ул.Пролетарска 86</p>
+                                    <p>Телефон: <a href="tel:8336669990">8-336-669-99-00</a></p>
+                                    <p>e-mail: <a href="mailto:clean@info.com">clean@info.com</a></p>
+                                </address>
+                            </div>
+                            <div class="section-footer__contacts-messangers">
+                                <a href="#" class="fa fa-facebook"></a>
+                                <a href="#" class="fa fa-twitter"></a>
+                                <a href="#" class="fa fa-instagram"></a>
+                            </div>
+                            <div class="section-footer__contacts-security">
+                                <a href="#">политика конфединциальности</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="section-footer__form">
+                            <form class="form" id="form" name="form">
+                                <div class="form-group">
+                                   <label for="name">Ваше имя:</label>
+                                   <input type="name" name="name" class="form-control" id="name" placeholder="Name" required>
+                                </div>
+                                <div class="form-group">
+                                   <label for="email">E-mail:</label>
+                                   <input type="email" name="email" class="form-control" id="email" placeholder="Email" required>
+                                </div>
+                                <div class="form-group">
+                                   <label for="phone">Номер телефона:</label>
+                                   <input type="phone" name="phone" class="form-control" id="phone" placeholder="Phone" required>
+                                </div>
+                                <div class="form-group">
+                                   <label for="message">Сообщение:</label>
+                                   <textarea class="form-control" name="message" rows="3"></textarea>
+                                </div>
+                                   <button type="submit" class="btn btn-info">Отправить сообщение</button>
+                                </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="../Cleaning-company/bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
+    <script src="../Cleaning-company/slick/slick.min.js"></script>
+    <script src="../Cleaning-company/js/slickSlider.js"></script>
+    <script src="../Cleaning-company/js/jquery.maskedinput.js"></script>
+    <script src="../Cleaning-company/js/jquery.event.move.js"></script>
+    <script src="../Cleaning-company/js/jquery.twentytwenty.js"></script>
+    <script src="../Cleaning-company/js/main.js"></script>
+</body>
+</html>
