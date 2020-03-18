@@ -143,12 +143,18 @@ $(document).ready(function () {
     $(document).on("click", "#more", function () {
         $number++;
         $('span#number').text($number);
+        $place = $('select#card_place').val();
+        $print_file = $('select#card_color option:selected').attr('data-print-file');
+        $price = $place * $number * $print_file;
         $('span#final_price').text($price);
     });
 
     $(document).on("click", "#less", function () {
         $number--;
         $('span#number').text($number);
+        $place = $('select#card_place').val();
+        $print_file = $('select#card_color option:selected').attr('data-print-file');
+        $price = $place * $number * $print_file;
         $('span#final_price').text($price);
     });
 });
