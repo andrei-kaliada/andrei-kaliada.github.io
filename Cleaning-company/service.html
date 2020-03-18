@@ -109,11 +109,65 @@
              <section class="calculate-section">
                  <div class="container">
                      <div class="row">
-                         <div class="col-md-9">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi vel molestias, facere eaque nesciunt at odio sit magnam, beatae mollitia aspernatur, ipsa doloribus. Dolorem deleniti quasi voluptatem saepe facere delectus!
+                         <div class="col-md-8">
+                            <div class="calc">
+                                <h2>Рассчет стоимости</h2> 
+                                <br>
+                                <label for="card_paper">Выберите место уборки</label>
+                                <select name="card_place" id="card_place" class="form-control">
+                                    <option data-paper-ratio="6.8" value="2">Квартира</option>
+                                    <option data-paper-ratio="40.5" value="4">Коттедж</option>
+                                    
+                                </select>
+                                <br>
+                                <label for="card_color">Выберите наименование уборки</label>
+                                <select name="card_color" id="card_color" class="form-control">
+                                    <option data-print-file="100" value="Генеральная">Генеральная</option>
+                                    <option  data-print-file="80" value="Послестроительная">Послестроительная</option>
+                                    <option  data-print-file="10" value="Ежедневная">Ежедневная</option>
+                                </select>
+                                
+                                <svg id="less" class="calc-btn" style="cursor: pointer; margin:20px 0; " fill="none" height="34" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="34" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10"/><line x1="8" x2="16" y1="12" y2="12"/></svg>
+                                кв.м.
+                                <span id="number"></span>
+                                <svg id="more" class="calc-btn" style="cursor: pointer;margin:20px 0;" fill="none" height="34" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="34" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10"/><line x1="12" x2="12" y1="8" y2="16"/><line x1="8" x2="16" y1="12" y2="12"/></svg>
+                                <br>
+                                <h4>
+                                    Итого:
+                                </h4>
+                                <p class="price">
+                                    <span id="final_price">0</span>
+                                    Руб.
+                                </p>
+                                <button style="font-family: Nunito;" type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal">
+                                    заказать
+                                  </button>
+                            </div>
                          </div>
-                         <div class="col-md-3">
-                             Lorem ipsum dolor sit amet consectetur adipisicing elit. At quam alias hic ipsam quis est commodi odio veritatis illo fugit blanditiis soluta quos quia, ea praesentium minus, voluptates, temporibus dolore.
+                         <div class="col-md-4">
+                            <div class="calculate-section__offer">
+                                <h3>Что входит:</h3>
+                                <ul>
+                                    <li>
+                                        <p>то что входит в услгугу</p>
+                                    </li>
+                                    <li>
+                                        <p>то что входит в услгугу</p>
+                                    </li>
+                                    <li>
+                                        <p>то что входит в услгугу</p>
+                                    </li>
+                                    <li>
+                                        <p>то что входит в услгугу</p>
+                                    </li>
+                                    <li>
+                                        <p>то что входит в услгугу</p>
+                                    </li>
+                                    <li>
+                                        <p>то что входит в услгугу</p>
+                                    </li>
+                                </ul>
+                            </div>
                          </div>
                      </div>
                  </div>
@@ -126,14 +180,14 @@
             <section class="express-clean-section">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-8">
+                        <div class="col-md-3 col-sm-12">
                             <div class="express-clean-section__text">
                                 <p>экспресс уборка 900 руб</p>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-2 col-sm-12 ">
                             <div class="express-clean-section__btn">
-                                <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal">
+                                <button style="font-family: Nunito;" type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal">
                                     заказать
                                   </button>
                             </div>
@@ -158,9 +212,9 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="slider-for">
-                                <div class="single-item__slide">
+                                <div class="single-item__slide" >
                                     <div class="twentytwenty-container">
-                                        <img src="../Cleaning-company/image/before-after/clean01.jpg" />
+                                        <img  src="../Cleaning-company/image/before-after/clean01.jpg" />
                                         <img src="../Cleaning-company/image/before-after/clean02.jpg" />
                                       </div>
                                 </div>
@@ -172,8 +226,8 @@
                                 </div>
                                 <div class="single-item__slide">
                                     <div class="twentytwenty-container">
-                                        <img src="../Cleaning-company/image/before-after/clean5.jpg" />
-                                        <img src="../Cleaning-company/image/before-after/clean6.jpg" />
+                                        <img src="../Cleaning-company/image/before-after/clean05.jpg" />
+                                        <img src="../Cleaning-company/image/before-after/clean06.jpg" />
                                       </div>
                                 </div>
                                 <div class="single-item__slide">
@@ -196,7 +250,7 @@
                                 </div>
                                 <div class="single-item__slide">
                                     <div class="twentytwenty-container">
-                                        <img src="../Cleaning-company/image/before-after/clean13.jpg" />
+                                        <img src="../Cleaning-company/image/before-after/clean013.jpg" />
                                         <img src="../Cleaning-company/image/before-after/clean14.jpg" />
                                       </div>
                                 </div>
@@ -208,13 +262,13 @@
                         <div class="col-md-12">
                             <div class="slider-nav">
                                 <div class="single-item__slide">
-                                    <img style="width: 100%;height: 200px;" src="../Cleaning-company/image/before-after/clean02.jpg" />
+                                    <img style="width: 100%;" src="../Cleaning-company/image/before-after/clean02.jpg" />
                                 </div>
                                 <div class="single-item__slide">
                                     <img style="width: 100%;height: 100%;" src="../Cleaning-company/image/before-after/clean3.jpg" />
                                 </div>
                                 <div class="single-item__slide">
-                                    <img style="width: 100%;height: 100%;" src="../Cleaning-company/image/before-after/clean5.jpg" />
+                                    <img style="width: 100%;height: 100%;" src="../Cleaning-company/image/before-after/clean05.jpg" />
                                 </div>
                                 <div class="single-item__slide">
                                     <img style="width: 100%;height: 100%;" src="../Cleaning-company/image/before-after/clean7.jpg" />
@@ -226,7 +280,7 @@
                                     <img style="width: 100%;height: 100%;" src="../Cleaning-company/image/before-after/clean11.jpg" />
                                 </div>
                                 <div class="single-item__slide">
-                                    <img style="width: 100%; height: 100%;" src="../Cleaning-company/image/before-after/clean13.jpg" />
+                                    <img style="width: 100%; height: 100%;" src="../Cleaning-company/image/before-after/clean013.jpg" />
                                 </div>
                             </div>
                             
@@ -236,6 +290,135 @@
             </section>
         </div>
          <!--End Express clean Section-->
+
+        <!-- Workers Section -->
+        <div class="container-fluid">
+            <section class="workers-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="workers-section__title">
+                                <h2>Кто выполнит работу</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="workers-section__slider">
+                                <div class="autoplay">
+                                    <div class="autoplay__slide">
+                                        <div class="autoplay__slide-wrapper">
+                                            <img  src="../Cleaning-company/image/workers/worker1.jpg" alt="slide1" class="autoplay__img">
+                                            <div class="autoplay__text">
+                                                <h3 class="autoplay__slider-name">Анастасия</h3>
+                                                <p class="autoplay__slider-description">Хороший работник</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="autoplay__slide">
+                                        <div class="autoplay__slide-wrapper">
+                                            <img  src="../Cleaning-company/image/workers/worker2.jpg" alt="slide1" class="autoplay__img">
+                                            <div class="autoplay__text">
+                                                <h3 class="autoplay__slider-name">Екатерина</h3>
+                                                <p class="autoplay__slider-description">Хороший работник</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="autoplay__slide">
+                                        <div class="autoplay__slide-wrapper">
+                                            <img  src="../Cleaning-company/image/workers/worker3.jpg" alt="slide1" class="autoplay__img">
+                                            <div class="autoplay__text">
+                                                <h3 class="autoplay__slider-name">Ольга</h3>
+                                                <p class="autoplay__slider-description">Хороший работник</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="autoplay__slide">
+                                        <div class="autoplay__slide-wrapper">
+                                            <img  src="../Cleaning-company/image/workers/worker2.jpg" alt="slide1" class="autoplay__img">
+                                            <div class="autoplay__text">
+                                                <h3 class="autoplay__slider-name">Маргарита</h3>
+                                                <p class="autoplay__slider-description">Хороший работник</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="autoplay__slide">
+                                        <div class="autoplay__slide-wrapper">
+                                            <img  src="../Cleaning-company/image/workers/worker2.jpg" alt="slide1" class="autoplay__img">
+                                            <div class="autoplay__text">
+                                                <h3 class="autoplay__slider-name">Светлана</h3>
+                                                <p class="autoplay__slider-description">Хороший работник</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!--End Workers Section-->
+
+
+        <!-- Workers Section -->
+        <div class="container-fluid">
+            <div class="container">
+                <section class="faq-section">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="faq-section__title">
+                                <h3>Часто задаваемые вопросы</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <button type="button" class="collapsible faq-btn">Чем отличается Генеральная уборка от Поддерживающей:</button>
+                            <div class="content">
+                            <p>Главное отличие – в Генеральной уборке мы чистим и отмываем, в Поддерживающей – моем и протираем. Девиз Генеральной уборки - отмываем все что отмывается и не очень отмывается. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <button type="button" class="collapsible faq-btn">Можно ли заказать уборку в выборочных местах квартиры?</button>
+                            <div class="content">
+                            <p>Если, например, у меня «двушка», но одна комната закрыта или нужна отдельно генеральная уборка кухни.
+
+                                Можно. Стоимость уборки будет рассчитана менеджером исходя из запланированного объема работ. Но иногда комплексная уборка получается не намного дороже уборки части квартиры, учитывайте это.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <button type="button" class="collapsible faq-btn">Что делать если я не могу быть дома во время уборки</button>
+                            <div class="content">
+                            <p>На время уборки Вы можете заниматься своими личными делами, совершенно необязательно присутствовать дома. Мы берем на себя ответственность за сохранность вашего имущества и качество уборки. Также можно воспользоваться нашей услугой «заехать за ключами» - клинер заберет/завезет ключи в любое указанное место.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <button type="button" class="collapsible faq-btn">Если мне нужна только химчистка, без уборки – приедете?</button>
+                            <div class="content">
+                            <p>Приедем. Вы можете заказать отдельно любой вид наших услуг.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <button type="button" class="collapsible faq-btn">А если клинер что то сломает или в квартире что то пропадет?</button>
+                            <div class="content">
+                            <p>Все наши клинеры проходят отбор и обучение, но никто не застрахован от неприятностей, поэтому мы формируем собственный страховой резерв, который собирается из отчислений с каждой проведенной нами уборки. Никто не отправит вас в страховую компанию со сроками разбирательства "несколько месяцев" и не оставит один на один с проблемой. Мы возместим вам ущерб. Отдельно при необходимости наша служба безопасности проведет работу с клинером - у нас есть все данные чтобы найти и наказать виновного.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <!--End Workers Section-->
 
      </main>
 
@@ -361,11 +544,6 @@
         </div>
     </footer>
 
-    <div class="row">
-        <div class="large-8 ">
-          
-        </div>
-      </div>
 
       <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
       <script src="../Cleaning-company/bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
