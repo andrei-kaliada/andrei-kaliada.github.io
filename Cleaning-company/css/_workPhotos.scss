@@ -1,0 +1,26 @@
+.work-photos{
+    margin-top: 50px;
+
+    &__title{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+   
+    .single-item__slide{
+        img{
+            width: 100%;
+        }
+    }
+
+    .twentytwenty-before-label{
+        &::before{
+            content:'После'!important;
+        }
+      }
+      .twentytwenty-after-label{
+        &::before{
+            content:'До'!important;
+        }
+      }
+    
+}
