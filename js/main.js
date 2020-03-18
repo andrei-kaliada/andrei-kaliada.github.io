@@ -1,67 +1,157 @@
-import {getTrandingDay} from '/js/trandingDayResponse.js';
-import {cutText} from '/js/filmsDescription.js';
-import {addEventMedia} from '/js/addEventMedia.js';
+const navPannel = document.querySelector('.navigationPanel');
+const navBtn = document.querySelector('.wrapper-header__button');
+const anchorsBtn = document.querySelectorAll('.anchors > li > a');
 
 
 
-const searchForm = document.querySelector('#search-form'),
-    btnForm = document.querySelector('.btnForm'),
-    movies = document.querySelector('#movies'),
-    imagePoster = 'https://image.tmdb.org/t/p/w500';
-function apiSearch(event){
-    event.preventDefault();
-    const  searchText = document.querySelector('.form-control').value;
 
-    if(searchText.trim().length === 0){
-        movies.innerHTML = `<h2 class="col-12 text-center text-danger">Field shoudn't be empty</h2>`;
-        return;
-    }
+function showNavPannel() {
+    navPannel.classList.toggle('addNavigationPanel');
+}
 
-    const  server = 'https://api.themoviedb.org/3/search/multi?api_key=a1d9f1331776385aafc953bd762fce3b&language=en-US&query=' + searchText;
-    
-    movies.innerHTML =`<div class="lds-spinner"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
-    `;
-    fetch(server)
-    .then( response => {
-        return response.json();
-    })
-    .then( data => {
 
-        let inner = '';
-        if(data.results.length == 0){
-            inner = `<h2 class="col-12 text-center text-info titlePosters">No results found for your request</h2>`;
-        }
-        data.results.forEach(item => {
-            let nameFilm = item.name || item.title;
-            const poster = item.poster_path ? imagePoster + item.poster_path : '/image/noposter.jpg';
-            let dataInfo = '';
-            let overview = item.overview;
-            let itemDate = (item.release_date !== "" && item.release_date !== undefined) ? (new
-                    Date(Date.parse(item.release_date))).toLocaleString("en", {
-                        year: 'numeric', day: 'numeric', month: 'long'
-                    }) : 'Unknown';
-            if(item.media_type !== 'person') dataInfo = `data-id="${item.id}" data-type="${item.media_type}"`;
-            inner += `
-            <div class="col-12 col-md-4 cardPoster" ${dataInfo}>
-                <div class="card">
-                    <img src='${poster}' class='img_poster' alt='${nameFilm}' >
-                    <div class="col-12 cardInfo">
-                        <h5 class="card-title text-success text-center">${nameFilm}</h5>
-                        <h6 class="text-center text-info font-weight-light">Release date: ${itemDate}</h6>
-                        <p class="text-sm-left"><small>${cutText(overview, 40, '...')}</small></p>
-                    </div>
-                </div>
-            </div>       
-            `;
-           
+//--------------- Anchors -----------------------------
+
+for (let i = 0; i < anchorsBtn.length; i++) {
+    anchorsBtn[i].addEventListener('click', function (event) {
+        console.log('work');
+        event.preventDefault();
+        const blockId = anchorsBtn[i].getAttribute('href');
+        document.querySelector(blockId).scrollIntoView({
+            behavior: "smooth",
+            block: "start",
         });
-        movies.innerHTML = inner;
-        addEventMedia();
     })
-    .catch( error => {
-        console.log(`Error: ${error.status}`);
-    });
-};
+}
 
-searchForm.addEventListener('submit',apiSearch);
-document.addEventListener('DOMContentLoaded',getTrandingDay);
+
+navBtn.addEventListener('click', showNavPannel);
+
+// function t(e, i) {
+//     try {
+//         var o = document.querySelector(i);
+//         o.addEventListener("submit", function(t) {
+//             t.preventDefault(),
+//              o.querySelector(".lds-spinner").style.display = "inline-block", 
+//              fetch(e, {
+//                 method: "POST",
+//                 body: new FormData(o)
+//             }).then(function() {
+//                 o.querySelector(".lds-spinner").style.display = "none", o.querySelector(".confirm").style.display = "inline-block";
+//                 var t = document.createElement("div");
+//                 t.style.color = "green", t.style.marginTop = "10px", t.textContent = ".contactpage__feed" === i ? "Спасибо за отзыв и ваше доверие!" : "Спасибо, мы скоро с вами свяжемся", o.appendChild(t), o.querySelectorAll("input").forEach(function(t) {
+//                     t.value = ""
+//                 }), o.querySelectorAll("textarea").forEach(function(t) {
+//                     t.value = ""
+//                 }), setTimeout(function() {
+//                     o.querySelector(".confirm").style.display = "none", t.remove()
+//                 }, 1e4)
+//             }).catch(function() {
+//                 var t = document.createElement("div");
+//                 t.style.color = "red", t.style.marginTop = "10px", t.textContent = "Что-то пошло не так, попробуйте, пожалуйста, позже",
+//                  o.appendChild(t),
+//                   o.querySelector(".lds-spinner").style.display = "none",
+//                    o.querySelector(".reject").style.display = "inline-block",
+//                     setTimeout(function() {
+//                     o.querySelector(".reject").style.display = "none", t.remove()
+//                 }, 5e3)
+//             })
+//         })
+//     } catch (t) {}
+// }
+// t(".../reply.php", ".reply__body > form");
+
+
+//--------------------- Number phone mask -------------------------
+
+$(function ($) {
+    $('[name="phone"]').mask("+7(999) 999-9999");
+});
+
+
+//------------------------- ajax request for forms ----------------------
+
+
+$(document).ready(function () {
+    $('#form').submit(function () {
+        if (document.form.name.value == '' || document.form.phone.value == '') {
+            valid = false;
+            return valid;
+        }
+        $.ajax({
+            type: "POST",
+            url: "../mail/mail.php",
+            data: $(this).serialize()
+        }).done(function () {
+            $('.js-overlay-thank-you').fadeIn();
+            $(this).find('input').val('');
+            $('#form').trigger('reset');
+        });
+        return false;
+    });
+});
+
+
+//--------- twentytwenty animation plagin ----------------------
+
+$(function () {
+    $(".twentytwenty-container[data-orientation!='vertical']").twentytwenty({ default_offset_pct: 0.7 });
+    $(".twentytwenty-container[data-orientation='vertical']").twentytwenty({ default_offset_pct: 0.3, orientation: 'vertical' });
+});
+
+
+//-------------------- Collapsible ----------------------
+
+const coll = document.querySelectorAll(".collapsible");
+let i;
+
+for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function () {
+        this.classList.toggle("active-faq-btn");
+        let content = this.nextElementSibling;
+        if (content.style.maxHeight) {
+            content.style.maxHeight = null;
+        } else {
+            content.style.maxHeight = content.scrollHeight + "px";
+        }
+    });
+}
+
+//--------------------- Calculated -----------------------------
+
+$(document).ready(function () {
+    $more = $('#more');
+    $less = $('#less');
+    $number = 42;
+    $('span#number').text($number);
+
+    $('.calc .calc-btn').click(function () {
+        $place = $('select#card_place').val();
+        $print_file = $('select#card_color option:selected').attr('data-print-file');
+        $price = $place * $number * $print_file;
+
+    });
+
+    $('.calc select').change(function () {
+        $place = $('select#card_place').val();
+        $print_file = $('select#card_color option:selected').attr('data-print-file');
+        $price = $place * $number * $print_file;
+        $('span#final_price').text($price);
+
+    });
+
+    $(document).on("click", "#more", function () {
+        $number++;
+        $('span#number').text($number);
+        $('span#final_price').text($price);
+    });
+
+    $(document).on("click", "#less", function () {
+        $number--;
+        $('span#number').text($number);
+        $('span#final_price').text($price);
+    });
+});
+
+
+
