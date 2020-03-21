@@ -62,4 +62,12 @@
         flex-direction: column;
         margin-bottom: 30px;
     }
+
+    &__contacts-messangers{
+        a{
+            background-color:#636262;
+            color:#fff;
+            transition: 0.2s;
+        }
+    }
 }

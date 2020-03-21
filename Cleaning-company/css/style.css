@@ -374,6 +374,13 @@ table {
   margin-bottom: 30px;
 }
 
+.section-footer__contacts-messangers a {
+  background-color: #636262;
+  color: #fff;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
 .section-cleaning {
   margin: 50px 0;
   padding-bottom: 30px;
@@ -1609,5 +1616,30 @@ p {
 
 .slick-next::before {
   color: #000 !important;
+}
+
+.wrap-btn button {
+  margin-bottom: 5px !important;
+  text-transform: unset;
+}
+
+.modal-footer__description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.bg-slider__size-btn button {
+  margin-bottom: 5px;
 }
 /*# sourceMappingURL=style.css.map */

@@ -23,6 +23,7 @@
 @import "calculate";
 @import "expressClean";
 @import "calculateSection";
+//@import "popupService";
 
 
 html {
@@ -67,5 +68,22 @@ p{
 
 
 
+.wrap-btn{
+  button{
+    margin-bottom: 5px!important;
+    text-transform: unset;
+  }
+}
 
+.modal-footer__description{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 
+.bg-slider__size-btn{
+  button{
+    margin-bottom:5px;
+  }
+}
