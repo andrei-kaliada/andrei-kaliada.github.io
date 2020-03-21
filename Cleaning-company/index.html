@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../Cleaning-company/slick/slick.css">
     <link rel="stylesheet" href="../Cleaning-company/slick/slick-theme.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
    
     <title>Клининговая компания</title>
 </head>
@@ -50,7 +51,13 @@
                     </div> 
                     <div class="col-md-3 header__contacts">
                         <div class="header__contacts-phone">
-                            <a href="tel:83366699900">8-336-669-99-00</a>
+                            <div class="row">
+                                <div class="col-md-12"><a href="tel:+74852680830">+7(4852)680830</a></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12"><a href="tel:+79201002954">+7(920)1002954</a></div>
+                            </div>
+                            
                         </div>
                     </div>
                     <div class="col-md-3 header__btn">
@@ -113,7 +120,7 @@
                 <div class="container" >
                     <div class="row">
                         <div class="col-md-6 section-info__wrapper-text">
-                            <h1 class="section-info__title">роккет - клининг</h1>
+                            <h1 class="section-info__title">рокет - клининг</h1>
                             <div class="section-info__text">
                                 <p>Клининговая компания, предоставляющая сервис профессиональной уборки коммерческих, частных помещений и прилегающих территорий как на постоянной, так и разовой основе</p>
                             </div>
@@ -191,7 +198,7 @@
                                             <li class="active"><a href="#services1" data-toggle="tab">квартира</a></li>
                                             <li><a href="#services2" data-toggle="tab">коттедж</a></li>
                                             <li><a href="#services3" data-toggle="tab">коммерческая недвижимость</a></li>
-                                            <li><a href="#services4" data-toggle="tab">прилегающая территория</a></li>
+                                            <li><a href="#services4" data-toggle="tab">специальная уборка</a></li>
                                         </ul>
                                     </div>
                                     <div class="col-md-8 col-sm-12">
@@ -201,11 +208,11 @@
                                                     <div class="col-md-12">
                                                         <div class="bg-slider" style="background-image:url(../Cleaning-company/image/cleaningImg/apartament.jpg);">
                                                            <div class="row">
-                                                               <div class="col-lg-8 col-md-7 col-sm-12">
-                                                                <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">Ежедневная</a>
-                                                                <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">Генеральная</a>
-                                                                <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">Послестроительна</a>
-                                                               </div>
+                                                            <div class="col-lg-8 col-md-7 col-sm-12 wrap-btn">
+                                                                <button type="button" class="btn btn-secondary">Экспресс</button>
+                                                             <button type="button" class="btn btn-secondary">Генеральная</button>
+                                                             <button type="button" class="btn btn-secondary">Послестроительная</button>
+                                                            </div>
                                                                <div class="col-lg-4 col-md-5 col-sm-12">
                                                                 <div class="bg-slider__size">
                                                                     <p class="bg-slider__size-text">50 руб.м2</p>
@@ -213,7 +220,9 @@
                                                                         <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal">
                                                                             заказать
                                                                           </button>
-                                                                         <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">подробнее</a>
+                                                                          <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal1">
+                                                                            подробнее
+                                                                          </button>
                                                                     </div>
                                                                 </div>
                                                                </div>
@@ -227,10 +236,10 @@
                                                     <div class="col-md-12">
                                                         <div class="bg-slider" style="background-image:url(../Cleaning-company/image/cleaningImg/cottage.jpg);  background-position: center;">
                                                             <div class="row">
-                                                                <div class="col-lg-8 col-md-7 col-sm-12">
-                                                                 <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">Ежедневная</a>
-                                                                 <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">Генеральная</a>
-                                                                 <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">Послестроительна</a>
+                                                                <div class="col-lg-8 col-md-7 col-sm-12 wrap-btn">
+                                                                    <button type="button" class="btn btn-secondary">Экспресс</button>
+                                                                 <button type="button" class="btn btn-secondary">Генеральная</button>
+                                                                 <button type="button" class="btn btn-secondary">Послестроительная</button>
                                                                 </div>
                                                                 <div class="col-lg-4 col-md-5 col-sm-12">
                                                                  <div class="bg-slider__size">
@@ -239,7 +248,9 @@
                                                                         <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal">
                                                                             заказать
                                                                           </button>
-                                                                         <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">подробнее</a>
+                                                                          <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal2">
+                                                                            подробнее
+                                                                          </button>
                                                                      </div>
                                                                  </div>
                                                                 </div>
@@ -253,10 +264,10 @@
                                                     <div class="col-md-12">
                                                         <div class="bg-slider" style="background-image:url(../Cleaning-company/image/cleaningImg/commersial.jpg);">
                                                             <div class="row">
-                                                                <div class="col-lg-8 col-md-7 col-sm-12">
-                                                                 <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">Ежедневная</a>
-                                                                 <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">Генеральная</a>
-                                                                 <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">Послестроительна</a>
+                                                                <div class="col-lg-8 col-md-7 col-sm-12 wrap-btn">
+                                                                    <button type="button" class="btn btn-secondary">Ежедневная</button>
+                                                                 <button type="button" class="btn btn-secondary">Генеральная</button>
+                                                                 <button type="button" class="btn btn-secondary">Послестроительная</button>
                                                                 </div>
                                                                 <div class="col-lg-4 col-md-5 col-sm-12">
                                                                  <div class="bg-slider__size">
@@ -265,7 +276,9 @@
                                                                         <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal">
                                                                             заказать
                                                                           </button>
-                                                                         <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">подробнее</a>
+                                                                          <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal3">
+                                                                            подробнее
+                                                                          </button>
                                                                      </div>
                                                                  </div>
                                                                 </div>
@@ -279,19 +292,21 @@
                                                     <div class="col-md-12">
                                                         <div class="bg-slider" style="background-image:url(../Cleaning-company/image/cleaningImg/adjoining.jpg);">
                                                             <div class="row">
-                                                                <div class="col-lg-8 col-md-7 col-sm-12">
-                                                                 <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">Ежедневная</a>
-                                                                 <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">Генеральная</a>
-                                                                 <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">Послестроительна</a>
+                                                                <div class="col-lg-8 col-md-7 col-sm-12 wrap-btn">
+                                                                    <button type="button" class="btn btn-secondary">Ежедневная</button>
+                                                                 <button type="button" class="btn btn-secondary">Генеральная</button>
+                                                                 <button type="button" class="btn btn-secondary">Послестроительная</button>
                                                                 </div>
                                                                 <div class="col-lg-4 col-md-5 col-sm-12">
                                                                  <div class="bg-slider__size">
-                                                                     <p class="bg-slider__size-text">50 руб.м2</p>
+                                                                     
                                                                      <div class="bg-slider__size-btn">
                                                                         <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal">
                                                                             заказать
                                                                           </button>
-                                                                         <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">подробнее</a>
+                                                                          <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal4">
+                                                                            подробнее
+                                                                          </button>
                                                                      </div>
                                                                  </div>
                                                                 </div>
@@ -313,22 +328,7 @@
         </div>
         <!-- End Cleaning section -->
        
-        <!-- Express Wash section -->
-        <div class="container-fluid">
-            <section class="express">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="express__info express__cleaning">
-                            <h2>Експресс уборка 900 рублей</h2>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium suscipit aut dolores vitae a odio reprehenderit. Debitis voluptates officia, amet sed aliquam voluptatibus facere numquam eius nulla quo voluptate blanditiis?</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        </div>
-        <!--End Express Wash section -->
+       
         
         <!-- Washing section -->
         <div class="container-fluid wrapper">
@@ -360,19 +360,20 @@
                                                     <div class="col-md-12">
                                                         <div class="bg-slider" style="background-image:url(../Cleaning-company/image/cleaningImg/window.jpg);">
                                                            <div class="row">
-                                                               <div class="col-lg-8 col-md-7 col-sm-12">
-                                                                <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">Ежедневная</a>
-                                                                <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">Генеральная</a>
-                                                                <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">Послестроительна</a>
-                                                               </div>
-                                                               <div class="col-lg-4 col-md-5 col-sm-12">
+                                                            <div class="col-lg-7 col-md-7 col-sm-12 wrap-btn">
+                                                                
+                                                             <button type="button" class="btn btn-secondary">Генеральная</button>
+                                                             <button type="button" class="btn btn-secondary">Послестроительная</button>
+                                                            </div>
+                                                               <div class="col-lg-5 col-md-5 col-sm-12">
                                                                 <div class="bg-slider__size">
-                                                                    <p class="bg-slider__size-text">50 руб.м2</p>
                                                                     <div class="bg-slider__size-btn">
                                                                         <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal">
                                                                             заказать
                                                                           </button>
-                                                                         <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">подробнее</a>
+                                                                          <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal5">
+                                                                            подробнее
+                                                                          </button>
                                                                     </div>
                                                                 </div>
                                                                </div>
@@ -386,23 +387,24 @@
                                                     <div class="col-md-12">
                                                         <div class="bg-slider" style="background-image:url(../Cleaning-company/image/cleaningImg/balconies.jpg);">
                                                             <div class="row">
-                                                                <div class="col-lg-8 col-md-7 col-sm-12">
-                                                                 <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">Ежедневная</a>
-                                                                 <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">Генеральная</a>
-                                                                 <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">Послестроительна</a>
-                                                                </div>
-                                                                <div class="col-lg-4 col-md-5 col-sm-12">
-                                                                 <div class="bg-slider__size">
-                                                                     <p class="bg-slider__size-text">50 руб.м2</p>
-                                                                     <div class="bg-slider__size-btn">
+                                                            <div class="col-lg-7 col-md-7 col-sm-12 wrap-btn">
+                                                                
+                                                             <button type="button" class="btn btn-secondary">Генеральная</button>
+                                                             <button type="button" class="btn btn-secondary">Послестроительная</button>
+                                                            </div>
+                                                               <div class="col-lg-5 col-md-5 col-sm-12">
+                                                                <div class="bg-slider__size">
+                                                                    <div class="bg-slider__size-btn">
                                                                         <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal">
                                                                             заказать
                                                                           </button>
-                                                                         <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">подробнее</a>
-                                                                     </div>
-                                                                 </div>
+                                                                          <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal6">
+                                                                            подробнее
+                                                                          </button>
+                                                                    </div>
                                                                 </div>
-                                                            </div>
+                                                               </div>
+                                                           </div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -412,23 +414,24 @@
                                                     <div class="col-md-12">
                                                         <div class="bg-slider" style="background-image:url(../Cleaning-company/image/cleaningImg/loggias.jpg);">
                                                             <div class="row">
-                                                                <div class="col-lg-8 col-md-7 col-sm-12">
-                                                                 <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">Ежедневная</a>
-                                                                 <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">Генеральная</a>
-                                                                 <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">Послестроительна</a>
+                                                                <div class="col-lg-7 col-md-7 col-sm-12 wrap-btn">
+                                                                    
+                                                                 <button type="button" class="btn btn-secondary">Генеральная</button>
+                                                                 <button type="button" class="btn btn-secondary">Послестроительная</button>
                                                                 </div>
-                                                                <div class="col-lg-4 col-md-5 col-sm-12">
-                                                                 <div class="bg-slider__size">
-                                                                     <p class="bg-slider__size-text">50 руб.м2</p>
-                                                                     <div class="bg-slider__size-btn">
-                                                                        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal">
-                                                                            заказать
-                                                                          </button>
-                                                                         <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">подробнее</a>
-                                                                     </div>
-                                                                 </div>
-                                                                </div>
-                                                            </div>
+                                                                   <div class="col-lg-5 col-md-5 col-sm-12">
+                                                                    <div class="bg-slider__size">
+                                                                        <div class="bg-slider__size-btn">
+                                                                            <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal">
+                                                                                заказать
+                                                                              </button>
+                                                                              <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal7">
+                                                                                подробнее
+                                                                              </button>
+                                                                        </div>
+                                                                    </div>
+                                                                   </div>
+                                                               </div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -438,23 +441,24 @@
                                                     <div class="col-md-12">
                                                         <div class="bg-slider" style="background-image:url(../Cleaning-company/image/cleaningImg/facades.jpg);">
                                                             <div class="row">
-                                                                <div class="col-lg-8 col-md-7 col-sm-12">
-                                                                 <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">Ежедневная</a>
-                                                                 <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">Генеральная</a>
-                                                                 <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">Послестроительна</a>
+                                                                <div class="col-lg-7 col-md-7 col-sm-12 wrap-btn">
+                                                                    
+                                                                 <button type="button" class="btn btn-secondary">Генеральная</button>
+                                                                 <button type="button" class="btn btn-secondary">Послестроительная</button>
                                                                 </div>
-                                                                <div class="col-lg-4 col-md-5 col-sm-12">
-                                                                 <div class="bg-slider__size">
-                                                                     <p class="bg-slider__size-text">50 руб.м2</p>
-                                                                     <div class="bg-slider__size-btn">
-                                                                        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal">
-                                                                            заказать
-                                                                          </button>
-                                                                         <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">подробнее</a>
-                                                                     </div>
-                                                                 </div>
-                                                                </div>
-                                                            </div>
+                                                                   <div class="col-lg-5 col-md-5 col-sm-12">
+                                                                    <div class="bg-slider__size">
+                                                                        <div class="bg-slider__size-btn">
+                                                                            <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal">
+                                                                                заказать
+                                                                              </button>
+                                                                              <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal8">
+                                                                                подробнее
+                                                                              </button>
+                                                                        </div>
+                                                                    </div>
+                                                                   </div>
+                                                               </div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -472,22 +476,7 @@
         </div>
         <!-- End Washing section -->
         
-        <!-- Express Wash section -->
-        <div class="container-fluid">
-            <section class="express">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="express__info express__wash">
-                            <h2>Експресс мойка 900 рублей</h2>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium suscipit aut dolores vitae a odio reprehenderit. Debitis voluptates officia, amet sed aliquam voluptatibus facere numquam eius nulla quo voluptate blanditiis?</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        </div>
-        <!--End Express Wash section -->
+        
         
         <!-- dryCleaning section -->
         <div class="container-fluid wrapper">
@@ -519,19 +508,21 @@
                                                     <div class="col-md-12">
                                                         <div class="bg-slider" style="background-image:url(../Cleaning-company/image/cleaningImg/soft.jpg);">
                                                            <div class="row">
-                                                               <div class="col-lg-8 col-md-7 col-sm-12">
-                                                                <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">Ежедневная</a>
-                                                                <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">Генеральная</a>
-                                                                <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">Послестроительна</a>
-                                                               </div>
-                                                               <div class="col-lg-4 col-md-5 col-sm-12">
+                                                            <div class="col-lg-7 col-md-6 col-sm-12 wrap-btn">
+                                                                <button type="button" class="btn btn-secondary">Стулья</button>
+                                                                <button type="button" class="btn btn-secondary">Кресла</button>
+                                                                <button type="button" class="btn btn-secondary">Диваны</button>
+                                                            </div>
+                                                               <div class="col-lg-5 col-md-6 col-sm-12">
                                                                 <div class="bg-slider__size">
                                                                     <p class="bg-slider__size-text">50 руб.м2</p>
                                                                     <div class="bg-slider__size-btn">
                                                                         <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal">
                                                                             заказать
                                                                           </button>
-                                                                         <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">подробнее</a>
+                                                                          <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal9">
+                                                                            подробнее
+                                                                          </button>
                                                                     </div>
                                                                 </div>
                                                                </div>
@@ -545,11 +536,12 @@
                                                     <div class="col-md-12">
                                                         <div class="bg-slider" style="background-image:url(../Cleaning-company/image/cleaningImg/covrolin.jpg);">
                                                             <div class="row">
-                                                                <div class="col-lg-8 col-md-7 col-sm-12">
-                                                                 <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">Ежедневная</a>
-                                                                 <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">Генеральная</a>
-                                                                 <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">Послестроительна</a>
-                                                                </div>
+                                                                <div class="col-lg-8 col-md-7 col-sm-12 wrap-btn">
+                                                                    <button type="button" class="btn btn-secondary">Удаляем запах </button>
+                                                                    <button type="button" class="btn btn-secondary">Удаляем пятна</button>
+                                                                    <button type="button" class="btn btn-secondary">Выбиваем грязь</button>
+                                                                   </div>
+                                                              
                                                                 <div class="col-lg-4 col-md-5 col-sm-12">
                                                                  <div class="bg-slider__size">
                                                                      <p class="bg-slider__size-text">50 руб.м2</p>
@@ -557,7 +549,9 @@
                                                                         <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal">
                                                                             заказать
                                                                           </button>
-                                                                         <a href="#" class="btn btn-secondary btn-md active" role="button" aria-pressed="true">подробнее</a>
+                                                                          <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal10">
+                                                                            подробнее
+                                                                          </button>
                                                                      </div>
                                                                  </div>
                                                                 </div>
@@ -581,22 +575,7 @@
         <!-- End dryCleaning section -->
 
 
-        <!-- Express Wash section -->
-        <div class="container-fluid">
-              <section class="express">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="express__info express__dryCleaning">
-                            <h2>Експресс химчистка 900 рублей</h2>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium suscipit aut dolores vitae a odio reprehenderit. Debitis voluptates officia, amet sed aliquam voluptatibus facere numquam eius nulla quo voluptate blanditiis?</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        </div>
-         <!--End Express Wash section -->
+      
          
          <div class="container-fluid wrapper">
             <section id="special" class="section-cervice-buttons">
@@ -1002,26 +981,21 @@
                     </div>
                 </div>   
                 <div class="row">
-                    <div class="col-lg-4 col-md-6 col-sm-12">
-                        <div class="section-footer__map">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2118.8694601838415!2d37.58377938835358!3d55.76086531302004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a36a4c680f9%3A0xafb980444bb2dcc!2z0JzQvtGB0LrQvtCy0YHQutC40Lkg0J_Qu9Cw0L3QtdGC0LDRgNC40Lk!5e0!3m2!1sru!2spl!4v1583917067270!5m2!1sru!2spl"  height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="col-lg-4 offset-lg-2 col-md-6 col-sm-12">
                         <div class="section-footer__contacts">
                             <div class="section-footer__contacts-title">
                                 <h2>Контакты</h2>
                             </div>
                             <div class="section-footer__contacts-address">
                                 <address>
-                                    <p>Адресс: Москва ул.Пролетарска 86</p>
+                                    
                                     <p>Телефон: <a href="tel:8336669990">8-336-669-99-00</a></p>
                                     <p>e-mail: <a href="mailto:clean@info.com">clean@info.com</a></p>
                                 </address>
                             </div>
                             <div class="section-footer__contacts-messangers">
-                                <a href="#" class="fa fa-facebook"></a>
-                                <a href="#" class="fa fa-twitter"></a>
+                                <a href="#" class="fa fa-vk"></a>
+                                <a href="#" class="fa fa-at"></a>
                                 <a href="#" class="fa fa-instagram"></a>
                             </div>
                             <div class="section-footer__contacts-security">
@@ -1029,7 +1003,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="col-lg-4 offset-lg-2 col-md-6 col-sm-12">
                         <div class="section-footer__form">
                             <form class="form" id="form" name="form">
                                 <div class="form-group">
@@ -1058,6 +1032,542 @@
     </footer>
 
 
+  <!-- Modal Flat -->
+  <div class="modal fade" id="exampleModal1"  tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+         
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            
+           <div class="row">
+               <div class="col-md-12">
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img style="width: 100%; height: 300px;" src="../Cleaning-company/image/cleaningImg/commersial.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img style="width: 100%; height: 300px;" src="../Cleaning-company/image/cleaningImg/cottage.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img style="width: 100%; height: 300px;" src="../Cleaning-company/image/cleaningImg/apartament.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+               </div>
+           </div>
+        </div>
+        <div class="modal-footer">
+          <div class="row">
+              <div class="col-md-12">
+               <div class="modal-footer__description">
+                   <h3>Уборка квартиры</h3>
+                   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque debitis, odio praesentium facere eligendi veritatis adipisci at deserunt aspernatur quisquam, labore eveniet optio sequi animi. Earum atque accusamus esse quia?</p>
+                   <p>Цена:1900р</p>
+               </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Cottage -->
+  <div class="modal fade" id="exampleModal2"  tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+         
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            
+           <div class="row">
+               <div class="col-md-12">
+                <div id="carouselExampleControls2" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img style="width: 100%; height: 300px;" src="../Cleaning-company/image/cleaningImg/commersial.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img style="width: 100%; height: 300px;" src="../Cleaning-company/image/cleaningImg/cottage.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img style="width: 100%; height: 300px;" src="../Cleaning-company/image/cleaningImg/apartament.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls2" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls2" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+               </div>
+           </div>
+        </div>
+        <div class="modal-footer">
+          <div class="row">
+              <div class="col-md-12">
+               <div class="modal-footer__description">
+                   <h3>Уборка коттеджа</h3>
+                   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque debitis, odio praesentium facere eligendi veritatis adipisci at deserunt aspernatur quisquam, labore eveniet optio sequi animi. Earum atque accusamus esse quia?</p>
+                   <p>Цена:1900р</p>
+               </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Comertial -->
+  <div class="modal fade" id="exampleModal3"  tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+         
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            
+           <div class="row">
+               <div class="col-md-12">
+                <div id="carouselExampleControls3" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img style="width: 100%; height: 300px;" src="../Cleaning-company/image/cleaningImg/commersial.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img style="width: 100%; height: 300px;" src="../Cleaning-company/image/cleaningImg/cottage.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img style="width: 100%; height: 300px;" src="../Cleaning-company/image/cleaningImg/apartament.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls3" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls3" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+               </div>
+           </div>
+        </div>
+        <div class="modal-footer">
+          <div class="row">
+              <div class="col-md-12">
+               <div class="modal-footer__description">
+                   <h3>Уборка коммерческой недвижимости</h3>
+                   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque debitis, odio praesentium facere eligendi veritatis adipisci at deserunt aspernatur quisquam, labore eveniet optio sequi animi. Earum atque accusamus esse quia?</p>
+                   <p>Цена:1900р</p>
+               </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Comertial -->
+  <div class="modal fade" id="exampleModal4"  tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+         
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            
+           <div class="row">
+               <div class="col-md-12">
+                <div id="carouselExampleControls4" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img style="width: 100%; height: 300px;" src="../Cleaning-company/image/cleaningImg/commersial.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img style="width: 100%; height: 300px;" src="../Cleaning-company/image/cleaningImg/cottage.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img style="width: 100%; height: 300px;" src="../Cleaning-company/image/cleaningImg/apartament.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls4" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls4" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+               </div>
+           </div>
+        </div>
+        <div class="modal-footer">
+          <div class="row">
+              <div class="col-md-12">
+               <div class="modal-footer__description">
+                   <h3>Специальная уборка</h3>
+                   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque debitis, odio praesentium facere eligendi veritatis adipisci at deserunt aspernatur quisquam, labore eveniet optio sequi animi. Earum atque accusamus esse quia?</p>
+                   <p>Цена:1900р</p>
+               </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+   <!-- Modal Window -->
+   <div class="modal fade" id="exampleModal5"  tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+         
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            
+           <div class="row">
+               <div class="col-md-12">
+                <div id="carouselExampleControls5" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img style="width: 100%; height: 300px;" src="../Cleaning-company/image/cleaningImg/window.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img style="width: 100%; height: 300px;" src="../Cleaning-company/image/cleaningImg/balconies.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img style="width: 100%; height: 300px;" src="../Cleaning-company/image/cleaningImg/loggias.jpg" class="d-block w-100" alt="...">
+                        </div>
+                      </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls5" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls5" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+               </div>
+           </div>
+        </div>
+        <div class="modal-footer">
+          <div class="row">
+              <div class="col-md-12">
+               <div class="modal-footer__description">
+                   <h3>Мойка окон</h3>
+                   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque debitis, odio praesentium facere eligendi veritatis adipisci at deserunt aspernatur quisquam, labore eveniet optio sequi animi. Earum atque accusamus esse quia?</p>
+                   <p>Цена:1900р</p>
+               </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Balcony -->
+  <div class="modal fade" id="exampleModal6"  tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+         
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            
+           <div class="row">
+               <div class="col-md-12">
+                <div id="carouselExampleControls6" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img style="width: 100%; height: 300px;" src="../Cleaning-company/image/cleaningImg/window.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img style="width: 100%; height: 300px;" src="../Cleaning-company/image/cleaningImg/balconies.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img style="width: 100%; height: 300px;" src="../Cleaning-company/image/cleaningImg/loggias.jpg" class="d-block w-100" alt="...">
+                        </div>
+                      </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls6" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls6" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+               </div>
+           </div>
+        </div>
+        <div class="modal-footer">
+          <div class="row">
+              <div class="col-md-12">
+               <div class="modal-footer__description">
+                   <h3>Мойка балконов</h3>
+                   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque debitis, odio praesentium facere eligendi veritatis adipisci at deserunt aspernatur quisquam, labore eveniet optio sequi animi. Earum atque accusamus esse quia?</p>
+                   <p>Цена:1900р</p>
+               </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Loggias -->
+  <div class="modal fade" id="exampleModal7"  tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+         
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            
+           <div class="row">
+               <div class="col-md-12">
+                <div id="carouselExampleControls7" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img style="width: 100%; height: 300px;" src="../Cleaning-company/image/cleaningImg/window.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img style="width: 100%; height: 300px;" src="../Cleaning-company/image/cleaningImg/balconies.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img style="width: 100%; height: 300px;" src="../Cleaning-company/image/cleaningImg/loggias.jpg" class="d-block w-100" alt="...">
+                        </div>
+                      </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls7" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls7" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+               </div>
+           </div>
+        </div>
+        <div class="modal-footer">
+          <div class="row">
+              <div class="col-md-12">
+               <div class="modal-footer__description">
+                   <h3>Мойка лоджии</h3>
+                   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque debitis, odio praesentium facere eligendi veritatis adipisci at deserunt aspernatur quisquam, labore eveniet optio sequi animi. Earum atque accusamus esse quia?</p>
+                   <p>Цена:1900р</p>
+               </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Fasads -->
+  <div class="modal fade" id="exampleModal8"  tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+         
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            
+           <div class="row">
+               <div class="col-md-12">
+                <div id="carouselExampleControls8" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img style="width: 100%; height: 300px;" src="../Cleaning-company/image/cleaningImg/window.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img style="width: 100%; height: 300px;" src="../Cleaning-company/image/cleaningImg/balconies.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img style="width: 100%; height: 300px;" src="../Cleaning-company/image/cleaningImg/loggias.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls8" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls8" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+               </div>
+           </div>
+        </div>
+        <div class="modal-footer">
+          <div class="row">
+              <div class="col-md-12">
+               <div class="modal-footer__description">
+                   <h3>Мойка фасадов</h3>
+                   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque debitis, odio praesentium facere eligendi veritatis adipisci at deserunt aspernatur quisquam, labore eveniet optio sequi animi. Earum atque accusamus esse quia?</p>
+                   <p>Цена:1900р</p>
+               </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Modal Soft Furniture-->
+  <div class="modal fade" id="exampleModal9"  tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+         
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            
+           <div class="row">
+               <div class="col-md-12">
+                <div id="carouselExampleControls9" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img style="width: 100%; height: 300px;" src="../Cleaning-company/image/cleaningImg/soft.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img style="width: 100%; height: 300px;" src="../Cleaning-company/image/cleaningImg/covrolin.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img style="width: 100%; height: 300px;" src="../Cleaning-company/image/cleaningImg/soft.jpg" class="d-block w-100" alt="...">
+                        </div>
+                      </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls9" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls9" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+               </div>
+           </div>
+        </div>
+        <div class="modal-footer">
+          <div class="row">
+              <div class="col-md-12">
+               <div class="modal-footer__description">
+                   <h3>Химчистка мягкой мебели</h3>
+                   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque debitis, odio praesentium facere eligendi veritatis adipisci at deserunt aspernatur quisquam, labore eveniet optio sequi animi. Earum atque accusamus esse quia?</p>
+                   <p>Цена:1900р</p>
+               </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Modal Covroline-->
+  <div class="modal fade" id="exampleModal10"  tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+         
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            
+           <div class="row">
+               <div class="col-md-12">
+                <div id="carouselExampleControls10" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img style="width: 100%; height: 300px;" src="../Cleaning-company/image/cleaningImg/soft.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img style="width: 100%; height: 300px;" src="../Cleaning-company/image/cleaningImg/covrolin.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img style="width: 100%; height: 300px;" src="../Cleaning-company/image/cleaningImg/soft.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls10" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls10" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+               </div>
+           </div>
+        </div>
+        <div class="modal-footer">
+          <div class="row">
+              <div class="col-md-12">
+               <div class="modal-footer__description">
+                   <h3>Химчистка ковролина</h3>
+                   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque debitis, odio praesentium facere eligendi veritatis adipisci at deserunt aspernatur quisquam, labore eveniet optio sequi animi. Earum atque accusamus esse quia?</p>
+                   <p>Цена:1900р</p>
+               </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+ 
+    
+
+
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="../Cleaning-company/bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
     <script src="../Cleaning-company/slick/slick.min.js"></script>
@@ -1065,6 +1575,9 @@
     <script src="../Cleaning-company/js/jquery.maskedinput.js"></script>
     <script src="../Cleaning-company/js/jquery.event.move.js"></script>
     <script src="../Cleaning-company/js/jquery.twentytwenty.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
     <script src="../Cleaning-company/js/main.js"></script>
+
+    
 </body>
 </html>
