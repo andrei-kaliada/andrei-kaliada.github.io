@@ -5,6 +5,12 @@
 	.container-mobile-header{
           display: block!important;
 
+          .mobile-header-logo{
+            display: flex;
+            justify-content: center;
+            align-items:center;
+          }
+
 		  .mobile-header__wrapper{
               display: flex;
               margin-top: 25px;
@@ -98,10 +104,14 @@
 	              .wrappMob {
                       display: flex;
                       
-                      P{
+                      p{
                         font-weight: 600;
                         font-size: 28px;
                         color: #182642;
+
+                        &:first-child{
+                          margin-right: 25px;
+                        }
 
                         span{
                             color: #182642;
@@ -194,7 +204,7 @@
 
                 .event1 {
                     position: absolute;
-                    top: 15%;
+                    top: 0px;
                     left: 0;
     
     
@@ -204,7 +214,7 @@
     
                 .event2 {
                     position: absolute;
-                    top: 40px;
+                    top: 50px;
                     left: 5%;
     
                     background: rgba(255, 255, 255, 0.7);
@@ -213,7 +223,7 @@
     
                 .event3 {
                     position: absolute;
-                    top: 80px;
+                    top: 100px;
                     left: 10%;
                     background: #FFFFFF;
                     box-shadow: 0px 15.006px 33.0131px rgba(0, 0, 0, 0.06);
@@ -224,7 +234,7 @@
 
           .info-work__title{
               h2{
-                  margin-top: 100px;
+                  margin-top: 160px;
                 font-size: 24px;
               }
               p{
@@ -286,6 +296,7 @@
       .footer-mobile{
           display: block!important;
           margin-top: 100px;
+          margin-bottom: 50px;
           &-wrapper{
               display: flex;
               justify-content: center;

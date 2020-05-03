@@ -509,6 +509,17 @@ header nav .nav-section ul .dropdown button::after {
   .container-mobile-header {
     display: block !important;
   }
+  .container-mobile-header .mobile-header-logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
   .container-mobile-header .mobile-header__wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -603,12 +614,15 @@ header nav .nav-section ul .dropdown button::after {
     display: -ms-flexbox;
     display: flex;
   }
-  .main-title__text .main-title__mobile .wrappMob P {
+  .main-title__text .main-title__mobile .wrappMob p {
     font-weight: 600;
     font-size: 28px;
     color: #182642;
   }
-  .main-title__text .main-title__mobile .wrappMob P span {
+  .main-title__text .main-title__mobile .wrappMob p:first-child {
+    margin-right: 25px;
+  }
+  .main-title__text .main-title__mobile .wrappMob p span {
     color: #182642;
     font-size: 12px;
   }
@@ -672,21 +686,21 @@ header nav .nav-section ul .dropdown button::after {
   }
   .info-work-mobile .wrapperBgInfo .info-work__image .event1 {
     position: absolute;
-    top: 15%;
+    top: 0px;
     left: 0;
     background: rgba(255, 255, 255, 0.5);
     border-radius: 14.7717px;
   }
   .info-work-mobile .wrapperBgInfo .info-work__image .event2 {
     position: absolute;
-    top: 40px;
+    top: 50px;
     left: 5%;
     background: rgba(255, 255, 255, 0.7);
     border-radius: 14.7717px;
   }
   .info-work-mobile .wrapperBgInfo .info-work__image .event3 {
     position: absolute;
-    top: 80px;
+    top: 100px;
     left: 10%;
     background: #FFFFFF;
     -webkit-box-shadow: 0px 15.006px 33.0131px rgba(0, 0, 0, 0.06);
@@ -694,7 +708,7 @@ header nav .nav-section ul .dropdown button::after {
     border-radius: 14.7717px;
   }
   .info-work-mobile .info-work__title h2 {
-    margin-top: 100px;
+    margin-top: 160px;
     font-size: 24px;
   }
   .info-work-mobile .info-work__title p {
@@ -747,6 +761,7 @@ header nav .nav-section ul .dropdown button::after {
   .footer-mobile {
     display: block !important;
     margin-top: 100px;
+    margin-bottom: 50px;
   }
   .footer-mobile-wrapper {
     display: -webkit-box;
