@@ -2,4 +2,9 @@
   font-family: 'ProximaNova';
   src: url(../fonts/ProximaNova/ProximaNova-Regular.ttf);
 }
+
+@font-face {
+  font-family: 'ProximaNova-Bold';
+  src: url(../fonts/ProximaNova/ProximaNova-Bold.ttf);
+}
 /*# sourceMappingURL=fonts.css.map */

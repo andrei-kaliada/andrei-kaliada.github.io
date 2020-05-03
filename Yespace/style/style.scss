@@ -4,6 +4,7 @@
 @import './mainPage/infoWork';
 @import './mainPage/messageForm';
 @import './mainPage/footer';
+@import './mainPage/media';
 
 
 
@@ -28,6 +29,7 @@ time, mark, audio, video {
     vertical-align: baseline;
 	font-family: 'ProximaNova';
 	font-weight: 600;
+	color: #182642;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -70,6 +72,27 @@ button:active, button:focus, input {
 	left: 0%;
 	
 }
+.container-mobile-header{
+	display: none;
+}
+
+.info-work-mobile{
+	display: none;
+}
+
+.message-form-mobile{
+	display: none;
+}
+
+.iconFly-mobile{
+	display: none;
+}
+
+.footer-mobile{
+	display: none;
+}
+
+
 
   
 
