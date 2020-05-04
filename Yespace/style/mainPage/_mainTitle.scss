@@ -1,6 +1,28 @@
 .main-title {
     margin-top: 50px;
 
+    .mobile-starIcon{
+        display: none;
+      }
+
+      .mobile-starIcon3{
+          display: none;
+      }
+
+      .mobile-starIcon4{
+        display: none;
+    }
+
+    .mobile-starIcon5{
+        display: none;
+    }
+
+    .deskt-starIcon{
+        position: absolute;
+        left: -10%;
+        top: 30%;
+    }
+
     &__mobile{
         display: none;
     }
@@ -9,6 +31,9 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        position: absolute;
+        left: 20%;
+        bottom: 150px;
        
 
         p {
