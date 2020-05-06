@@ -17,8 +17,8 @@ header {
             p {
                 font-weight: bold;
                 font-size: 32px;
-                margin-left: 5px;
-                font-family: 'ProximaNova-Bold';
+                margin-left: 10px;
+                font-family: 'ProximaNova-Black';
             }
         }
     }
@@ -40,7 +40,7 @@ header {
                 display: flex;
                 justify-content: space-around;
                 align-items: center;
-
+                padding-left:120px;
                 li {
 
                     a {

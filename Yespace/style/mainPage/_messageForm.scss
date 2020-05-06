@@ -13,6 +13,7 @@
         font-size: 40.51px;
         line-height: 33px;
         color: #FF557E;
+        padding-left: 115px;
     }
 
     form {
@@ -30,7 +31,7 @@
             border-radius: 50.9839px;
             border: 0;
             position: absolute;
-            left: 85%;
+            left: 80%;
             transition: box-shadow 500ms;
             
 
@@ -47,7 +48,7 @@
 
         #messageBtn {
             $self:&;
-            width: 984px;
+            width: 900px;
             height: 96px;
             background: #FFFFFF;
             box-shadow: 0px 16.4088px 42.7549px rgba(92, 100, 110, 0.3);
@@ -59,6 +60,7 @@
             line-height: 33px;
             color: rgba(139, 146, 186, 0.5);
             transition: box-shadow 500ms;
+            margin-left: 110px;
 
             &:hover {
                 box-shadow: 0px 16.4088px 42.7549px rgba(92, 100, 110, 0.7);
@@ -71,5 +73,6 @@
         font-weight: normal;
         font-size: 19.5078px;
         line-height: 33px;
+        padding-left: 115px;
     }
 }

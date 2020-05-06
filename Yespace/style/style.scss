@@ -69,7 +69,8 @@ button:active, button:focus, input {
 
 .union{
 	position: absolute;
-	left: 0%;
+	left: -100%;
+	bottom:-100%;
 	
 }
 .container-mobile-header{
@@ -90,6 +91,14 @@ button:active, button:focus, input {
 
 .footer-mobile{
 	display: none;
+}
+
+.mobile-br{
+	display: none;
+}
+
+.desktop-br{
+	display: block;
 }
 
 

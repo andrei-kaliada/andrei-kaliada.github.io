@@ -20,7 +20,7 @@
     .deskt-starIcon{
         position: absolute;
         left: -10%;
-        top: 30%;
+        top: 23%;
     }
 
     &__mobile{
@@ -32,30 +32,33 @@
         justify-content: center;
         align-items: center;
         position: absolute;
-        left: 20%;
-        bottom: 150px;
+        left: 26%;
+    bottom: 200px;
        
 
         p {
-            font-weight: 600;
-            font-size: 55.5221px;
-            line-height: 33px;
+            
+            font-weight: bold;
+            font-size: 45px;
+      
 
             &:first-child {
                 text-align: right;
-                margin-right: 55px;
+                margin-right: 45px;
+                margin-left: 15px;
             }
 
             &:nth-child(2) {
                 text-align: left;
-                margin-left: 55px;
+                margin-left:25px;
             }
 
             span {
+                font-family: 'ProximaNova-Bold';
                 font-style: normal;
-                font-weight: 600;
-                font-size: 25.5102px;
-                line-height: 33px;
+                font-weight: bold;
+                font-size: 25px;
+        
 
             }
         }
@@ -64,7 +67,8 @@
     &__img {
         
        img{
-        width: 100%;
+        width:500px;
+        margin-left: 118px;
        }
         
         &::before {
@@ -72,8 +76,8 @@
             position: absolute;
             width: 100%;
             height: 925.15px;
-            left: -18.36px;
-            top: 412.07px;
+            left: 20%;
+            top: 23%;
             background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.93) 67.19%, #FFFFFF 90.1%);
         }
 
@@ -82,8 +86,8 @@
 
     .btnPlay {
         position: absolute;
-        left: 80%;
-        top: 30%;
+        left: 95%;
+        top: 27%;
         width: 105.27px;
         height: 105.27px;
         background: #FFFFFF;
@@ -99,57 +103,62 @@
 
     }
 
-    &__text {
-        h1 {
-            font-family: 'ProximaNova';
-            font-weight: 600;
-            font-size: 50px;
-            line-height: 56px;
-
-            span {
-                font-weight: normal;
-                font-style: italic;
+    &-textWrapper{
+       padding-left: 150px;
+       margin-top: 40px;
+        .main-title__text {
+            h1 {
+                font-family: 'ProximaNova';
+                font-weight: 600;
+                font-size:  44px;
+                line-height: 56px;
+    
+                span {
+                    font-weight: normal;
+                    font-style: italic;
+                }
             }
-        }
-
-        .text-descr {
-            margin-top: 40px;
-
-            &__first {
-                ul {
-                    li {
-                        font-style: normal;
-                        font-weight: normal;
-                        font-size: 20px;
-                        line-height: 33px;
-                        list-style-type: disc;
-                        padding-left: 22px;
-
- 
+    
+            .text-descr {
+                margin-top: 30px;
+                margin-left: 20px;
+                &__first {
+                    ul {
+                        li {
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 20px;
+                            line-height: 33px;
+                            list-style-type: disc;
+                            padding-left: 22px;
+    
+     
+                        }
+                    }
+                }
+    
+                &__second {
+                    margin-top: 35px;
+    
+                    ul {
+                        li {
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 20px;
+                            line-height: 33px;
+                            list-style-type: disc;
+                            padding-left: 22px;
+                        }
                     }
                 }
             }
-
-            &__second {
-                margin-top: 55px;
-
-                ul {
-                    li {
-                        font-style: normal;
-                        font-weight: normal;
-                        font-size: 20px;
-                        line-height: 33px;
-                        list-style-type: disc;
-                        padding-left: 22px;
-                    }
-                }
-            }
         }
+    
     }
 
     &__button {
-        margin-top: 50px;
-
+        margin-top: 30px;
+        margin-left: 15px;
 
         .download-btn {
             display: flex;
