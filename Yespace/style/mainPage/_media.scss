@@ -420,7 +420,24 @@
   }
 }
 
+@media (min-width: 1200px) and (max-width:1440px){
+  .union{
+    position: absolute;
+    left: -30%!important;
+    bottom:-80%!important;
+    
+  }
+}
+
 @media (min-width: 992px) and (max-width:1200px) {
+
+  .union{
+    position: absolute;
+    left: -50%!important;
+    bottom:-70%!important;
+    
+  }
+
   .main-title {
 
     &__img{
@@ -691,7 +708,7 @@
 
     &__img {
       img{
-        width: 100%;
+        
 
         img{
           margin-left: 0!important;
@@ -723,7 +740,7 @@
   .info-work-mobileBg {
     background-image: url('../../image/YellowBG.jpg');
     // width: 495.54px;
-    width: 100%;
+    
     height: 478.51px;
     right: 0%;
     left: -142px;
@@ -885,6 +902,9 @@
       }
 
       .right-side {
+        display: flex;
+    flex-direction: column;
+    justify-content: space-between;
         &__text {
           font-style: normal;
           font-weight: normal;
@@ -908,6 +928,12 @@
 }
 
 @media (min-width: 425px) and (max-width:575px){
+  .info-work-mobile{
+    position: relative;
+    .info-work-mobileBg{
+      top: -5%!important;
+    }
+  }
   .main-title__img{
     &::before{
       height: 900px!important;
@@ -918,6 +944,14 @@
 }
 
 @media (min-width: 376px) and (max-width: 425px){
+  .info-work-mobile{
+    position: relative;
+    .info-work-mobileBg{
+      top: -7%!important;
+      width: 590px;
+      transform: rotate(12deg);
+    }
+  }
 
   .mobile-br{
     display: block;
@@ -942,6 +976,9 @@
   }
 
   .main-title__img{
+    img{
+      width: 300px!important;
+    }
     &::before{
       top: 33%!important;
     }
@@ -951,10 +988,31 @@
     width: 495.54!important;
   }
 
+  .wrappMob{
+    p{
+      font-size: 30px;
+      span{
+        font-size: 16px!important;
+      }
+    }
+
+  }
+
+  .info-work__title{
+    padding-top: 130px!important;
+  }
+
   
 }
 
 @media (min-width: 320px) and (max-width: 375px){
+
+  .info-work-mobile{
+    position: relative;
+    .info-work-mobileBg{
+      top: -10%!important;
+    }
+  }
 
   .mobile-br{
     display: block;
@@ -1216,12 +1274,12 @@
 
     .info-work__title {
       h2 {
-        margin-top: 190px;
+        margin-top: 170px;
         font-size: 24px;
       }
 
       p {
-        font-size: 16px;
+        font-size: 14px;
       }
     }
 
@@ -1447,6 +1505,13 @@
     }
   }
 
+  .info-work-mobile{
+    position: relative;
+    .info-work-mobileBg{
+      top: -5%!important;
+    }
+  }
+
   .main-title {
     .download-btn {
       width: 100%;
@@ -1568,7 +1633,6 @@
     
     right: 0%;
     left: -100px;
-    bottom: -103%!important;
     position: absolute;
     background: linear-gradient(180deg, #FFD764 2.64%, #FFD764 45.74%, rgba(255, 215, 100, 0.42) 100%);
     opacity: 0.8;
