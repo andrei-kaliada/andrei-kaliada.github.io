@@ -6,6 +6,12 @@
 @import './mainPage/footer';
 @import './mainPage/media';
 
+html {  overflow-x:  hidden!important; }
+
+body {
+    
+    overflow-x: hidden;
+}
 
 
 html, body, div, span, applet, object, iframe,

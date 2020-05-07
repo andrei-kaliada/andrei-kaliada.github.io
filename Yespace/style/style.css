@@ -780,8 +780,8 @@ header nav .nav-section ul .dropdown button::after {
     position: absolute;
   }
   .info-work-mobile .wrapperBgInfo .info-work__image .event1 {
-    width: 255px;
-    height: 104px;
+    width: 330px;
+    height: 115px;
     position: absolute;
     top: 0px;
     left: 0;
@@ -790,21 +790,21 @@ header nav .nav-section ul .dropdown button::after {
     border-radius: 14.7717px;
   }
   .info-work-mobile .wrapperBgInfo .info-work__image .event2 {
-    width: 255px;
-    height: 101px;
+    width: 330px;
+    height: 115px;
     position: absolute;
     top: 35px !important;
-    left: 10%;
+    left: 5%;
     opacity: 0.8;
     background: rgba(255, 255, 255, 0.7);
     border-radius: 14.7717px;
   }
   .info-work-mobile .wrapperBgInfo .info-work__image .event3 {
-    width: 255px;
-    height: 142px;
+    width: 330px;
+    height: 155px;
     position: absolute;
-    top: 72px !important;
-    left: 20%;
+    top: 70px !important;
+    left: 10%;
     background: #FFFFFF;
     -webkit-box-shadow: 0px 15.006px 33.0131px rgba(0, 0, 0, 0.06);
             box-shadow: 0px 15.006px 33.0131px rgba(0, 0, 0, 0.06);
@@ -936,6 +936,9 @@ header nav .nav-section ul .dropdown button::after {
 }
 
 @media (min-width: 1200px) and (max-width: 1440px) {
+  .circle {
+    right: -45% !important;
+  }
   .union {
     position: absolute;
     left: -30% !important;
@@ -1205,6 +1208,7 @@ header nav .nav-section ul .dropdown button::after {
   }
   .info-work-mobileBg {
     background-image: url("../../image/YellowBG.jpg");
+    width: 1000px;
     height: 478.51px;
     right: 0%;
     left: -142px;
@@ -1231,6 +1235,7 @@ header nav .nav-section ul .dropdown button::after {
     position: absolute;
     top: 0px;
     left: 0;
+    opacity: 0.6;
     background: rgba(255, 255, 255, 0.5);
     border-radius: 14.7717px;
   }
@@ -1238,6 +1243,7 @@ header nav .nav-section ul .dropdown button::after {
     position: absolute;
     top: 70px;
     left: 5%;
+    opacity: 0.8;
     background: rgba(255, 255, 255, 0.7);
     border-radius: 14.7717px;
   }
@@ -1257,9 +1263,9 @@ header nav .nav-section ul .dropdown button::after {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -1385,6 +1391,14 @@ header nav .nav-section ul .dropdown button::after {
 }
 
 @media (min-width: 425px) and (max-width: 575px) {
+  .btnPlay {
+    width: 70px !important;
+    height: 70px !important;
+  }
+  .btnPlay img {
+    width: 20px;
+    height: 20px;
+  }
   .info-work-mobile {
     position: relative;
   }
@@ -1398,6 +1412,43 @@ header nav .nav-section ul .dropdown button::after {
 }
 
 @media (min-width: 376px) and (max-width: 425px) {
+  .btnPlay {
+    width: 70px !important;
+    height: 70px !important;
+  }
+  .btnPlay img {
+    width: 20px;
+    height: 20px;
+  }
+  .event1 {
+    width: 330px;
+    height: 125px;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 14.7717px;
+  }
+  .event2 {
+    width: 330px;
+    height: 125px;
+    position: absolute;
+    top: 35px;
+    left: 5%;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 14.7717px;
+  }
+  .event3 {
+    width: 330px;
+    height: 165px;
+    position: absolute;
+    top: 70px;
+    left: 10%;
+    background: #FFFFFF;
+    -webkit-box-shadow: 0px 15.006px 33.0131px rgba(0, 0, 0, 0.06);
+            box-shadow: 0px 15.006px 33.0131px rgba(0, 0, 0, 0.06);
+    border-radius: 14.7717px;
+  }
   .info-work-mobile {
     position: relative;
   }
@@ -1444,6 +1495,15 @@ header nav .nav-section ul .dropdown button::after {
 }
 
 @media (min-width: 320px) and (max-width: 375px) {
+  .btnPlay {
+    width: 70px !important;
+    height: 70px !important;
+    left: 44% !important;
+  }
+  .btnPlay img {
+    width: 20px;
+    height: 20px;
+  }
   .info-work-mobile {
     position: relative;
   }
@@ -1623,7 +1683,7 @@ header nav .nav-section ul .dropdown button::after {
   }
   .info-work-mobileBg {
     background-image: url("../../image/YellowBG.jpg");
-    width: 495.54px !important;
+    width: 540px !important;
     height: 478.51px;
     right: 0%;
     left: -142px;
@@ -1647,6 +1707,8 @@ header nav .nav-section ul .dropdown button::after {
     position: absolute;
   }
   .info-work-mobile .wrapperBgInfo .info-work__image .event1 {
+    width: 300px;
+    height: 115px;
     position: absolute;
     top: 0px;
     left: 0;
@@ -1654,6 +1716,8 @@ header nav .nav-section ul .dropdown button::after {
     border-radius: 14.7717px;
   }
   .info-work-mobile .wrapperBgInfo .info-work__image .event2 {
+    width: 300px;
+    height: 115px;
     position: absolute;
     top: 35px;
     left: 5%;
@@ -1661,6 +1725,8 @@ header nav .nav-section ul .dropdown button::after {
     border-radius: 14.7717px;
   }
   .info-work-mobile .wrapperBgInfo .info-work__image .event3 {
+    width: 300px;
+    height: 155px;
     position: absolute;
     top: 70px;
     left: 10%;
@@ -1972,7 +2038,7 @@ header nav .nav-section ul .dropdown button::after {
   }
   .info-work-mobileBg {
     background-image: url("../../image/YellowBG.jpg");
-    width: 495.54px;
+    width: 450.54px !important;
     height: 478.51px;
     right: 0%;
     left: -100px;
@@ -1996,7 +2062,7 @@ header nav .nav-section ul .dropdown button::after {
     position: absolute;
   }
   .info-work-mobile .wrapperBgInfo .info-work__image .event1 {
-    width: 255px;
+    width: 235px;
     height: 104px;
     position: absolute;
     top: 0px;
@@ -2006,7 +2072,7 @@ header nav .nav-section ul .dropdown button::after {
     border-radius: 14.7717px;
   }
   .info-work-mobile .wrapperBgInfo .info-work__image .event2 {
-    width: 255px;
+    width: 235px;
     height: 101px;
     position: absolute;
     top: 35px !important;
@@ -2016,7 +2082,7 @@ header nav .nav-section ul .dropdown button::after {
     border-radius: 14.7717px;
   }
   .info-work-mobile .wrapperBgInfo .info-work__image .event3 {
-    width: 255px;
+    width: 235px;
     height: 142px;
     position: absolute;
     top: 72px !important;
@@ -2141,6 +2207,14 @@ header nav .nav-section ul .dropdown button::after {
     line-height: 17px;
     font-family: 'ProximaNova-Black';
   }
+}
+
+html {
+  overflow-x: hidden !important;
+}
+
+body {
+  overflow-x: hidden;
 }
 
 html, body, div, span, applet, object, iframe,
