@@ -1,0 +1,152 @@
+.progressBar {
+    margin-top: 160px;
+
+    &__counter {
+        &-women {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .wrapper {
+                width: 60%;
+
+                p {
+                    margin-top: 15px;
+                    font-weight: 600;
+                    font-size: 25.5102px;
+                    color: #182642;
+                }
+
+                .progress {
+                    height: 8px;
+                }
+
+                .progress-bar {
+                    width: 48%;
+                    background-color: #FF557E;
+                    border-radius: 10px;
+                }
+            }
+
+            .image {
+                width: 78.18px;
+                height: 78.18px;
+                box-shadow: 0px 8px 40px #E2E7EB;
+                border-radius: 50%;
+                position: relative;
+
+                img {
+                    position: absolute;
+                    top: 25%;
+                    right: 30%;
+                }
+
+            }
+
+            .procent {
+                font-weight: 600;
+                font-size: 39.52px;
+                color: #182642;
+                margin-bottom: 40px;
+            }
+        }
+
+        &-men {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 45px;
+
+            .wrapper {
+                width: 60%;
+
+                p {
+                    margin-top: 15px;
+                    font-weight: 600;
+                    font-size: 25.5102px;
+                    color: #182642;
+                }
+
+                .progress {
+                    height: 8px;
+                }
+
+                .progress-bar {
+                    width: 52%;
+                    background-color: #3FAEFF;
+                    border-radius: 10px;
+                }
+
+
+            }
+
+            .image {
+                width: 78.18px;
+                height: 78.18px;
+                box-shadow: 0px 8px 40px #E2E7EB;
+                border-radius: 50%;
+                position: relative;
+
+                img {
+                    position: absolute;
+                    top: 25%;
+                    right: 28%;
+                }
+
+            }
+
+
+            .procent {
+                font-weight: 600;
+                font-size: 39.52px;
+                color: #182642;
+                margin-bottom: 40px;
+            }
+        }
+    }
+
+    &__procent {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        &-small {
+            p {
+                display: inline-block;
+                font-weight: normal;
+                font-size: 25px;
+                color: #182642;
+                transform: rotate(-90deg);
+                line-height: 32px;
+            }
+        }
+
+        &-big {
+            display: inline-block;
+            p{
+                font-weight: 300;
+            font-size: 166.902px;
+            color: #444953;
+            }
+        }
+    }
+}
+
+.message-form{
+    margin-top: 200px;
+}
+
+.message-form{
+    position: relative;
+
+    .union-invest{
+        position: absolute;
+        left: -15%;
+        top: -10%;
+    }
+}
+.union-investor2{
+    position: absolute;
+    top: 15%;
+    right: -50%;
+}

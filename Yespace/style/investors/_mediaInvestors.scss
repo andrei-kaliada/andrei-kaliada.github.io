@@ -1,0 +1,360 @@
+@media (max-width: 992px) {
+    .union-investor2 {
+        display: none;
+    }
+
+    .star1,
+    .star2,
+    .star3,
+    .star4 {
+        display: none;
+    }
+
+    .info-market {
+        display: none;
+    }
+
+    .container-mobile-header-investors {
+        display: block !important;
+        background: #FF557E;
+        width: 397.48px;
+        height: 887.22px;
+        background: #FF557E;
+        box-shadow: 0px 19.2707px 61.316px rgba(255, 85, 126, 0.5);
+        border-radius: 0px 40px 40px 0px;
+        width: 100%;
+
+        .mobile-header-logo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                width: 30px;
+                height: 30px;
+            }
+        }
+
+        .mobile-header__wrapper {
+            display: flex;
+            margin-top: 25px;
+
+            .mobile-header__burger {
+                top: 50%;
+                left: 10%;
+                width: 18px;
+                height: 3px;
+                background: #fff;
+                position: absolute;
+                box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+                transition: 0.5s;
+                left: 10px;
+                border-radius: 70px;
+
+
+                &::before {
+                    content: '';
+                    position: absolute;
+                    width: 18px;
+                    height: 3px;
+                    background: #FFF;
+                    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+                    transition: 0.5s;
+                    top: -7px;
+                    left: -5px;
+                    border-radius: 70px;
+                }
+
+                &::after {
+                    content: '';
+                    position: absolute;
+                    width: 18px;
+                    height: 3px;
+                    background: #fff;
+                    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+                    transition: 0.5s;
+                    top: 7px;
+                    left: 6px;
+                    border-radius: 70px;
+                }
+            }
+
+            .mobile-header__text {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .title {
+                    p {
+                        font-weight: bold;
+                        font-size: 24px;
+                        line-height: 14px;
+                        color: #fff;
+                        font-family: 'ProximaNova-Black';
+                    }
+                }
+            }
+        }
+
+    }
+
+
+    .infoMarket-mobile-image {
+        margin-top: 50px;
+
+        img {
+            width: 435.27px;
+            height: 435.27px;
+        }
+    }
+
+    .infoMarket-mobile__count {
+        display: flex;
+        justify-content: center;
+
+        &-second {
+            margin-top: 50px;
+            margin-left: 40px;
+        }
+
+        p {
+            color: #fff;
+
+            span {
+                font-weight: bold;
+                font-size: 14px;
+                line-height: 21px;
+                color: #fff;
+            }
+        }
+
+        .num {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 25.0688px;
+            margin-top: 10px;
+        }
+
+        .text {
+            font-weight: normal !important;
+            font-size: 14px;
+            line-height: 21px;
+            margin-top: 10px;
+        }
+
+    }
+
+
+
+    .info-market {
+        .scope-shadow-first {
+            display: none;
+        }
+
+        .scope-shadow-second {
+            display: none;
+        }
+    }
+
+    .info-meeting {
+        h1 {
+            font-style: 30px;
+            text-align: left;
+        }
+    }
+
+    .progressBar {
+        margin-top: 100px !important;
+
+        &__counter {
+            .image {
+                width: 48px;
+                height: 48px;
+                display: flex;
+
+            }
+
+            .wrapper {
+                width: 50% !important;
+            }
+
+            .procent {
+                font-size: 25px;
+            }
+
+            &-women {
+                img {
+                    width: 27px;
+                    height: 34px;
+                    top: 20% !important;
+                    right: 22% !important;
+                }
+
+                p {
+                    font-size: 16px !important;
+                }
+            }
+
+            &-men {
+                img {
+                    width: 28px;
+                    height: 28px;
+                    right: 20% !important;
+                }
+
+                p {
+                    font-size: 16px !important;
+                }
+            }
+        }
+
+        &__procent {
+            margin-top: 40px;
+
+            &-small {
+                p {
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 20px;
+                    color: #182642;
+                }
+            }
+
+            &-big {
+                p {
+                    font-size: 100px !important;
+                }
+            }
+        }
+    }
+
+    .main-information {
+        margin-top: 100px !important;
+
+        h2 {
+            font-size: 30px !important;
+        }
+
+        .big-text {
+            margin-top: 30px !important;
+            font-size: 26px !important;
+        }
+
+        .small-text {
+            margin-top: 30px !important;
+            font-size: 17px !important;
+        }
+
+        &__image {
+            height: 500px;
+            position: relative;
+            margin-top: 50px;
+
+            img {
+                position: absolute;
+                left: -25%;
+                transform: rotate(45deg);
+            }
+        }
+
+        &__text {
+            .scope-shadow3 {
+                position: absolute;
+                width: 248px;
+                height: 247.21px;
+                top: 50%;
+                right: -45%;
+                background: rgba(255, 255, 255, 0.5);
+                opacity: 0.5;
+                box-shadow: inset -96.9436px 1.61573px 55.7426px rgba(0, 0, 0, 0.15);
+                border-radius: 180.961px;
+            }
+
+            .scope-shadow4 {
+                position: absolute;
+                width: 176px;
+                height: 175.44px;
+                left: -36%;
+                bottom: -2%;
+                background: rgba(255, 255, 255, 0.5);
+                opacity: 0.5;
+                box-shadow: inset -96.9436px 1.61573px 55.7426px rgba(0, 0, 0, 0.15);
+                border-radius: 128.424px;
+                transform: matrix(-1, 0, 0, 1, 0, 0);
+            }
+        }
+    }
+
+    .bisness-model {
+        position: relative;
+        margin-top: 100px !important;
+
+        h2 {
+            font-size: 24px;
+        }
+
+        p {
+            font-size: 14px;
+            padding: 0 !important;
+            text-align: center;
+            line-height: 22px;
+            color: #182642;
+            font-weight: normal;
+            margin-top: 38px !important;
+        }
+
+        .star5 {
+            display: block;
+            position: absolute;
+            width: 22px;
+            height: 21px;
+            right: 10%;
+        }
+
+        .star6 {
+            display: block;
+            position: absolute;
+            width: 17px;
+            height: 17px;
+            bottom: 30%;
+            left: 0;
+        }
+    }
+}
+
+@media (min-width: 992px) and (max-width:1200px){
+    .container-info-market{
+        width: 100%!important;
+    }
+    .scope-shadow-first{
+        left: -65%!important;
+       
+    }
+
+    .scope-shadow-second{
+        right: -50%!important;
+        
+    }
+}
+
+@media (min-width: 1200px) and (max-width:2560px){
+    .info-market-img{
+        img{
+            height: 684px!important;
+            width: 640px!important;
+        }
+    }
+
+    .container-info-market{
+        width: 100%!important;
+    }
+    .scope-shadow-first{
+        left: -50%!important;
+        
+    }
+
+    .scope-shadow-second{
+        right: -30%!important;
+        
+    }
+}

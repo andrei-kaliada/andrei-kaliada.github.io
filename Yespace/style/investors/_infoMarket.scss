@@ -1,0 +1,100 @@
+.info-market {
+   
+    margin-top: 100px;
+    margin-right: 0;
+    position: relative;
+
+    .container-info-market{
+         width: 1588px;
+        height: 907.61px;
+        background: #FF557E;
+        box-shadow: 0px 44px 140px rgba(255, 85, 126, 0.5);
+        border-radius: 72px;
+    }
+
+    .scope-shadow-first {
+        position: absolute;
+        width: 768.53px;
+        height: 766.07px;
+        left: 0;
+        top: -50%;
+        background: linear-gradient(123.2deg, #FFFFFF 30.26%, rgba(255, 255, 255, 0) 92.81%);
+        opacity: 0.8;
+        box-shadow: inset 314.41px 5.00702px 172.742px rgba(0, 0, 0, 0.15);
+        border-radius: 560.786px;
+    }
+
+    .scope-shadow-second {
+        position: absolute;
+        width: 613.97px;
+        height: 612px;
+        right: 0;
+        bottom: -30%;
+        background: rgba(255, 255, 255, 0.5);
+        opacity: 0.5;
+        box-shadow: inset -240px 4px 138px rgba(0, 0, 0, 0.15);
+        border-radius: 448px;
+    }
+
+    &-img {
+        margin-top: 120px;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    &-title {
+        margin-top: 200px;
+        margin-left: 120px;
+
+        &__img {
+            display: flex;
+            justify-content: start;
+            align-items: start;
+
+            img {
+                &:nth-child(2) {
+                    padding-top: 20px;
+                    padding-left: 50px;
+                }
+            }
+        }
+
+        &__firstText {
+            margin-top: 100px;
+
+            .main-title {
+                font-weight: 600;
+                font-size: 35.1873px;
+                color: #fff;
+            }
+
+            .additional-text {
+                font-weight: 600;
+                font-size: 22.7134px;
+                line-height: 29px;
+                color: #fff;
+                margin-top: 15px;
+            }
+        }
+
+        &__secondText {
+            margin-top: 100px;
+
+            .main-title {
+                font-weight: 600;
+                font-size: 35.1873px;
+                color: #fff;
+            }
+
+            .additional-text {
+                font-weight: 600;
+                font-size: 22.7134px;
+                line-height: 29px;
+                color: #fff;
+                margin-top: 15px;
+            }
+        }
+    }
+}

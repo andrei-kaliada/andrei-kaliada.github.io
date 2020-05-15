@@ -1,0 +1,77 @@
+.main-information {
+    margin-top: 195px;
+
+    &__text {
+
+        &-problems {
+            position: relative;
+            h2 {
+                font-weight: 600;
+                font-size: 37.5149px;
+                line-height: 33px;
+                color: #FF557E;
+            }
+
+            .big-text {
+                font-weight: 600;
+                font-size: 40px;
+                line-height: 48px;
+                margin-top: 60px;
+            }
+
+            .small-text {
+                font-weight: normal;
+                font-size: 19.5078px;
+                line-height: 33px;
+                margin-top: 45px;
+            }
+        }
+
+        &-solutions {
+            position: relative;
+            margin-top: 100px;
+            h2 {
+                font-weight: 600;
+                font-size: 37.5149px;
+                line-height: 33px;
+                color: #FF557E;
+            }
+
+            .big-text {
+                font-weight: 600;
+                font-size: 40px;
+                line-height: 48px;
+                margin-top: 60px;
+            }
+
+            .small-text {
+                font-weight: normal;
+                font-size: 19.5078px;
+                line-height: 33px;
+                margin-top: 45px;
+            }
+        }
+    }
+
+    &__image{
+        img{
+            width: 100%;
+        }
+    }
+}
+
+
+.star1{
+    position: absolute;
+    right: -5%;
+    bottom: -5%;
+}
+
+
+
+.star2{
+    position: absolute;
+    bottom: 35%;
+    left: -25%;
+
+}

@@ -5,6 +5,12 @@
 @import './mainPage/messageForm';
 @import './mainPage/footer';
 @import './mainPage/media';
+@import './investors/infoMarket';
+@import './investors/infoMeeting';
+@import './investors/_progressBar';
+@import './investors/_mainInformation';
+@import './investors/bisnessModel';
+@import './investors/mediaInvestors';
 
 html {  overflow-x:  hidden!important; }
 
@@ -105,6 +111,14 @@ button:active, button:focus, input {
 
 .desktop-br{
 	display: block;
+}
+
+.container-mobile-header-investors{
+	display: none;
+}
+
+.star5, .star6{
+	display: none;
 }
 
 
