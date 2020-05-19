@@ -2644,7 +2644,12 @@ header nav .nav-section ul .dropdown button::after {
 }
 
 .main-information__image img {
+  margin-top: 70px;
   width: 100%;
+  border-radius: 40px;
+  -webkit-box-shadow: 6.70228px 36.8982px 54.4162px rgba(63, 174, 255, 0.4);
+          box-shadow: 6.70228px 36.8982px 54.4162px rgba(63, 174, 255, 0.4);
+  margin-left: 50px;
 }
 
 .star1 {
@@ -2744,26 +2749,57 @@ header nav .nav-section ul .dropdown button::after {
   margin-bottom: 10px;
 }
 
+.bisness-model__slider .card .wrappImg {
+  padding-left: 30px;
+}
+
+.bisness-model__slider .card-gold img {
+  -webkit-box-shadow: -15px 4.36px 28.3471px rgba(255, 221, 125, 0.6);
+          box-shadow: -15px 4.36px 28.3471px rgba(255, 221, 125, 0.6);
+  margin-bottom: 100px;
+}
+
+.bisness-model__slider .card-centurion img {
+  -webkit-box-shadow: -15px 4.36px 28.3471px rgba(245, 90, 127, 0.5);
+          box-shadow: -15px 4.36px 28.3471px rgba(245, 90, 127, 0.5);
+  margin-bottom: 100px;
+}
+
 .bisness-model__slider .card-platinum {
+  outline: none !important;
+}
+
+.bisness-model__slider .card-platinum .wrappImg {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  outline: none !important;
 }
 
 .bisness-model__slider .card-platinum img {
   margin-top: 0 !important;
+  -webkit-box-shadow: -15px 4.36px 28.3471px  #B4C9DA;
+          box-shadow: -15px 4.36px 28.3471px  #B4C9DA;
+}
+
+.bisness-model__slider .card-diamond img {
+  -webkit-box-shadow: -15px 4.36px 28.3471px rgba(126, 200, 255, 0.8);
+          box-shadow: -15px 4.36px 28.3471px rgba(126, 200, 255, 0.8);
 }
 
 .bisness-model__slider .card img {
   margin-top: 40px;
   width: 100%;
+  border-radius: 45px;
 }
 
 .star3 {
@@ -2776,6 +2812,11 @@ header nav .nav-section ul .dropdown button::after {
   position: absolute;
   right: 0;
   top: -40%;
+}
+
+.wrapp-slider {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
 }
 
 @media (max-width: 992px) {
@@ -2929,12 +2970,18 @@ header nav .nav-section ul .dropdown button::after {
   .info-market .scope-shadow-second {
     display: none;
   }
+  .info-meeting {
+    margin-top: 60px !important;
+  }
   .info-meeting h1 {
     font-style: 30px;
     text-align: left;
+    margin-left: 30px;
   }
   .progressBar {
-    margin-top: 100px !important;
+    margin-top: 60px !important;
+    margin-right: 35px;
+    margin-left: 35px;
   }
   .progressBar__counter .image {
     width: 48px;
@@ -2979,7 +3026,9 @@ header nav .nav-section ul .dropdown button::after {
     font-size: 100px !important;
   }
   .main-information {
-    margin-top: 100px !important;
+    margin-top: 75px !important;
+    margin-right: 35px;
+    margin-left: 35px;
   }
   .main-information h2 {
     font-size: 30px !important;
@@ -3002,6 +3051,7 @@ header nav .nav-section ul .dropdown button::after {
     left: -25%;
     -webkit-transform: rotate(45deg);
             transform: rotate(45deg);
+    border-radius: 17px !important;
   }
   .main-information__text .scope-shadow3 {
     position: absolute;
@@ -3031,7 +3081,7 @@ header nav .nav-section ul .dropdown button::after {
   }
   .bisness-model {
     position: relative;
-    margin-top: 100px !important;
+    margin-top: 200px !important;
   }
   .bisness-model h2 {
     font-size: 24px;
@@ -3044,6 +3094,9 @@ header nav .nav-section ul .dropdown button::after {
     color: #182642;
     font-weight: normal;
     margin-top: 38px !important;
+  }
+  .bisness-model__slider img {
+    border-radius: 17px !important;
   }
   .bisness-model .star5 {
     display: block;
@@ -3062,9 +3115,15 @@ header nav .nav-section ul .dropdown button::after {
   }
 }
 
+@media (max-width: 374px) {
+  .bisness-model {
+    margin-top: 50px !important;
+  }
+}
+
 @media (min-width: 992px) and (max-width: 1200px) {
   .container-info-market {
-    width: 100% !important;
+    width: 95vw !important;
   }
   .scope-shadow-first {
     left: -65% !important;
@@ -3080,7 +3139,7 @@ header nav .nav-section ul .dropdown button::after {
     width: 640px !important;
   }
   .container-info-market {
-    width: 100% !important;
+    width: 95vw !important;
   }
   .scope-shadow-first {
     left: -50% !important;

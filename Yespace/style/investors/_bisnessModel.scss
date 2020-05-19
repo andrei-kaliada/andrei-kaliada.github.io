@@ -24,7 +24,7 @@
         margin-top: 80px;
 
         .slick-arrow {
-            background:red;
+            background: red;
             width: 90.99px;
             height: 90.99px;
             background: #FFFFFF;
@@ -32,14 +32,16 @@
             border-radius: 50%;
             z-index: 333;
             transition: 0.7s;
-            &:hover{
+
+            &:hover {
                 box-shadow: 0px 16.4088px 42.7549px rgba(92, 100, 110, 0.7);
             }
         }
 
         .slick-prev {
             left: 0;
-            display: none!important;
+            display: none !important;
+
             &::before {
 
                 font-size: 20px;
@@ -55,8 +57,8 @@
             &::before {
                 content: url('./../image/investorsImg/Right.png');
                 transition: 0.5s;
-                
-               
+
+
             }
         }
 
@@ -78,35 +80,81 @@
 
             }
 
+            .wrappImg {
+                padding-left: 30px;
+            }
+
+            &-gold {
+
+                img {
+                    box-shadow: -15px 4.36px 28.3471px  rgba(255, 221, 125, 0.6);
+
+                    margin-bottom: 100px;
+
+                }
+            }
+
+            &-centurion {
+
+                img {
+                    box-shadow: -15px 4.36px 28.3471px  rgba(245, 90, 127, 0.5);
+
+                    margin-bottom: 100px;
+
+
+                }
+            }
+
             &-platinum {
-                display: flex;
-                justify-content: center;
-                align-items: center;
+
                 outline: none !important;
+
+                .wrappImg {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                }
 
                 img {
                     margin-top: 0 !important;
+
+                    box-shadow: -15px 4.36px 28.3471px  #B4C9DA;
+                }
+            }
+
+            &-diamond {
+                img {
+                    box-shadow: -15px 4.36px 28.3471px  rgba(126, 200, 255, 0.8);
+
                 }
             }
 
             img {
+
                 margin-top: 40px;
                 width: 100%;
+                border-radius: 45px;
             }
         }
 
     }
 }
 
-.star3{
+.star3 {
     position: absolute;
     left: 10%;
     top: -70%;
 }
 
 
-.star4{
+.star4 {
     position: absolute;
     right: 0;
     top: -40%;
+}
+
+.wrapp-slider{
+    padding-left: 0px!important;
+    padding-right: 0px!important;
 }
