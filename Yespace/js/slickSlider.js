@@ -19,7 +19,7 @@ $('.center').slick({
           arrows: false,
           centerMode: true,
           centerPadding: '0px',
-          slidesToShow:1.1
+          slidesToShow:1.03
         }
       }
     ]
