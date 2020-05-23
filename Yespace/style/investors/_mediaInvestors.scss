@@ -1,6 +1,10 @@
 
 
 @media (max-width: 992px) {
+
+    .card-add{
+        display: none!important;
+    }
     
     .union-investor2 {
         display: none;
@@ -316,12 +320,14 @@
 
         &__slider{
             .wrappImg{
-              padding-left: 15px!important;
+                margin-right: 0!important;
+              padding-left: 25px!important;
             }
 
             img{
-                border-radius: 25px!important;
                 
+                border-radius: 25px!important;
+                width: 100%!important;
             }
         }
 
@@ -425,7 +431,7 @@
     }
 }
 
-@media (min-width: 1200px) and (max-width:2560px){
+@media (min-width: 1200px) and (max-width:1600px){
     .info-market-img{
         img{
             height: 684px!important;
@@ -434,15 +440,37 @@
     }
 
     .container-info-market{
-        width: 95vw!important;
+        width: 85vw!important;
     }
     .scope-shadow-first{
-        left: -50%!important;
+        left: -40%!important;
         
     }
 
     .scope-shadow-second{
         right: -30%!important;
+        
+    }
+}
+
+@media (min-width: 1600px) and (max-width:2560px){
+    .info-market-img{
+        img{
+            height: 684px!important;
+            width: 640px!important;
+        }
+    }
+
+    .container-info-market{
+        width: 75vw!important;
+    }
+    .scope-shadow-first{
+        left: -20%!important;
+        
+    }
+
+    .scope-shadow-second{
+        right: -10%!important;
         
     }
 }

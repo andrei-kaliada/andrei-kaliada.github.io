@@ -2721,7 +2721,7 @@ header nav .nav-section ul .dropdown button::after {
 }
 
 .bisness-model__slider .slick-next {
-  right: 5%;
+  right: 10%;
 }
 
 .bisness-model__slider .slick-next::before {
@@ -2749,8 +2749,12 @@ header nav .nav-section ul .dropdown button::after {
   margin-bottom: 10px;
 }
 
+.bisness-model__slider .card .card-add {
+  display: block;
+}
+
 .bisness-model__slider .card .wrappImg {
-  padding-left: 30px;
+  margin-right: 30px;
 }
 
 .bisness-model__slider .card-gold img {
@@ -2820,6 +2824,9 @@ header nav .nav-section ul .dropdown button::after {
 }
 
 @media (max-width: 992px) {
+  .card-add {
+    display: none !important;
+  }
   .union-investor2 {
     display: none;
   }
@@ -3096,10 +3103,12 @@ header nav .nav-section ul .dropdown button::after {
     margin-top: 38px !important;
   }
   .bisness-model__slider .wrappImg {
-    padding-left: 15px !important;
+    margin-right: 0 !important;
+    padding-left: 25px !important;
   }
   .bisness-model__slider img {
     border-radius: 25px !important;
+    width: 100% !important;
   }
   .bisness-model .star5 {
     display: block;
@@ -3176,19 +3185,35 @@ header nav .nav-section ul .dropdown button::after {
   }
 }
 
-@media (min-width: 1200px) and (max-width: 2560px) {
+@media (min-width: 1200px) and (max-width: 1600px) {
   .info-market-img img {
     height: 684px !important;
     width: 640px !important;
   }
   .container-info-market {
-    width: 95vw !important;
+    width: 85vw !important;
   }
   .scope-shadow-first {
-    left: -50% !important;
+    left: -40% !important;
   }
   .scope-shadow-second {
     right: -30% !important;
+  }
+}
+
+@media (min-width: 1600px) and (max-width: 2560px) {
+  .info-market-img img {
+    height: 684px !important;
+    width: 640px !important;
+  }
+  .container-info-market {
+    width: 75vw !important;
+  }
+  .scope-shadow-first {
+    left: -20% !important;
+  }
+  .scope-shadow-second {
+    right: -10% !important;
   }
 }
 
