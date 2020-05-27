@@ -2696,25 +2696,28 @@ header nav .nav-section ul .dropdown button::after {
   width: 90.99px;
   height: 90.99px;
   background: #FFFFFF;
-  -webkit-box-shadow: 0px 16.4088px 42.7549px rgba(92, 100, 110, 0.3);
-          box-shadow: 0px 16.4088px 42.7549px rgba(92, 100, 110, 0.3);
   border-radius: 50%;
   z-index: 333;
   -webkit-transition: 0.7s;
   transition: 0.7s;
 }
 
-.bisness-model__slider .slick-arrow:hover {
-  -webkit-box-shadow: 0px 16.4088px 42.7549px rgba(92, 100, 110, 0.7);
-          box-shadow: 0px 16.4088px 42.7549px rgba(92, 100, 110, 0.7);
+.bisness-model__slider .slick-prev {
+  left: 5%;
+  top: 43%;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  -webkit-box-shadow: 0px -16.4088px 42.7549px rgba(92, 100, 110, 0.3);
+          box-shadow: 0px -16.4088px 42.7549px rgba(92, 100, 110, 0.3);
 }
 
-.bisness-model__slider .slick-prev {
-  left: 0;
-  display: none !important;
+.bisness-model__slider .slick-prev:hover {
+  -webkit-box-shadow: 0px -16.4088px 42.7549px rgba(92, 100, 110, 0.7);
+          box-shadow: 0px -16.4088px 42.7549px rgba(92, 100, 110, 0.7);
 }
 
 .bisness-model__slider .slick-prev::before {
+  content: url("./../image/investorsImg/Right.png");
   font-size: 20px;
   width: 50px;
   height: 50px;
@@ -2722,6 +2725,13 @@ header nav .nav-section ul .dropdown button::after {
 
 .bisness-model__slider .slick-next {
   right: 10%;
+  -webkit-box-shadow: 0px 16.4088px 42.7549px rgba(92, 100, 110, 0.3);
+          box-shadow: 0px 16.4088px 42.7549px rgba(92, 100, 110, 0.3);
+}
+
+.bisness-model__slider .slick-next:hover {
+  -webkit-box-shadow: 0px 16.4088px 42.7549px rgba(92, 100, 110, 0.7);
+          box-shadow: 0px 16.4088px 42.7549px rgba(92, 100, 110, 0.7);
 }
 
 .bisness-model__slider .slick-next::before {
@@ -2730,9 +2740,16 @@ header nav .nav-section ul .dropdown button::after {
   transition: 0.5s;
 }
 
+.bisness-model__slider .card-add {
+  display: block;
+  width: 230px !important;
+}
+
 .bisness-model__slider .card {
   border: 0;
   outline: none;
+  -webkit-transition: 0.9s;
+  transition: 0.9s;
 }
 
 .bisness-model__slider .card p {
@@ -2747,10 +2764,6 @@ header nav .nav-section ul .dropdown button::after {
   border-radius: 40px;
   padding: 5px 10px;
   margin-bottom: 10px;
-}
-
-.bisness-model__slider .card .card-add {
-  display: block;
 }
 
 .bisness-model__slider .card .wrappImg {
