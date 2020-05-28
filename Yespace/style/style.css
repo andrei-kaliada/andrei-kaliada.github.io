@@ -2693,8 +2693,8 @@ header nav .nav-section ul .dropdown button::after {
 
 .bisness-model__slider .slick-arrow {
   background: red;
-  width: 90.99px;
-  height: 90.99px;
+  width: 85px;
+  height: 85px;
   background: #FFFFFF;
   border-radius: 50%;
   z-index: 333;
@@ -2742,14 +2742,12 @@ header nav .nav-section ul .dropdown button::after {
 
 .bisness-model__slider .card-add {
   display: block;
-  width: 230px !important;
+  width: 220px;
 }
 
 .bisness-model__slider .card {
   border: 0;
   outline: none;
-  -webkit-transition: 0.9s;
-  transition: 0.9s;
 }
 
 .bisness-model__slider .card p {
@@ -2762,7 +2760,7 @@ header nav .nav-section ul .dropdown button::after {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-radius: 40px;
-  padding: 5px 10px;
+  padding: 8px 11px;
   margin-bottom: 10px;
 }
 
@@ -2770,15 +2768,25 @@ header nav .nav-section ul .dropdown button::after {
   margin-right: 30px;
 }
 
+.bisness-model__slider .card-gold {
+  -webkit-transition: 0.9s;
+  transition: 0.9s;
+}
+
 .bisness-model__slider .card-gold img {
-  -webkit-box-shadow: -15px 4.36px 28.3471px rgba(255, 221, 125, 0.6);
-          box-shadow: -15px 4.36px 28.3471px rgba(255, 221, 125, 0.6);
+  -webkit-box-shadow: -15px 14.36px 28.3471px rgba(255, 239, 194, 0.6);
+          box-shadow: -15px 14.36px 28.3471px rgba(255, 239, 194, 0.6);
   margin-bottom: 100px;
 }
 
+.bisness-model__slider .card-centurion {
+  -webkit-transition: 0.9s;
+  transition: 0.9s;
+}
+
 .bisness-model__slider .card-centurion img {
-  -webkit-box-shadow: -15px 4.36px 28.3471px rgba(245, 90, 127, 0.5);
-          box-shadow: -15px 4.36px 28.3471px rgba(245, 90, 127, 0.5);
+  -webkit-box-shadow: -15px 14.36px 28.3471px rgba(250, 203, 214, 0.5);
+          box-shadow: -15px 14.36px 28.3471px rgba(250, 203, 214, 0.5);
   margin-bottom: 100px;
 }
 
@@ -2804,19 +2812,19 @@ header nav .nav-section ul .dropdown button::after {
 
 .bisness-model__slider .card-platinum img {
   margin-top: 0 !important;
-  -webkit-box-shadow: -15px 4.36px 28.3471px  #B4C9DA;
-          box-shadow: -15px 4.36px 28.3471px  #B4C9DA;
+  -webkit-box-shadow: -15px 14.36px 28.3471px #e3e7eb;
+          box-shadow: -15px 14.36px 28.3471px #e3e7eb;
 }
 
 .bisness-model__slider .card-diamond img {
-  -webkit-box-shadow: -15px 4.36px 28.3471px rgba(126, 200, 255, 0.8);
-          box-shadow: -15px 4.36px 28.3471px rgba(126, 200, 255, 0.8);
+  -webkit-box-shadow: -15px 14.36px 28.3471px rgba(213, 235, 252, 0.8);
+          box-shadow: -15px 14.36px 28.3471px rgba(213, 235, 252, 0.8);
 }
 
 .bisness-model__slider .card img {
-  margin-top: 40px;
+  margin-top: 50px;
   width: 100%;
-  border-radius: 45px;
+  border-radius: 25px;
 }
 
 .star3 {
@@ -3186,6 +3194,26 @@ header nav .nav-section ul .dropdown button::after {
   }
 }
 
+@media (min-width: 480px) and (max-width: 992px) {
+  .wrapp-container-mobile {
+    background: #FF557E;
+    -webkit-box-shadow: 0px 19.2707px 61.316px rgba(255, 85, 126, 0.5);
+            box-shadow: 0px 19.2707px 61.316px rgba(255, 85, 126, 0.5);
+    border-radius: 0px 40px 40px 0px;
+  }
+  .main-information__image img {
+    width: 50% !important;
+    left: -15% !important;
+  }
+  .wrappImg img {
+    border-radius: 10px !important;
+  }
+  .wrappImg p {
+    font-size: 11px !important;
+    margin-bottom: 18px !important;
+  }
+}
+
 @media (min-width: 992px) and (max-width: 1200px) {
   .container-info-market {
     width: 95vw !important;
@@ -3196,9 +3224,18 @@ header nav .nav-section ul .dropdown button::after {
   .scope-shadow-second {
     right: -50% !important;
   }
+  .card-add {
+    width: 170px !important;
+  }
+  .slick-next {
+    right: 8% !important;
+  }
+  .wrappImg img {
+    border-radius: 15px !important;
+  }
 }
 
-@media (min-width: 1200px) and (max-width: 1600px) {
+@media (min-width: 1200px) and (max-width: 1400px) {
   .info-market-img img {
     height: 684px !important;
     width: 640px !important;
@@ -3211,6 +3248,56 @@ header nav .nav-section ul .dropdown button::after {
   }
   .scope-shadow-second {
     right: -30% !important;
+  }
+  .bisness-model__slider .card img {
+    margin-top: 55px !important;
+  }
+  .bisness-model__slider .card-platinum img {
+    margin-top: 0 !important;
+  }
+  .card-add {
+    width: 200px !important;
+  }
+  .wrappImg p {
+    font-size: 17px !important;
+    margin-bottom: 20px !important;
+  }
+  .slick-next {
+    right: 8% !important;
+    top: 43%;
+  }
+}
+
+@media (min-width: 1400px) and (max-width: 1600px) {
+  .info-market-img img {
+    height: 684px !important;
+    width: 640px !important;
+  }
+  .container-info-market {
+    width: 85vw !important;
+  }
+  .scope-shadow-first {
+    left: -40% !important;
+  }
+  .scope-shadow-second {
+    right: -30% !important;
+  }
+  .bisness-model__slider .card img {
+    margin-top: 55px !important;
+  }
+  .bisness-model__slider .card-platinum img {
+    margin-top: 0 !important;
+  }
+  .card-add {
+    width: 200px !important;
+  }
+  .wrappImg p {
+    font-size: 17px !important;
+    margin-bottom: 20px !important;
+  }
+  .slick-next {
+    right: 10% !important;
+    top: 43%;
   }
 }
 

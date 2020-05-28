@@ -6,12 +6,21 @@ $('.center').slick({
     infinite:false,
     responsive: [
       {
+        breakpoint: 992,
+        settings: {
+          arrows: false,
+          centerMode: true,
+          centerPadding: '40px',
+          slidesToShow: 3.999
+        }
+      },
+      {
         breakpoint: 768,
         settings: {
           arrows: false,
           centerMode: true,
           centerPadding: '40px',
-          slidesToShow: 3
+          slidesToShow: 1.5
         }
       },
       {
