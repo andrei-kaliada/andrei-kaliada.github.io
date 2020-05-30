@@ -5,6 +5,7 @@ $('.center').slick({
     slidesToShow: 4,
     infinite:false,
     responsive: [
+      
       {
         breakpoint: 992,
         settings: {

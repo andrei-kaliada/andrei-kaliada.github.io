@@ -471,7 +471,7 @@
     }
 }
 
-@media (min-width: 1200px) and (max-width:1400px){
+@media (min-width: 1200px) and (max-width:1440px){
     .info-market-img{
         img{
             height: 684px!important;
@@ -521,12 +521,12 @@
 
     .slick-next {
         right: 8%!important;
-        top: 43%;
+        top: 50%!important;
     }
 
 }
 
-@media (min-width: 1400px) and (max-width:1600px){
+@media (min-width: 1440px) and (max-width:1600px){
     .info-market-img{
         img{
             height: 684px!important;
@@ -575,12 +575,12 @@
 
     .slick-next {
         right: 10%!important;
-        top: 43%;
+        top: 48%!important;
     }
 
 }
 
-@media (min-width: 1600px) and (max-width:2560px){
+@media (min-width: 1600px) and (max-width:2000px){
     .info-market-img{
         img{
             height: 684px!important;
@@ -599,5 +599,55 @@
     .scope-shadow-second{
         right: -10%!important;
         
+    }
+    .card-add{
+        width: 250px!important;
+    }
+
+    .slick-next{
+        width: 105px!important;
+        height: 105px!important;
+        right: 11%!important;
+    }
+
+    .slick-prev{
+        width: 105px!important;
+        height: 105px!important;
+    }
+}
+
+@media (min-width:2000px) and (max-width:2560px){
+    .info-market-img{
+        img{
+            height: 684px!important;
+            width: 640px!important;
+        }
+    }
+
+    .container-info-market{
+        width: 75vw!important;
+    }
+    .scope-shadow-first{
+        left: -20%!important;
+        
+    }
+
+    .scope-shadow-second{
+        right: -10%!important;
+        
+    }
+    .card-add{
+        width: 330px!important;
+    }
+
+    .slick-next{
+        width: 115px!important;
+        height: 115px!important;
+        right: 11%!important;
+    }
+
+    .slick-prev{
+        width: 115px!important;
+        height: 115px!important;
     }
 }
