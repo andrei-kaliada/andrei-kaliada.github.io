@@ -2,6 +2,18 @@
 
 @media (max-width: 992px) {
 
+    .bisness-model{
+        
+        padding: 0 20px!important;
+        
+        &__slider{
+            
+            p{
+                margin-left: 15px!important;
+            }
+        }
+    }
+
     .card-add{
         display: none!important;
     }
@@ -383,6 +395,7 @@
 
     .bisness-model{
         margin-top: 130px!important;
+        padding: 0 15px!important;
     }
 }
 
@@ -413,6 +426,7 @@
     }
     .bisness-model{
         margin-top: 150px!important;
+        padding: 0 10px!important;
     }
 }
 
