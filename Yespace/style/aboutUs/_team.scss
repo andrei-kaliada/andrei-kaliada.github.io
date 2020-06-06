@@ -1,0 +1,136 @@
+.team {
+    margin-top: 250px;
+    position: relative;
+
+    .scope-shadow-second {
+        position: absolute;
+        width: 613.97px;
+        height: 612px;
+       top: -50%;
+       right: -20%!important;
+
+        background: rgba(255, 255, 255, 0.5);
+        opacity: 0.5;
+        box-shadow: inset -240px 4px 138px rgba(0, 0, 0, 0.15);
+        border-radius: 448px;
+    }
+
+    &__title {
+        position: relative;
+
+        h2 {
+            text-align: center;
+            font-weight: 600;
+            font-size: 40.51px;
+            line-height: 33px;
+            color: #FF557E;
+        }
+
+        .starAboutUs1 {
+            position: absolute;
+            top: 0;
+            left: -10%;
+        }
+
+
+    }
+
+    .wrapp-team-person {
+        display: flex;
+        justify-content: center;
+        margin-top: 150px;
+
+
+        .team__person-one {
+
+            p {
+                text-align: center;
+                font-size: 18px;
+                font-weight: bold;
+                color: #182642;
+
+                span {
+                    font-weight: normal;
+                }
+            }
+
+            img {
+                margin-top: 35px;
+            }
+        }
+
+
+        .team__person-two {
+            display: flex;
+            align-items: center;
+            margin-right: 35px;
+            margin-top: 150px;
+            margin-left: 50px;
+
+            p {
+                font-size: 18px;
+                font-weight: bold;
+                margin-right: 60px;
+                color: #182642;
+
+                span {
+                    font-weight: normal;
+                }
+            }
+
+        }
+
+        .team__person-three {
+            display: flex;
+            align-items: center;
+            margin-left: 35px;
+            margin-top: 150px;
+
+            p {
+                font-size: 18px;
+                font-weight: bold;
+                margin-left: 55px;
+                color: #182642;
+
+                span {
+                    font-weight: normal;
+                }
+            }
+
+
+        }
+
+
+    }
+
+    .team__person-four {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+        position: relative;
+
+        p {
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 35px;
+            margin-left: 40px;
+            color: #182642;
+
+            span {
+                font-weight: normal;
+            }
+        }
+
+        .unionTeam {
+            position: absolute;
+            right: -25%;
+            bottom: 0;
+        }
+
+    }
+
+
+
+}

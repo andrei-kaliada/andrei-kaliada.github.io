@@ -1,0 +1,72 @@
+.why-we{
+    margin-top: 220px;
+    position: relative;
+
+    &__text{
+        padding-left: 75px;
+        h2{
+            font-weight: 600;
+            font-size: 35px;
+            line-height: 33px;
+            color: #FF557E;
+        }
+
+        h1{
+            font-weight: 600;
+            font-size: 45px;
+            line-height: 56px;
+            color: #182642;
+            margin-top: 65px;
+
+            span{
+                font-style: italic;
+                font-weight: normal;
+            }
+        }
+
+        p{
+            margin-top: 55px;
+            font-weight: normal;
+            font-size: 19.5078px;
+            line-height: 33px;
+            color: #182642;
+        }
+    }
+
+    &__img-part{
+
+        position: absolute;
+        top: -20%;
+        left: 25%;
+        img{
+            width: 230px;
+        }
+    }
+
+    &__img-pacman{
+        position: absolute;
+        bottom: 13%;
+        right: -15%;
+        img{
+            width: 100%;
+        }
+    }
+
+    .starAboutUs2{
+        position: absolute;
+        right: 10%;
+        top: -35%;
+    }
+
+    .scope-shadow-first {
+        position: absolute;
+        width: 768.53px;
+        height: 766.07px;
+        left: 0;
+        bottom:80%;
+        background: linear-gradient(123.2deg, #FFFFFF 30.26%, rgba(255, 255, 255, 0) 92.81%);
+        opacity: 0.8;
+        box-shadow: inset 314.41px 5.00702px 172.742px rgba(0, 0, 0, 0.15);
+        border-radius: 560.786px;
+    }
+}

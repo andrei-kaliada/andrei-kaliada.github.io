@@ -11,6 +11,11 @@
 @import './investors/_mainInformation';
 @import './investors/bisnessModel';
 @import './investors/mediaInvestors';
+@import './aboutUs/whyWe';
+@import './aboutUs/team';
+@import './aboutUs/textInfo';
+@import './aboutUs/messageFormAboutUs';
+@import './aboutUs/_mediaAboutUs';
 
 html {  overflow-x:  hidden!important; }
 
@@ -118,6 +123,16 @@ button:active, button:focus, input {
 }
 
 .star5, .star6{
+	display: none;
+}
+
+.why-we-mobile{
+	display: none;
+}
+.team-mobile{
+	display: none;
+}
+.iconFly-mobile-aboutUs{
 	display: none;
 }
 

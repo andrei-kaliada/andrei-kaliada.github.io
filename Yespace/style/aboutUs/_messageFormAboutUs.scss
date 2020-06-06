@@ -1,0 +1,12 @@
+.message-form-aboutUs{
+    input[type="text"]{
+        text-align: left!important;
+        padding-left: 30px!important;
+
+        &::placeholder{
+            color: #3FAEFF!important;
+        }
+    }
+
+   
+}
