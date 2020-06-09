@@ -29,10 +29,13 @@ header {
 
             .active {
                 border-bottom: 2px solid #FF557E;
+                padding: 8px 0 5px 0;
 
                 a {
                     opacity: 1;
                     color: #FF557E;
+                    font-weight: bold;
+                    font-family: 'ProximaNova-Bold';
                 }
             }
 
@@ -47,7 +50,8 @@ header {
                         text-decoration: none;
                         color: #8B92BA;
                         opacity: 0.8;
-
+                        
+                        
 
                         &:hover {
                             opacity: 1;

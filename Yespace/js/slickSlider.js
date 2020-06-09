@@ -30,7 +30,7 @@ $('.center').slick({
           arrows: false,
           centerMode: true,
           centerPadding: '0px',
-          slidesToShow:1.2,
+          slidesToShow:1.1,
           infinite:false
         }
       }

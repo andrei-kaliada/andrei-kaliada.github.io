@@ -1,4 +1,136 @@
-@media(min-width:1000px) and(max-width:1200px){
+@media(min-width:1400px) and(max-width:1600px){
+    .why-we{
+
+        .scope-shadow-first{
+            width: 850px!important;
+           
+        }
+
+        &__text{
+            h2{
+                font-size: 40px;
+            }
+            h1{
+                font-size: 50px;
+            }
+            p{
+                font-size: 19px;
+            }
+        }
+
+        &__img-part{
+            img{
+                width: 100%!important;
+            }
+        }
+
+        &__img-pacman{
+            bottom: 40%!important;
+           img{
+            width: 100%!important;
+           }
+        }
+    }
+
+    .team{
+        .scope-shadow-second{
+            top: -45%!important;
+            right: -25% !important;
+        }
+
+        &__title{
+            h2{
+                font-size: 35px;
+            }
+
+            .starAboutUs1{
+                left: -5%!important;
+            }
+        }
+
+        &__person-four{
+            .unionTeam{
+                right: -15%!important;
+            }
+        }
+    }
+
+    .text-info{
+        &__wrapper{
+            p{
+                font-size: 19px!important;
+            }
+        }
+    }
+}
+
+@media(min-width:1200px) and(max-width:1399px){
+    .why-we{
+
+        .scope-shadow-first{
+            width: 750px!important;
+           
+        }
+
+        &__text{
+            h2{
+                font-size: 30px;
+            }
+            h1{
+                font-size: 35px;
+            }
+            p{
+                font-size: 15px;
+            }
+        }
+
+        &__img-part{
+            img{
+                width: 175px;
+            }
+        }
+
+        &__img-pacman{
+           img{
+            width: 80%;
+           }
+        }
+    }
+
+    .team{
+        .scope-shadow-second{
+            top: -45%!important;
+            right: -35% !important;
+        }
+
+        &__title{
+            h2{
+                font-size: 35px;
+            }
+
+            .starAboutUs1{
+                left: -5%!important;
+            }
+        }
+
+        &__person-four{
+            .unionTeam{
+                right: -15%!important;
+            }
+        }
+    }
+
+    .text-info{
+        &__wrapper{
+            p{
+                font-size: 19px!important;
+            }
+        }
+    }
+}
+
+
+@media(min-width:1000px) and(max-width:1199px){
     .why-we{
 
         .scope-shadow-first{
@@ -275,6 +407,10 @@
         }
         
     }
+
+    .message-form__text{
+        padding-left: 0!important;
+    }
 }
 
 @media(min-width:376px) and(max-width:425px){
@@ -352,6 +488,7 @@
 
     .team-mobile{
         display: block!important;
+        padding-left:35px!important;
         &__title{
             margin-top: 60px;
             margin-bottom: 42px;
@@ -470,15 +607,7 @@
     .message-form-mobile{
        .messageBtn-AboutUs{
            height: 55px!important;
-            &::placeholder{
-                font-style: normal;
-                font-weight: 600;
-                font-size: 17px;
-                line-height: 17px;
-                color: #0194FF;
-                text-align: left;
-                padding-left: 30px;
-            }
+           
         }
 
        .submitBtn-aboutUs{
@@ -579,6 +708,7 @@
 
     .team-mobile{
         display: block!important;
+        padding-left:25px!important;
         &__title{
             margin-top: 60px;
             margin-bottom: 42px;
@@ -611,7 +741,7 @@
             align-items: center;
 
             img{
-                width: 121.8px!important;
+                width: 110px!important;
             }
             p{
                 font-size: 16px;
@@ -629,7 +759,7 @@
             align-items: center;
             flex-direction: row-reverse;
             img{
-                width: 121.8px!important;
+                width: 110px!important;
             }
             p{
                 font-size: 16px;
@@ -647,7 +777,7 @@
             justify-content: start;
             align-items: center;
             img{
-                width: 121.8px!important;
+                width: 110px!important;
             }
             p{
                 font-size: 16px;
@@ -665,7 +795,7 @@
             align-items: center;
             flex-direction: row-reverse;
             img{
-                width: 121.8px!important;
+                width: 110px!important;
             }
             p{
                 font-size: 16px;

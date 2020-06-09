@@ -46,11 +46,14 @@ header nav .nav-section {
 
 header nav .nav-section .active {
   border-bottom: 2px solid #FF557E;
+  padding: 8px 0 5px 0;
 }
 
 header nav .nav-section .active a {
   opacity: 1;
   color: #FF557E;
+  font-weight: bold;
+  font-family: 'ProximaNova-Bold';
 }
 
 header nav .nav-section ul {
@@ -3429,7 +3432,7 @@ header nav .nav-section ul .dropdown button::after {
 
 .why-we__img-pacman {
   position: absolute;
-  bottom: 13%;
+  bottom: 25%;
   right: -15%;
 }
 
@@ -3610,28 +3613,84 @@ header nav .nav-section ul .dropdown button::after {
   color: #8B92BA;
 }
 
-.message-form-aboutUs input[type="text"] {
-  text-align: left !important;
-  padding-left: 30px !important;
+@media (min-width: 1400px) and (max-width: 1600px) {
+  .why-we .scope-shadow-first {
+    width: 850px !important;
+  }
+  .why-we__text h2 {
+    font-size: 40px;
+  }
+  .why-we__text h1 {
+    font-size: 50px;
+  }
+  .why-we__text p {
+    font-size: 19px;
+  }
+  .why-we__img-part img {
+    width: 100% !important;
+  }
+  .why-we__img-pacman {
+    bottom: 40% !important;
+  }
+  .why-we__img-pacman img {
+    width: 100% !important;
+  }
+  .team .scope-shadow-second {
+    top: -45% !important;
+    right: -25% !important;
+  }
+  .team__title h2 {
+    font-size: 35px;
+  }
+  .team__title .starAboutUs1 {
+    left: -5% !important;
+  }
+  .team__person-four .unionTeam {
+    right: -15% !important;
+  }
+  .text-info__wrapper p {
+    font-size: 19px !important;
+  }
 }
 
-.message-form-aboutUs input[type="text"]::-webkit-input-placeholder {
-  color: #3FAEFF !important;
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .why-we .scope-shadow-first {
+    width: 750px !important;
+  }
+  .why-we__text h2 {
+    font-size: 30px;
+  }
+  .why-we__text h1 {
+    font-size: 35px;
+  }
+  .why-we__text p {
+    font-size: 15px;
+  }
+  .why-we__img-part img {
+    width: 175px;
+  }
+  .why-we__img-pacman img {
+    width: 80%;
+  }
+  .team .scope-shadow-second {
+    top: -45% !important;
+    right: -35% !important;
+  }
+  .team__title h2 {
+    font-size: 35px;
+  }
+  .team__title .starAboutUs1 {
+    left: -5% !important;
+  }
+  .team__person-four .unionTeam {
+    right: -15% !important;
+  }
+  .text-info__wrapper p {
+    font-size: 19px !important;
+  }
 }
 
-.message-form-aboutUs input[type="text"]:-ms-input-placeholder {
-  color: #3FAEFF !important;
-}
-
-.message-form-aboutUs input[type="text"]::-ms-input-placeholder {
-  color: #3FAEFF !important;
-}
-
-.message-form-aboutUs input[type="text"]::placeholder {
-  color: #3FAEFF !important;
-}
-
-@media (min-width: 1000px) and (max-width: 1200px) {
+@media (min-width: 1000px) and (max-width: 1199px) {
   .why-we .scope-shadow-first {
     width: 950px !important;
   }
@@ -3921,6 +3980,9 @@ header nav .nav-section ul .dropdown button::after {
     width: 13.8px !important;
     height: 0px;
   }
+  .message-form__text {
+    padding-left: 0 !important;
+  }
 }
 
 @media (min-width: 376px) and (max-width: 425px) {
@@ -3992,6 +4054,7 @@ header nav .nav-section ul .dropdown button::after {
   }
   .team-mobile {
     display: block !important;
+    padding-left: 35px !important;
   }
   .team-mobile__title {
     margin-top: 60px;
@@ -4128,42 +4191,6 @@ header nav .nav-section ul .dropdown button::after {
   .message-form-mobile .messageBtn-AboutUs {
     height: 55px !important;
   }
-  .message-form-mobile .messageBtn-AboutUs::-webkit-input-placeholder {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 17px;
-    line-height: 17px;
-    color: #0194FF;
-    text-align: left;
-    padding-left: 30px;
-  }
-  .message-form-mobile .messageBtn-AboutUs:-ms-input-placeholder {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 17px;
-    line-height: 17px;
-    color: #0194FF;
-    text-align: left;
-    padding-left: 30px;
-  }
-  .message-form-mobile .messageBtn-AboutUs::-ms-input-placeholder {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 17px;
-    line-height: 17px;
-    color: #0194FF;
-    text-align: left;
-    padding-left: 30px;
-  }
-  .message-form-mobile .messageBtn-AboutUs::placeholder {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 17px;
-    line-height: 17px;
-    color: #0194FF;
-    text-align: left;
-    padding-left: 30px;
-  }
   .message-form-mobile .submitBtn-aboutUs {
     width: 47px !important;
     height: 34px !important;
@@ -4254,6 +4281,7 @@ header nav .nav-section ul .dropdown button::after {
   }
   .team-mobile {
     display: block !important;
+    padding-left: 25px !important;
   }
   .team-mobile__title {
     margin-top: 60px;
@@ -4293,7 +4321,7 @@ header nav .nav-section ul .dropdown button::after {
             align-items: center;
   }
   .team-mobile___person-one img {
-    width: 121.8px !important;
+    width: 110px !important;
   }
   .team-mobile___person-one p {
     font-size: 16px;
@@ -4319,7 +4347,7 @@ header nav .nav-section ul .dropdown button::after {
             flex-direction: row-reverse;
   }
   .team-mobile___person-two img {
-    width: 121.8px !important;
+    width: 110px !important;
   }
   .team-mobile___person-two p {
     font-size: 16px;
@@ -4342,7 +4370,7 @@ header nav .nav-section ul .dropdown button::after {
             align-items: center;
   }
   .team-mobile___person-three img {
-    width: 121.8px !important;
+    width: 110px !important;
   }
   .team-mobile___person-three p {
     font-size: 16px;
@@ -4368,7 +4396,7 @@ header nav .nav-section ul .dropdown button::after {
             flex-direction: row-reverse;
   }
   .team-mobile___person-four img {
-    width: 121.8px !important;
+    width: 110px !important;
   }
   .team-mobile___person-four p {
     font-size: 16px;
@@ -4584,5 +4612,11 @@ body {
 
 .iconFly-mobile-aboutUs {
   display: none;
+}
+
+.active-mail {
+  text-align: left !important;
+  padding-left: 30px !important;
+  color: #3FAEFF !important;
 }
 /*# sourceMappingURL=style.css.map */
