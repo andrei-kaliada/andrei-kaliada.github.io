@@ -247,8 +247,8 @@
 
             .starMobile1{
                 position: absolute;
-                top: 0;
-                right: 0;
+                top: -15%!important;
+                right: 7%!important;
             }
 
             .starMobile2{
@@ -470,8 +470,8 @@
 
             .starMobile1{
                 position: absolute;
-                top: 0;
-                right: 0;
+                top: -15%!important;
+                right: 7%!important;
             }
 
             .starMobile2{
@@ -489,6 +489,7 @@
     .team-mobile{
         display: block!important;
         padding-left:35px!important;
+        padding-right:35px!important;
         &__title{
             margin-top: 60px;
             margin-bottom: 42px;
@@ -510,7 +511,7 @@
                 box-shadow: inset 28.3224px 0.64667px 22.3101px rgba(0, 0, 0, 0.15);
                 border-radius: 72.427px;
                 transform: matrix(-1, 0, 0, 1, 0, 0);
-                right: -15%;
+                right: -25%;
                 top: 0;
             }
         }
@@ -519,6 +520,10 @@
             display: flex;
             justify-content: start;
             align-items: center;
+            
+            img{
+                width: 143px!important;
+            }
 
             p{
                 font-size: 19px;
@@ -536,6 +541,10 @@
             align-items: center;
             flex-direction: row-reverse;
           
+            img{
+                width: 143px!important;
+            }
+
             p{
                 font-size: 19px;
                 line-height: 24px;
@@ -551,6 +560,10 @@
             display: flex;
             justify-content: start;
             align-items: center;
+            
+            img{
+                width: 143px!important;
+            }
             
             p{
                 font-size: 19px;
@@ -568,6 +581,10 @@
             align-items: center;
             flex-direction: row-reverse;
            
+            img{
+                width: 143px!important;
+            }
+            
             p{
                 font-size: 19px;
                 line-height: 24px;
@@ -633,7 +650,7 @@
     }
 }
 
-@media(min-width:280px) and(max-width:375px){
+@media(min-width:321px) and(max-width:375px){
     .why-we{
         display: none!important;
         .scope-shadow-first{
@@ -690,8 +707,8 @@
 
             .starMobile1{
                 position: absolute;
-                top: 0;
-                right: 0;
+                top: -15%!important;
+                right: 5%!important;
             }
 
             .starMobile2{
@@ -709,6 +726,7 @@
     .team-mobile{
         display: block!important;
         padding-left:25px!important;
+        padding-right:25px!important;
         &__title{
             margin-top: 60px;
             margin-bottom: 42px;
@@ -730,7 +748,7 @@
                 box-shadow: inset 28.3224px 0.64667px 22.3101px rgba(0, 0, 0, 0.15);
                 border-radius: 72.427px;
                 transform: matrix(-1, 0, 0, 1, 0, 0);
-                right: -15%;
+                right: -25%;
                 top: 0;
             }
         }
@@ -741,7 +759,7 @@
             align-items: center;
 
             img{
-                width: 110px!important;
+                width: 120px!important;
             }
             p{
                 font-size: 16px;
@@ -759,7 +777,7 @@
             align-items: center;
             flex-direction: row-reverse;
             img{
-                width: 110px!important;
+                width: 120px!important;
             }
             p{
                 font-size: 16px;
@@ -777,7 +795,7 @@
             justify-content: start;
             align-items: center;
             img{
-                width: 110px!important;
+                width: 120px!important;
             }
             p{
                 font-size: 16px;
@@ -795,7 +813,245 @@
             align-items: center;
             flex-direction: row-reverse;
             img{
-                width: 110px!important;
+                width: 120px!important;
+            }
+            p{
+                font-size: 16px;
+                line-height: 20px;
+                margin-right: 25px;
+                text-align: right;
+                span{
+                    font-weight: normal;
+                }
+            }
+        }
+    }
+
+    .text-info{
+        display: none;
+    }
+
+    .iconFly-mobile-aboutUs{
+        display: block!important;
+        position: relative;
+        margin-top: 35px;
+
+        .starAboutUs3{
+            position: absolute;
+            right: -10%!important;
+            top: -50%!important;
+        }
+
+        .union-aboutUs{
+            position: absolute;
+            width: 134px!important;
+            height: 132px!important;
+            left: -5%!important;
+            bottom: 0!important;
+        }
+    }
+
+    .message-form-mobile{
+       .messageBtn-AboutUs{
+           height: 55px!important;
+            &::placeholder{
+                font-style: normal;
+                font-weight: 600;
+                font-size: 17px;
+                line-height: 17px;
+                color: #0194FF;
+                text-align: left;
+                padding-left: 30px;
+            }
+        }
+
+       .submitBtn-aboutUs{
+            width: 47px!important;
+            height: 34px!important;
+            position: absolute;
+            right: 8%;
+            top: 45%!important;
+            width: 37.28px;
+            height: 24.99px;
+            background: #3FAEFF;
+            box-shadow: 0px 3.12374px 7.28873px #3FAEFF;
+            border-radius: 22.9074px;
+            border: 0;
+
+            &::after{
+                content:url('../image/aboutUsImg/smallArrow.png');
+                width: 13.8px!important;
+                height: 0px;
+            }
+        }
+        
+    }
+}
+
+@media(min-width:280px) and(max-width:320px){
+    .why-we{
+        display: none!important;
+        .scope-shadow-first{
+            display: none!important;
+        }
+    }
+
+    .why-we-mobile{
+        display: block!important;
+        margin-top: 60px;
+        padding-left: 30px;
+        &__title{
+            h2{
+                font-style: normal;
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 19px;
+                color: #FF557E;
+            }
+
+            h1{
+                font-weight: 600;
+                font-size: 30px;
+                line-height: 32px;
+                color: #182642;
+                margin-top: 20px;
+                span{
+                    font-weight: normal;
+                    font-style: italic;
+                }
+            }
+
+            p{
+                font-style: normal;
+                font-weight: normal;
+                font-size: 12px;
+                line-height: 22px;
+                color: #182642;
+                margin-top: 35px;
+            }
+        }
+
+        &__pacman{
+            position: relative;
+            margin-top: 70px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .pacmanMobile{
+                width: 184px!important;
+            }
+            
+
+            .starMobile1{
+                position: absolute;
+                top: -15%!important;
+                right: 5%!important;
+            }
+
+            .starMobile2{
+                position: absolute;
+                left: 0;
+                bottom: 0;
+            }
+        }
+    }
+
+    .team{
+        display: none!important;
+    }
+
+    .team-mobile{
+        display: block!important;
+        padding-left:25px!important;
+        padding-right:25px!important;
+        &__title{
+            margin-top: 60px;
+            margin-bottom: 42px;
+            position: relative;
+            h2{
+                font-style: normal;
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 19px;
+                color: #FF557E;
+            }
+
+            .scope-aboutUs-mobile{
+                position: absolute;
+                width: 99.26px;
+                height: 98.94px;
+                background: rgba(255, 255, 255, 0.5);
+                opacity: 0.5;
+                box-shadow: inset 28.3224px 0.64667px 22.3101px rgba(0, 0, 0, 0.15);
+                border-radius: 72.427px;
+                transform: matrix(-1, 0, 0, 1, 0, 0);
+                right: -25%;
+                top: 0;
+            }
+        }
+
+        &___person-one{
+            display: flex;
+            justify-content: start;
+            align-items: center;
+
+            img{
+                width: 100px!important;
+            }
+            p{
+                font-size: 16px;
+                line-height: 20px;
+                margin-left: 25px;
+                span{
+                    font-weight: normal;
+                }
+            }
+        }
+
+        &___person-two{
+            display: flex;
+            justify-content: end;
+            align-items: center;
+            flex-direction: row-reverse;
+            img{
+                width: 100px!important;
+            }
+            p{
+                font-size: 16px;
+                line-height: 20px;
+                margin-right: 25px;
+                text-align: right;
+                span{
+                    font-weight: normal;
+                }
+            }
+        }
+
+        &___person-three{
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            img{
+                width: 100px!important;
+            }
+            p{
+                font-size: 16px;
+                line-height: 20px;
+                margin-left: 25px;
+                span{
+                    font-weight: normal;
+                }
+            }
+        }
+
+        &___person-four{
+            display: flex;
+            justify-content: end;
+            align-items: center;
+            flex-direction: row-reverse;
+            img{
+                width: 100px!important;
             }
             p{
                 font-size: 16px;

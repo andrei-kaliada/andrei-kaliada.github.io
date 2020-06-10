@@ -3780,8 +3780,8 @@ header nav .nav-section ul .dropdown button::after {
   }
   .why-we-mobile__pacman .starMobile1 {
     position: absolute;
-    top: 0;
-    right: 0;
+    top: -15% !important;
+    right: 7% !important;
   }
   .why-we-mobile__pacman .starMobile2 {
     position: absolute;
@@ -4041,8 +4041,8 @@ header nav .nav-section ul .dropdown button::after {
   }
   .why-we-mobile__pacman .starMobile1 {
     position: absolute;
-    top: 0;
-    right: 0;
+    top: -15% !important;
+    right: 7% !important;
   }
   .why-we-mobile__pacman .starMobile2 {
     position: absolute;
@@ -4055,6 +4055,7 @@ header nav .nav-section ul .dropdown button::after {
   .team-mobile {
     display: block !important;
     padding-left: 35px !important;
+    padding-right: 35px !important;
   }
   .team-mobile__title {
     margin-top: 60px;
@@ -4079,7 +4080,7 @@ header nav .nav-section ul .dropdown button::after {
     border-radius: 72.427px;
     -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
             transform: matrix(-1, 0, 0, 1, 0, 0);
-    right: -15%;
+    right: -25%;
     top: 0;
   }
   .team-mobile___person-one {
@@ -4092,6 +4093,9 @@ header nav .nav-section ul .dropdown button::after {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+  .team-mobile___person-one img {
+    width: 143px !important;
   }
   .team-mobile___person-one p {
     font-size: 19px;
@@ -4116,6 +4120,9 @@ header nav .nav-section ul .dropdown button::after {
         -ms-flex-direction: row-reverse;
             flex-direction: row-reverse;
   }
+  .team-mobile___person-two img {
+    width: 143px !important;
+  }
   .team-mobile___person-two p {
     font-size: 19px;
     line-height: 24px;
@@ -4135,6 +4142,9 @@ header nav .nav-section ul .dropdown button::after {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+  .team-mobile___person-three img {
+    width: 143px !important;
   }
   .team-mobile___person-three p {
     font-size: 19px;
@@ -4158,6 +4168,9 @@ header nav .nav-section ul .dropdown button::after {
     -webkit-box-direction: reverse;
         -ms-flex-direction: row-reverse;
             flex-direction: row-reverse;
+  }
+  .team-mobile___person-four img {
+    width: 143px !important;
   }
   .team-mobile___person-four p {
     font-size: 19px;
@@ -4212,7 +4225,7 @@ header nav .nav-section ul .dropdown button::after {
   }
 }
 
-@media (min-width: 280px) and (max-width: 375px) {
+@media (min-width: 321px) and (max-width: 375px) {
   .why-we {
     display: none !important;
   }
@@ -4268,8 +4281,8 @@ header nav .nav-section ul .dropdown button::after {
   }
   .why-we-mobile__pacman .starMobile1 {
     position: absolute;
-    top: 0;
-    right: 0;
+    top: -15% !important;
+    right: 5% !important;
   }
   .why-we-mobile__pacman .starMobile2 {
     position: absolute;
@@ -4282,6 +4295,7 @@ header nav .nav-section ul .dropdown button::after {
   .team-mobile {
     display: block !important;
     padding-left: 25px !important;
+    padding-right: 25px !important;
   }
   .team-mobile__title {
     margin-top: 60px;
@@ -4306,7 +4320,7 @@ header nav .nav-section ul .dropdown button::after {
     border-radius: 72.427px;
     -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
             transform: matrix(-1, 0, 0, 1, 0, 0);
-    right: -15%;
+    right: -25%;
     top: 0;
   }
   .team-mobile___person-one {
@@ -4321,7 +4335,7 @@ header nav .nav-section ul .dropdown button::after {
             align-items: center;
   }
   .team-mobile___person-one img {
-    width: 110px !important;
+    width: 120px !important;
   }
   .team-mobile___person-one p {
     font-size: 16px;
@@ -4347,7 +4361,7 @@ header nav .nav-section ul .dropdown button::after {
             flex-direction: row-reverse;
   }
   .team-mobile___person-two img {
-    width: 110px !important;
+    width: 120px !important;
   }
   .team-mobile___person-two p {
     font-size: 16px;
@@ -4370,7 +4384,7 @@ header nav .nav-section ul .dropdown button::after {
             align-items: center;
   }
   .team-mobile___person-three img {
-    width: 110px !important;
+    width: 120px !important;
   }
   .team-mobile___person-three p {
     font-size: 16px;
@@ -4396,7 +4410,283 @@ header nav .nav-section ul .dropdown button::after {
             flex-direction: row-reverse;
   }
   .team-mobile___person-four img {
-    width: 110px !important;
+    width: 120px !important;
+  }
+  .team-mobile___person-four p {
+    font-size: 16px;
+    line-height: 20px;
+    margin-right: 25px;
+    text-align: right;
+  }
+  .team-mobile___person-four p span {
+    font-weight: normal;
+  }
+  .text-info {
+    display: none;
+  }
+  .iconFly-mobile-aboutUs {
+    display: block !important;
+    position: relative;
+    margin-top: 35px;
+  }
+  .iconFly-mobile-aboutUs .starAboutUs3 {
+    position: absolute;
+    right: -10% !important;
+    top: -50% !important;
+  }
+  .iconFly-mobile-aboutUs .union-aboutUs {
+    position: absolute;
+    width: 134px !important;
+    height: 132px !important;
+    left: -5% !important;
+    bottom: 0 !important;
+  }
+  .message-form-mobile .messageBtn-AboutUs {
+    height: 55px !important;
+  }
+  .message-form-mobile .messageBtn-AboutUs::-webkit-input-placeholder {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 17px;
+    color: #0194FF;
+    text-align: left;
+    padding-left: 30px;
+  }
+  .message-form-mobile .messageBtn-AboutUs:-ms-input-placeholder {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 17px;
+    color: #0194FF;
+    text-align: left;
+    padding-left: 30px;
+  }
+  .message-form-mobile .messageBtn-AboutUs::-ms-input-placeholder {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 17px;
+    color: #0194FF;
+    text-align: left;
+    padding-left: 30px;
+  }
+  .message-form-mobile .messageBtn-AboutUs::placeholder {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 17px;
+    color: #0194FF;
+    text-align: left;
+    padding-left: 30px;
+  }
+  .message-form-mobile .submitBtn-aboutUs {
+    width: 47px !important;
+    height: 34px !important;
+    position: absolute;
+    right: 8%;
+    top: 45% !important;
+    width: 37.28px;
+    height: 24.99px;
+    background: #3FAEFF;
+    -webkit-box-shadow: 0px 3.12374px 7.28873px #3FAEFF;
+            box-shadow: 0px 3.12374px 7.28873px #3FAEFF;
+    border-radius: 22.9074px;
+    border: 0;
+  }
+  .message-form-mobile .submitBtn-aboutUs::after {
+    content: url("../image/aboutUsImg/smallArrow.png");
+    width: 13.8px !important;
+    height: 0px;
+  }
+}
+
+@media (min-width: 280px) and (max-width: 320px) {
+  .why-we {
+    display: none !important;
+  }
+  .why-we .scope-shadow-first {
+    display: none !important;
+  }
+  .why-we-mobile {
+    display: block !important;
+    margin-top: 60px;
+    padding-left: 30px;
+  }
+  .why-we-mobile__title h2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 19px;
+    color: #FF557E;
+  }
+  .why-we-mobile__title h1 {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 32px;
+    color: #182642;
+    margin-top: 20px;
+  }
+  .why-we-mobile__title h1 span {
+    font-weight: normal;
+    font-style: italic;
+  }
+  .why-we-mobile__title p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 22px;
+    color: #182642;
+    margin-top: 35px;
+  }
+  .why-we-mobile__pacman {
+    position: relative;
+    margin-top: 70px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .why-we-mobile__pacman .pacmanMobile {
+    width: 184px !important;
+  }
+  .why-we-mobile__pacman .starMobile1 {
+    position: absolute;
+    top: -15% !important;
+    right: 5% !important;
+  }
+  .why-we-mobile__pacman .starMobile2 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+  .team {
+    display: none !important;
+  }
+  .team-mobile {
+    display: block !important;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+  }
+  .team-mobile__title {
+    margin-top: 60px;
+    margin-bottom: 42px;
+    position: relative;
+  }
+  .team-mobile__title h2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 19px;
+    color: #FF557E;
+  }
+  .team-mobile__title .scope-aboutUs-mobile {
+    position: absolute;
+    width: 99.26px;
+    height: 98.94px;
+    background: rgba(255, 255, 255, 0.5);
+    opacity: 0.5;
+    -webkit-box-shadow: inset 28.3224px 0.64667px 22.3101px rgba(0, 0, 0, 0.15);
+            box-shadow: inset 28.3224px 0.64667px 22.3101px rgba(0, 0, 0, 0.15);
+    border-radius: 72.427px;
+    -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
+            transform: matrix(-1, 0, 0, 1, 0, 0);
+    right: -25%;
+    top: 0;
+  }
+  .team-mobile___person-one {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .team-mobile___person-one img {
+    width: 100px !important;
+  }
+  .team-mobile___person-one p {
+    font-size: 16px;
+    line-height: 20px;
+    margin-left: 25px;
+  }
+  .team-mobile___person-one p span {
+    font-weight: normal;
+  }
+  .team-mobile___person-two {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
+  .team-mobile___person-two img {
+    width: 100px !important;
+  }
+  .team-mobile___person-two p {
+    font-size: 16px;
+    line-height: 20px;
+    margin-right: 25px;
+    text-align: right;
+  }
+  .team-mobile___person-two p span {
+    font-weight: normal;
+  }
+  .team-mobile___person-three {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .team-mobile___person-three img {
+    width: 100px !important;
+  }
+  .team-mobile___person-three p {
+    font-size: 16px;
+    line-height: 20px;
+    margin-left: 25px;
+  }
+  .team-mobile___person-three p span {
+    font-weight: normal;
+  }
+  .team-mobile___person-four {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
+  .team-mobile___person-four img {
+    width: 100px !important;
   }
   .team-mobile___person-four p {
     font-size: 16px;
