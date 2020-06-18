@@ -17,131 +17,384 @@
 @import './aboutUs/messageFormAboutUs';
 @import './aboutUs/_mediaAboutUs';
 
-html {  overflow-x:  hidden!important; }
+html {
+    overflow-x: hidden !important;
+}
 
 body {
-    
+
     overflow-x: hidden;
 }
 
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
     vertical-align: baseline;
-	font-family: 'ProximaNova';
-	font-weight: 600;
-	color: #182642;
+    font-family: 'ProximaNova';
+    font-weight: 600;
+    color: #182642;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
 }
+
 body {
-	line-height: 1;
+    line-height: 1;
 }
-ol, ul {
-	list-style: none;
+
+ol,
+ul {
+    list-style: none;
 }
-blockquote, q {
-	quotes: none;
+
+blockquote,
+q {
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
-button:active, button:focus, input {
-	outline: none;
-  }
-  button::-moz-focus-inner {
-	border: 0;
-  }
+button:active,
+button:focus,
+input {
+    outline: none;
+}
 
- body {
-    
+button::-moz-focus-inner {
+    border: 0;
+}
+
+body {
+
     overflow-x: hidden;
 }
 
-.union{
-	position: absolute;
-	left: -100%;
-	bottom:-100%;
+.union {
+    position: absolute;
+    left: -100%;
+    bottom: -100%;
+
+}
+
+.container-mobile-header {
+    display: none;
+}
+
+.info-work-mobile {
+    display: none;
+}
+
+.message-form-mobile {
+    display: none;
+}
+
+.iconFly-mobile {
+    display: none;
+}
+
+.footer-mobile {
+    display: none;
+}
+
+.mobile-br {
+    display: none;
+}
+
+.desktop-br {
+    display: block;
+}
+
+.container-mobile-header-investors {
+    display: none;
+}
+
+.star5,
+.star6 {
+    display: none;
+}
+
+.why-we-mobile {
+    display: none;
+}
+
+.team-mobile {
+    display: none;
+}
+
+.iconFly-mobile-aboutUs {
+    display: none;
+}
+
+.active-mail {
+    text-align: left !important;
+    padding-left: 30px !important;
+    color: #3FAEFF !important;
+}
+
+.popup-mobile {
+    width: 100%;
+    position: fixed;
+    background: rgba(255, 85, 126, 0.9);
+    backdrop-filter: blur(20px);
+    z-index: 555;
+    transition: 0.7s;
+    top: -425px;
+
+    &__wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 85px;
+        margin-bottom: 20px;
+        transition: 0.7s;
+
+        p {
+            font-size: 30px;
+            line-height: 32px;
+            text-align: center;
+            font-weight: normal;
+            color: #FFFFFF;
+            opacity: 0.9;
+        }
+
+        .main {
+            a {
+                font-style: normal;
+                font-weight: 600;
+                font-size: 30px;
+                line-height: 32px;
+                text-align: center;
+                color: #182642;
+            }
+        }
+
+        .aboutUs {
+            margin-top: 20px;
+
+            a {
+                font-style: normal;
+                font-weight: 600;
+                font-size: 30px;
+                line-height: 32px;
+                color: #182642;
+                margin-right: 90px;
+            }
+        }
+
+        .investors {
+            margin-top: 20px;
+
+            a {
+                font-style: normal;
+                font-weight: 600;
+                font-size: 30px;
+                line-height: 32px;
+                color: #182642;
+                margin-left: 80px;
+            }
+        }
+
+        .languages {
+            display: flex;
+            margin-top: 50px;
+
+            .ru {
+                font-style: normal;
+                font-weight: 600;
+                font-size: 19.5078px;
+                line-height: 33px;
+                color: #FFFFFF;
+                opacity: 0.8;
+                margin-right: 30px;
+            }
+
+            .eng {
+                font-style: normal;
+                font-weight: 600;
+                font-size: 19.5078px;
+                line-height: 33px;
+                color: #FFFFFF;
+                opacity: 0.4;
+            }
+        }
+
+        .activeRef {
+            font-style: italic !important;
+            font-weight: 300 !important;
+        }
+    }
+}
+
+.activePopUp {
+    transform: rotate(90deg);
+    position: fixed;
+}
+
+.showWrappPopUp {
+    top: 0px;
+
+}
+
+.sendForm {
+	display: flex;
+	justify-content: center;
+	align-items:center;
+    width: 900px;
+    height: 96px;
+    background: rgba(111, 218, 102, 0.15);
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #1BCF0B;
+
+    &__text {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 17px;
+        text-align: center;
+        color: #1BCF0B;
+    }
+
+}
+
+.fixed{
+	position:fixed; 
+width:100%;
+}
+
+@media (max-width: 768px){
+	.sendForm {
+		display: flex;
+		justify-content: center;
+		align-items:center;
+		width:100%!important;
+		height: 44px!important;
+		background: rgba(111, 218, 102, 0.15);
+		border-radius: 8px;
+		font-weight: 600;
+		font-size: 14px;
+		line-height: 17px;
+		text-align: center;
+		color: #1BCF0B;
 	
+		&__text {
+			font-weight: 600;
+			font-size: 24px;
+			line-height: 17px;
+			text-align: center;
+			color: #1BCF0B;
+		}
+	
+	}
 }
-.container-mobile-header{
-	display: none;
-}
-
-.info-work-mobile{
-	display: none;
-}
-
-.message-form-mobile{
-	display: none;
-}
-
-.iconFly-mobile{
-	display: none;
-}
-
-.footer-mobile{
-	display: none;
-}
-
-.mobile-br{
-	display: none;
-}
-
-.desktop-br{
-	display: block;
-}
-
-.container-mobile-header-investors{
-	display: none;
-}
-
-.star5, .star6{
-	display: none;
-}
-
-.why-we-mobile{
-	display: none;
-}
-.team-mobile{
-	display: none;
-}
-.iconFly-mobile-aboutUs{
-	display: none;
-}
-
-.active-mail{
-    text-align: left!important;
-    padding-left: 30px!important;
-    color: #3FAEFF!important;
-}
-
-
-  
 

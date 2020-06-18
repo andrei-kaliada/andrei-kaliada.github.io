@@ -207,7 +207,7 @@ header nav .nav-section ul .dropdown button::after {
           box-shadow: 0px 16.4088px 42.7549px rgba(92, 100, 110, 0.3);
   border-radius: 50%;
   border: 0;
-  z-index: 999;
+  z-index: 9;
   -webkit-transition: -webkit-box-shadow 500ms;
   transition: -webkit-box-shadow 500ms;
   transition: box-shadow 500ms;
@@ -1139,6 +1139,7 @@ header nav .nav-section ul .dropdown button::after {
     transition: 0.5s;
     left: 10px;
     border-radius: 70px;
+    z-index: 555;
   }
   .container-mobile-header .mobile-header__wrapper .mobile-header__burger::before {
     content: '';
@@ -2929,6 +2930,7 @@ header nav .nav-section ul .dropdown button::after {
     transition: 0.5s;
     left: 10px;
     border-radius: 70px;
+    z-index: 555 !important;
   }
   .container-mobile-header-investors .mobile-header__wrapper .mobile-header__burger::before {
     content: '';
@@ -4785,19 +4787,87 @@ body {
   overflow-x: hidden;
 }
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -4810,8 +4880,17 @@ time, mark, audio, video {
 }
 
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
   display: block;
 }
 
@@ -4819,16 +4898,20 @@ body {
   line-height: 1;
 }
 
-ol, ul {
+ol,
+ul {
   list-style: none;
 }
 
-blockquote, q {
+blockquote,
+q {
   quotes: none;
 }
 
-blockquote:before, blockquote:after,
-q:before, q:after {
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
   content: '';
   content: none;
 }
@@ -4838,7 +4921,9 @@ table {
   border-spacing: 0;
 }
 
-button:active, button:focus, input {
+button:active,
+button:focus,
+input {
   outline: none;
 }
 
@@ -4888,7 +4973,8 @@ body {
   display: none;
 }
 
-.star5, .star6 {
+.star5,
+.star6 {
   display: none;
 }
 
@@ -4908,5 +4994,186 @@ body {
   text-align: left !important;
   padding-left: 30px !important;
   color: #3FAEFF !important;
+}
+
+.popup-mobile {
+  width: 100%;
+  position: fixed;
+  background: rgba(255, 85, 126, 0.9);
+  -webkit-backdrop-filter: blur(20px);
+          backdrop-filter: blur(20px);
+  z-index: 555;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  top: -425px;
+}
+
+.popup-mobile__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 85px;
+  margin-bottom: 20px;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+.popup-mobile__wrapper p {
+  font-size: 30px;
+  line-height: 32px;
+  text-align: center;
+  font-weight: normal;
+  color: #FFFFFF;
+  opacity: 0.9;
+}
+
+.popup-mobile__wrapper .main a {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 32px;
+  text-align: center;
+  color: #182642;
+}
+
+.popup-mobile__wrapper .aboutUs {
+  margin-top: 20px;
+}
+
+.popup-mobile__wrapper .aboutUs a {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 32px;
+  color: #182642;
+  margin-right: 90px;
+}
+
+.popup-mobile__wrapper .investors {
+  margin-top: 20px;
+}
+
+.popup-mobile__wrapper .investors a {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 32px;
+  color: #182642;
+  margin-left: 80px;
+}
+
+.popup-mobile__wrapper .languages {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 50px;
+}
+
+.popup-mobile__wrapper .languages .ru {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19.5078px;
+  line-height: 33px;
+  color: #FFFFFF;
+  opacity: 0.8;
+  margin-right: 30px;
+}
+
+.popup-mobile__wrapper .languages .eng {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19.5078px;
+  line-height: 33px;
+  color: #FFFFFF;
+  opacity: 0.4;
+}
+
+.popup-mobile__wrapper .activeRef {
+  font-style: italic !important;
+  font-weight: 300 !important;
+}
+
+.activePopUp {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  position: fixed;
+}
+
+.showWrappPopUp {
+  top: 0px;
+}
+
+.sendForm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 900px;
+  height: 96px;
+  background: rgba(111, 218, 102, 0.15);
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #1BCF0B;
+}
+
+.sendForm__text {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 17px;
+  text-align: center;
+  color: #1BCF0B;
+}
+
+.fixed {
+  position: fixed;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .sendForm {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100% !important;
+    height: 44px !important;
+    background: rgba(111, 218, 102, 0.15);
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #1BCF0B;
+  }
+  .sendForm__text {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 17px;
+    text-align: center;
+    color: #1BCF0B;
+  }
 }
 /*# sourceMappingURL=style.css.map */
