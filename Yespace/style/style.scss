@@ -356,10 +356,11 @@ body {
     line-height: 17px;
     text-align: center;
     color: #1BCF0B;
+    margin-left: 110px;
 
     &__text {
         font-weight: 600;
-        font-size: 24px;
+        font-size: 40px;
         line-height: 17px;
         text-align: center;
         color: #1BCF0B;
@@ -385,7 +386,9 @@ width:100%;
 		font-size: 14px;
 		line-height: 17px;
 		text-align: center;
-		color: #1BCF0B;
+        color: #1BCF0B;
+        margin-left: 0!important;
+        margin-top: 20px!important;
 	
 		&__text {
 			font-weight: 600;

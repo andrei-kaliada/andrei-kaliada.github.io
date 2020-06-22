@@ -326,8 +326,8 @@
 
     .iconFly-mobile-wrapper {
       display: block;
-      margin: 30px 0;
-      height: 100px;
+    
+      height: 60px;
       position: relative;
 
       .mobile-icon-first {
@@ -376,7 +376,7 @@
 
   .footer-mobile {
     display: block !important;
-    margin-top: 100px;
+    margin-top: 94px;
     margin-bottom: 50px;
 
     &-wrapper {
@@ -411,7 +411,7 @@
       .right-side {
         &__text {
           font-style: normal;
-          font-weight: normal;
+          font-weight: normal!important;
           font-size: 16px;
           line-height: 18px;
         }
@@ -579,6 +579,11 @@
 
 
 @media (max-width: 992px) {
+
+  .sendForm{
+    margin-left: 0!important;
+  }
+
   .main-title .text-descr__first ul li {
     font-weight: bold !important;
     color: #182642;
@@ -911,7 +916,7 @@
 
     .iconFly-mobile-wrapper {
       display: block;
-      margin: 30px 0;
+  
       height: 100px;
       position: relative;
 
@@ -960,7 +965,7 @@
 
   .footer-mobile {
     display: block !important;
-    margin-top: 100px;
+    margin-top: 94px;
     margin-bottom: 50px;
 
     &-wrapper {
@@ -1008,13 +1013,17 @@
           line-height: 18px;
           color: #182642;
           padding-left: 10px;
+
+          P{
+            font-weight: normal!important;
+          }
         }
 
         &__security {
           padding-left: 10px;
           margin-top: 35px;
           font-style: normal;
-          font-weight: 800;
+          font-weight: normal!important;
           font-size: 18px;
           line-height: 17px;
           font-family: 'ProximaNova-Bold';
@@ -1068,6 +1077,56 @@
   .main-title .text-descr__first ul li {
     font-weight: bold !important;
     color: #182642;
+    
+}
+
+.main-title{
+  &__text {
+    h1 {
+      font-weight: 600;
+      font-size: 33px!important;
+      line-height: 38px;
+      position: absolute;
+    }
+
+
+    .main-title__mobile {
+      display: block;
+      margin-top: 40px;
+      position: absolute;
+
+      .wrappMob {
+        display: flex;
+
+        p {
+          font-weight: 600;
+          font-size: 32px!important;
+          color: #182642;
+
+          &:first-child {
+            margin-right: 25px;
+          }
+
+          span {
+            color: #182642;
+            font-size: 14px;
+            font-weight: normal;
+          }
+        }
+      }
+    }
+  }
+}
+
+.text-descr {
+  ul {
+    li {
+      list-style-type: none;
+      color: #182642;
+      font-size: 19px!important;
+    }
+  }
+
 }
 
   .mobile-header__text {
@@ -1179,12 +1238,14 @@
 
   .info-work__title{
     padding-top: 130px!important;
+    p{
+      font-weight: normal!important;
+    }
   }
-
   
 }
 
-@media (min-width: 320px) and (max-width: 375px){
+@media (min-width: 321px) and (max-width: 375px){
   .mobile-header__text {
    
     .title {
@@ -1318,11 +1379,10 @@
     &__text {
       h1 {
         font-weight: 600;
-        font-size: 34px!important;
+        font-size: 31px!important;
         line-height: 38px;
-        
         position: absolute;
-        top: -55%;
+        top: -85%;
       }
 
 
@@ -1330,14 +1390,14 @@
         display: block;
         margin-top: 40px;
         position: absolute;
-        top: -32%;
+        top: -50%;
 
         .wrappMob {
           display: flex;
 
           p {
             font-weight: 600;
-            font-size: 28px;
+            font-size: 32px;
             color: #182642;
 
             &:first-child {
@@ -1346,7 +1406,8 @@
 
             span {
               color: #182642;
-              font-size: 12px;
+              font-size: 14px;
+              font-weight: normal;
             }
           }
         }
@@ -1363,10 +1424,12 @@
     }
 
     .text-descr {
+      margin-top: 0!important;
       ul {
         li {
           list-style-type: none;
           color: #182642;
+          font-size: 17px!important;
         }
       }
 
@@ -1483,7 +1546,8 @@
       }
 
       p {
-        font-size: 14px;
+        font-weight: normal!important;
+        font-size: 15px;
       }
     }
 
@@ -1494,8 +1558,8 @@
 
     .iconFly-mobile-wrapper {
       display: block;
-      margin: 30px 0;
-      height: 100px;
+     
+      height: 60px;
       position: relative;
 
       .mobile-icon-first {
@@ -1543,7 +1607,7 @@
 
   .footer-mobile {
     display: block !important;
-    margin-top: 100px;
+    margin-top: 94px!important;
     margin-bottom: 50px;
 
     &-wrapper {
@@ -1578,9 +1642,12 @@
       .right-side {
         &__text {
           font-style: normal;
-          font-weight: normal;
+          
           font-size: 11px;
           line-height: 18px;
+          P{
+            font-weight: normal!important;
+          }
         }
 
         &__security {
@@ -1600,15 +1667,29 @@
 
 
 
+
+
 @media (max-width: 320px) {
+  .mobile-starIcon{
+    width: 14px!important;
+    height: 14px!important;
+  }
+
+  .mobile-starIcon3{
+    width: 14px!important;
+    height: 14px!important;
+  }
 
   .mobile-starIcon4{
     width: 22px!important;
     height: 21px!important;
+    right: 0%!important;
   }
 
   .mobile-starIcon5{
     top: 70%!important;
+    width: 18px!important;
+    height: 17px!important;
   }
 
   .mobile-br{
@@ -1690,7 +1771,7 @@
             font-size: 24px;
             line-height: 14px;
             color: #182642;
-            font-family: 'ProximaNova-Bold';
+            font-family: "ProximaNova-Black" !important;
           }
         }
       }
@@ -1724,11 +1805,11 @@
     &__text {
       h1 {
         font-weight: 600;
-        font-size: 25px!important;
+        font-size: 28px!important;
         line-height: 34px!important;
         text-align: left;
         position: absolute;
-        top: -43%;
+        top: -70%!important;
         margin-bottom: 40px;
       }
 
@@ -1737,14 +1818,14 @@
         display: block;
         margin-top: 40px;
         position: absolute;
-        top: -25%;
+        top: -45%;
 
         .wrappMob {
           display: flex;
 
           p {
             font-weight: 600;
-            font-size: 28px;
+            font-size: 28px!important;
             color: #182642;
 
             &:first-child {
@@ -1754,6 +1835,7 @@
             span {
               color: #182642;
               font-size: 12px;
+              font-weight: normal!important;
             }
           }
         }
@@ -1769,11 +1851,16 @@
       }
     }
 
-    .text-descr {
+     .text-descr {
+      margin-top: 20px!important;
+      margin-left: 0!important;
       ul {
         li {
           list-style-type: none;
           color: #182642;
+          font-size: 13px!important;
+          line-height:22px!important;
+          padding-left: 0px!important;
         }
       }
 
@@ -1906,9 +1993,9 @@
       }
 
       p {
-        font-weight: 800;
+        font-weight: normal!important;
         margin-top: 20px;
-        font-size: 14px;
+        font-size: 13px;
       }
     }
 
@@ -1919,8 +2006,8 @@
 
     .iconFly-mobile-wrapper {
       display: block;
-      margin: 30px 0;
-      height: 100px;
+     
+      height: 60px;
       position: relative;
 
       .mobile-icon-first {
@@ -1968,7 +2055,7 @@
 
   .footer-mobile {
     display: block !important;
-    margin-top: 100px;
+    margin-top: 94px;
     margin-bottom: 50px;
 
     &-wrapper {
@@ -2006,12 +2093,16 @@
           font-weight: normal;
           font-size: 12px!important;
           line-height: 18px;
+
+          P{
+            font-weight: normal!important;
+          }
         }
 
         &__security {
           margin-top: 35px;
           font-style: normal;
-          font-weight: 800;
+          font-weight: normal!important;
           font-size: 14px;
           line-height: 17px;
           font-family: 'ProximaNova-Black';
@@ -2021,4 +2112,18 @@
     }
 
   }
+}
+
+@media(min-width:376px) and (max-width:425px){
+  .iconFly-mobile-wrapper {
+
+
+    height: 60px!important;
+
+
+  }
+
+
+
+  
 }

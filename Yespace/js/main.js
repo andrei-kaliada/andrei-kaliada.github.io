@@ -54,8 +54,13 @@ form.forEach(el => el.addEventListener('submit', function(evt) {
     `
     );
     msgFormText.forEach( el => {
-      el.innerHTML="Ты молодец!";
-      el.style.paddingLeft = 0;
+      if(screen.width < 768){
+        el.innerHTML="Ты молодец!";
+        el.style.paddingLeft = 0;
+      }
+
+ 
+      
     })
   });
 
