@@ -1095,9 +1095,11 @@ header nav .nav-section ul .dropdown button::after {
     left: 5%;
   }
   .mobile-starIcon4 {
+    width: 40px;
+    height: 40px;
     display: block !important;
     position: absolute;
-    right: -10%;
+    right: 0;
   }
   .mobile-starIcon5 {
     display: block !important;
@@ -1549,7 +1551,8 @@ header nav .nav-section ul .dropdown button::after {
   .text-descr ul li {
     list-style-type: none;
     color: #182642;
-    font-size: 19px !important;
+    font-size: 18px !important;
+    padding-left: 0 !important;
   }
   .mobile-header__text .title p {
     font-family: 'ProximaNova-Black';
@@ -1802,11 +1805,13 @@ header nav .nav-section ul .dropdown button::after {
   }
   .main-title .text-descr {
     margin-top: 0 !important;
+    margin-left: 0 !important;
   }
   .main-title .text-descr ul li {
     list-style-type: none;
     color: #182642;
-    font-size: 17px !important;
+    font-size: 15px !important;
+    padding-left: 0px !important;
   }
   .main-title .text-descr__first ul li {
     font-weight: bold !important;
@@ -1992,6 +1997,12 @@ header nav .nav-section ul .dropdown button::after {
     font-size: 14px;
     line-height: 17px;
     font-family: 'ProximaNova-Bold';
+  }
+}
+
+@media (min-width: 376px) and (max-width: 425px) {
+  .iconFly-mobile-wrapper {
+    height: 60px !important;
   }
 }
 
@@ -2382,12 +2393,6 @@ header nav .nav-section ul .dropdown button::after {
     font-size: 14px;
     line-height: 17px;
     font-family: 'ProximaNova-Black';
-  }
-}
-
-@media (min-width: 376px) and (max-width: 425px) {
-  .iconFly-mobile-wrapper {
-    height: 60px !important;
   }
 }
 
@@ -2942,6 +2947,9 @@ header nav .nav-section ul .dropdown button::after {
   .bisness-model {
     padding: 0 20px !important;
   }
+  .bisness-model__slider img {
+    margin-top: 45px !important;
+  }
   .bisness-model__slider p {
     margin-left: 15px !important;
   }
@@ -2975,9 +2983,9 @@ header nav .nav-section ul .dropdown button::after {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -3226,7 +3234,7 @@ header nav .nav-section ul .dropdown button::after {
   }
   .bisness-model__slider .wrappImg {
     margin-right: 0 !important;
-    padding-left: 15px !important;
+    padding-left: 15px;
   }
   .bisness-model__slider img {
     border-radius: 25px !important;
@@ -3252,7 +3260,20 @@ header nav .nav-section ul .dropdown button::after {
   }
 }
 
-@media (max-width: 390px) {
+@media (min-width: 376px) and (max-width: 425px) {
+  .container-mobile-header-investors {
+    height: 1100px !important;
+  }
+}
+
+@media (min-width: 326px) and (max-width: 375px) {
+  .container-mobile-header-investors {
+    height: 1060px !important;
+  }
+  .infoMarket-mobile-image img {
+    width: 365px !important;
+    height: 520px !important;
+  }
   .info-meeting h1 {
     font-size: 40px;
   }
@@ -3273,12 +3294,22 @@ header nav .nav-section ul .dropdown button::after {
 }
 
 @media (max-width: 325px) {
+  .infoMarket-mobile__count-first {
+    padding-left: 25px !important;
+  }
+  .infoMarket-mobile__count-first img {
+    width: 90px !important;
+  }
+  .infoMarket-mobile__count-second img {
+    width: 118px !important;
+  }
   .info-meeting {
     margin-left: 0 !important;
     margin-right: 0 !important;
   }
   .info-meeting h1 {
-    font-size: 35px;
+    font-size: 30px;
+    margin-left: 20px !important;
   }
   .progressBar {
     margin-left: 0 !important;

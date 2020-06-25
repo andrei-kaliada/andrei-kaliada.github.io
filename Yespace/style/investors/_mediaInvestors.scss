@@ -7,7 +7,9 @@
         padding: 0 20px!important;
         
         &__slider{
-            
+            img{
+                margin-top: 45px!important;
+            }
             p{
                 margin-left: 15px!important;
             }
@@ -45,7 +47,7 @@
 
         .mobile-header-logo {
             display: flex;
-            justify-content: center;
+            justify-content: flex-end;
             align-items: center;
 
             img {
@@ -333,9 +335,10 @@
         &__slider{
             .wrappImg{
                 margin-right: 0!important;
-              padding-left: 15px!important;
+              padding-left: 15px;
             }
-
+          
+            
             img{
                 
                 border-radius: 25px!important;
@@ -368,7 +371,22 @@
     }
 }
 
-@media (max-width: 390px){
+@media(min-width:376px) and (max-width:425px){
+    .container-mobile-header-investors{
+        height: 1100px!important;
+    }
+}
+
+@media(min-width:326px) and (max-width: 375px){
+    .container-mobile-header-investors{
+        height: 1060px!important;
+    }
+    .infoMarket-mobile-image{
+        img{
+            width: 365px!important;
+            height: 520px!important;
+        }
+    }
 
     .info-meeting{
 
@@ -400,12 +418,27 @@
 }
 
 @media(max-width:325px){
+    .infoMarket-mobile__count-first{
+        padding-left: 25px!important;
+        img{
+            width: 90px!important;
+        }
+    }
+
+    .infoMarket-mobile__count-second{
+
+        img{
+            width: 118px!important;
+        }
+    }
+    
     .info-meeting{
         margin-left: 0!important;
         margin-right: 0!important;
 
         h1{
-            font-size:35px;
+            font-size:30px;
+            margin-left: 20px!important;
         }
     }
 

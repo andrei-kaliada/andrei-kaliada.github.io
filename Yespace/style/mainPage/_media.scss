@@ -614,9 +614,11 @@
   }
 
   .mobile-starIcon4{
+    width: 40px;
+    height: 40px;
     display: block!important;
     position: absolute;
-    right: -10%;
+    right: 0;
   }
 
   .mobile-starIcon5{
@@ -1123,7 +1125,8 @@
     li {
       list-style-type: none;
       color: #182642;
-      font-size: 19px!important;
+      font-size: 18px!important;
+      padding-left: 0!important;
     }
   }
 
@@ -1246,6 +1249,7 @@
 }
 
 @media (min-width: 321px) and (max-width: 375px){
+
   .mobile-header__text {
    
     .title {
@@ -1425,11 +1429,13 @@
 
     .text-descr {
       margin-top: 0!important;
+      margin-left: 0!important;
       ul {
         li {
           list-style-type: none;
           color: #182642;
-          font-size: 17px!important;
+          font-size: 15px!important;
+          padding-left: 0px!important;
         }
       }
 
@@ -1665,7 +1671,19 @@
   }
 }
 
+@media(min-width:376px) and (max-width:425px){
+  .iconFly-mobile-wrapper {
 
+
+    height: 60px!important;
+
+
+  }
+
+
+
+  
+}
 
 
 
@@ -2114,16 +2132,3 @@
   }
 }
 
-@media(min-width:376px) and (max-width:425px){
-  .iconFly-mobile-wrapper {
-
-
-    height: 60px!important;
-
-
-  }
-
-
-
-  
-}
