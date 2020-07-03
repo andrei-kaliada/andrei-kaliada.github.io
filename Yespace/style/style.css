@@ -3238,7 +3238,6 @@ header nav .nav-section ul .dropdown button::after {
   }
   .bisness-model__slider img {
     border-radius: 25px !important;
-    width: 100% !important;
   }
   .bisness-model .star5 {
     display: block;
@@ -3257,6 +3256,76 @@ header nav .nav-section ul .dropdown button::after {
   }
   .message-form-mobile p {
     font-size: 14px !important;
+  }
+  .card {
+    border: 0;
+    outline: none;
+  }
+  .card p {
+    display: inline-block;
+    margin-top: 0;
+    font-size: 15px;
+    color: #8B92BA;
+    font-weight: normal;
+    border: 2px solid #e3e3e3;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-radius: 40px;
+    padding: 8px 11px;
+    margin-bottom: 10px;
+  }
+  .card .wrappImg {
+    margin-right: 30px;
+  }
+  .card-gold {
+    -webkit-transition: 0.9s;
+    transition: 0.9s;
+  }
+  .card-gold img {
+    -webkit-box-shadow: -15px 34.36px 28.3471px rgba(255, 239, 194, 0.6) !important;
+            box-shadow: -15px 34.36px 28.3471px rgba(255, 239, 194, 0.6) !important;
+    margin-bottom: 100px;
+  }
+  .card-centurion {
+    -webkit-transition: 0.9s;
+    transition: 0.9s;
+  }
+  .card-centurion img {
+    -webkit-box-shadow: -15px 34.36px 28.3471px rgba(250, 203, 214, 0.5) !important;
+            box-shadow: -15px 34.36px 28.3471px rgba(250, 203, 214, 0.5) !important;
+    margin-bottom: 100px;
+  }
+  .card-platinum {
+    outline: none !important;
+  }
+  .card-platinum .wrappImg {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .card-platinum img {
+    margin-top: 0 !important;
+    -webkit-box-shadow: -15px 34.36px 28.3471px #edeef0 !important;
+            box-shadow: -15px 34.36px 28.3471px #edeef0 !important;
+  }
+  .card-diamond img {
+    -webkit-box-shadow: -15px 34.36px 28.3471px rgba(232, 245, 255, 0.8) !important;
+            box-shadow: -15px 34.36px 28.3471px rgba(232, 245, 255, 0.8) !important;
+  }
+  .card img {
+    margin-top: 50px;
+    width: 100%;
+    border-radius: 25px;
   }
 }
 

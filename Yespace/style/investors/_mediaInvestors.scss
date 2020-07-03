@@ -340,10 +340,12 @@
           
             
             img{
-                
+               
                 border-radius: 25px!important;
-                width: 100%!important;
+                // width: 100%!important;
             }
+
+            
         }
 
         .star5 {
@@ -369,6 +371,86 @@
             font-size: 14px!important;
         }
     }
+
+    
+    .card {
+        border: 0;
+        outline: none;
+        
+        p {
+            display: inline-block;
+            margin-top: 0;
+            font-size: 15px;
+            color: #8B92BA;
+            font-weight: normal;
+            border: 2px solid #e3e3e3;
+            box-sizing: border-box;
+            border-radius: 40px;
+            padding: 8px 11px;
+            margin-bottom: 10px;
+
+        }
+        
+       
+
+        .wrappImg {
+            margin-right: 30px;
+        }
+
+        &-gold {
+            transition: 0.9s;
+            img {
+                box-shadow: -15px 34.36px 28.3471px  rgba(255, 239, 194, 0.6)!important;
+
+                margin-bottom: 100px;
+
+            }
+        }
+
+        &-centurion {
+            transition: 0.9s;
+            img {
+                box-shadow: -15px 34.36px 28.3471px  rgba(250, 203, 214, 0.5)!important;
+
+                margin-bottom: 100px;
+
+
+            }
+        }
+
+        &-platinum {
+
+            outline: none !important;
+
+            .wrappImg {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
+            img {
+                margin-top: 0 !important;
+
+                box-shadow: -15px 34.36px 28.3471px  rgb(237, 238, 240)!important;
+            }
+        }
+
+        &-diamond {
+            img {
+                box-shadow: -15px 34.36px 28.3471px rgba(232, 245, 255, 0.8)!important;
+
+            }
+        }
+
+        img {
+           
+            margin-top: 50px;
+            width: 100%;
+            border-radius: 25px;
+        }
+    }
+
 }
 
 @media(min-width:376px) and (max-width:425px){
