@@ -3234,7 +3234,7 @@ header nav .nav-section ul .dropdown button::after {
   }
   .bisness-model__slider .wrappImg {
     margin-right: 0 !important;
-    padding-left: 15px;
+    padding-left: 10px !important;
   }
   .bisness-model__slider img {
     border-radius: 25px !important;
