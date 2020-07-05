@@ -82,7 +82,7 @@ if(currentSlide>0 && currentSlide<4)
    $('.card-gold').css('opacity',0.5);
    $('.card-centurion').css('opacity',1);
   //  $('.slick-current').css('width',291);
-  $('.card-gold').css('marginLeft',0);
+  //$('.card-gold').css('marginLeft',0);
 }
 
 });
