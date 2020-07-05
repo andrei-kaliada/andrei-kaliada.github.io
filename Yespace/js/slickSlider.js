@@ -28,9 +28,9 @@ $('.center').slick({
         breakpoint: 480,
         settings: {
           arrows: false,
-          centerMode: true,
-          centerPadding: '0px',
-          slidesToShow:1.15,
+          centerMode: false,
+          centerPadding: '20px',
+          slidesToShow:1.17,
           infinite:false
         }
       }
@@ -41,7 +41,7 @@ $('.center').slick({
     dots: true,
     infinite: true,
     speed: 300,
-    slidesToShow: 1.1,
+    slidesToShow: 1.2,
     centerMode: true,
     variableWidth: true
   });
@@ -53,6 +53,8 @@ $('.center').slick({
 });
 
 
+$('.card-gold').css('marginLeft',25);
+
 $('.center').on('afterChange', function(){
   console.log($('.center').slick('slickCurrentSlide'));
   let currentSlide = $('.center').slick('slickCurrentSlide');
@@ -62,7 +64,11 @@ if(currentSlide==0)
    $('.slick-next').show();
    $('.card-centurion').css('opacity',0.5);
    $('.card-gold').css('opacity',1);
+   $('.card-gold').css('marginLeft',25);
+  
 }
+
+
 else if(currentSlide==4)
 {
 $('.slick-next').hide();
@@ -75,6 +81,8 @@ if(currentSlide>0 && currentSlide<4)
    $('.slick-next').hide();
    $('.card-gold').css('opacity',0.5);
    $('.card-centurion').css('opacity',1);
+  //  $('.slick-current').css('width',291);
+  $('.card-gold').css('marginLeft',0);
 }
 
 });
@@ -86,6 +94,7 @@ if(currentSlide==0)
    $('.slick-prev').hide();
    $('.card-centurion').css('opacity',0.5);
    ('.card-gold').css('opacity',1);
+
   
 }
 else if(currentSlide==3)
