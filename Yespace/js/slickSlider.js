@@ -29,13 +29,15 @@ $('.center').slick({
         settings: {
           arrows: false,
           centerMode: false,
-          centerPadding: '20px',
+          centerPadding: '0px',
           slidesToShow:1.17,
-          infinite:false
+          infinite:false,
+          
         }
       }
     ]
   });
+
 
   $('.variable-width').slick({
     dots: true,
@@ -73,7 +75,15 @@ else if(currentSlide==4)
 {
 $('.slick-next').hide();
 $('.slick-prev').show();
+$('.slick-track').addClass('card-translate');
+
+
 }
+
+else if(currentSlide==3){
+  $('.slick-track').removeClass('card-translate');
+}
+
 
 if(currentSlide>0 && currentSlide<4)
 {
@@ -83,6 +93,7 @@ if(currentSlide>0 && currentSlide<4)
    $('.card-centurion').css('opacity',1);
   //  $('.slick-current').css('width',291);
   //$('.card-gold').css('marginLeft',0);
+ 
 }
 
 });

@@ -5361,4 +5361,9 @@ body {
     color: #1BCF0B;
   }
 }
+
+.card-translate {
+  -webkit-transform: translate3d(-822px, 0, 0) !important;
+          transform: translate3d(-822px, 0, 0) !important;
+}
 /*# sourceMappingURL=style.css.map */

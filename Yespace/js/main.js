@@ -68,3 +68,13 @@ form.forEach(el => el.addEventListener('submit', function(evt) {
   request.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded; charset=UTF-8');
   request.send('name=' + encodeURIComponent(formData.name) );
 }));
+
+let test = document.querySelector('.slick-track');
+let center = document.querySelector('.center');
+let card = document.querySelector('.card-add');
+console.log(center);
+
+center.addEventListener('click', function(){
+  console.log('hello')
+  card.innerHTML="";
+})
