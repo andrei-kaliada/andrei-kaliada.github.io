@@ -3330,24 +3330,138 @@ header nav .nav-section ul .dropdown button::after {
 }
 
 @media (min-width: 376px) and (max-width: 425px) {
+  .container-mobile-header-investors {
+    height: 1100px !important;
+  }
+}
+
+@media (min-width: 421px) and (max-width: 425px) {
   .card-translate {
     -webkit-transform: translate3d(-1092px, 0, 0) !important;
             transform: translate3d(-1092px, 0, 0) !important;
     -webkit-transition: 0.7s;
     transition: 0.7s;
   }
-  .container-mobile-header-investors {
-    height: 1100px !important;
+}
+
+@media (min-width: 411px) and (max-width: 420px) {
+  .card-translate {
+    -webkit-transform: translate3d(-1053px, 0, 0) !important;
+            transform: translate3d(-1053px, 0, 0) !important;
+    -webkit-transition: 0.7s;
+    transition: 0.7s;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 410px) {
+  .card-translate {
+    -webkit-transform: translate3d(-1040px, 0, 0) !important;
+            transform: translate3d(-1040px, 0, 0) !important;
+    -webkit-transition: 0.7s;
+    transition: 0.7s;
+  }
+}
+
+@media (min-width: 390px) and (max-width: 399px) {
+  .card-translate {
+    -webkit-transform: translate3d(-1015px, 0, 0) !important;
+            transform: translate3d(-1015px, 0, 0) !important;
+    -webkit-transition: 0.7s;
+    transition: 0.7s;
+  }
+}
+
+@media (min-width: 380px) and (max-width: 389px) {
+  .card-translate {
+    -webkit-transform: translate3d(-990px, 0, 0) !important;
+            transform: translate3d(-990px, 0, 0) !important;
+    -webkit-transition: 0.7s;
+    transition: 0.7s;
+  }
+}
+
+@media (min-width: 370px) and (max-width: 379px) {
+  .card-translate {
+    -webkit-transform: translate3d(-965px, 0, 0) !important;
+            transform: translate3d(-965px, 0, 0) !important;
+    -webkit-transition: 0.7s;
+    transition: 0.7s;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 369px) {
+  .card-translate {
+    -webkit-transform: translate3d(-940px, 0, 0) !important;
+            transform: translate3d(-940px, 0, 0) !important;
+    -webkit-transition: 0.7s;
+    transition: 0.7s;
+  }
+}
+
+@media (min-width: 350px) and (max-width: 359px) {
+  .card-translate {
+    -webkit-transform: translate3d(-915px, 0, 0) !important;
+            transform: translate3d(-915px, 0, 0) !important;
+    -webkit-transition: 0.7s;
+    transition: 0.7s;
+  }
+}
+
+@media (min-width: 340px) and (max-width: 349px) {
+  .card-translate {
+    -webkit-transform: translate3d(-890px, 0, 0) !important;
+            transform: translate3d(-890px, 0, 0) !important;
+    -webkit-transition: 0.7s;
+    transition: 0.7s;
+  }
+}
+
+@media (min-width: 330px) and (max-width: 339px) {
+  .card-translate {
+    -webkit-transform: translate3d(-865px, 0, 0) !important;
+            transform: translate3d(-865px, 0, 0) !important;
+    -webkit-transition: 0.7s;
+    transition: 0.7s;
+  }
+}
+
+@media (min-width: 326px) and (max-width: 329px) {
+  .card-translate {
+    -webkit-transform: translate3d(-840px, 0, 0) !important;
+            transform: translate3d(-840px, 0, 0) !important;
+    -webkit-transition: 0.7s;
+    transition: 0.7s;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 325px) {
+  .card-translate {
+    -webkit-transform: translate3d(-822px, 0, 0) !important;
+            transform: translate3d(-822px, 0, 0) !important;
+    -webkit-transition: 0.7s;
+    transition: 0.7s;
+  }
+}
+
+@media (min-width: 316px) and (max-width: 319px) {
+  .card-translate {
+    -webkit-transform: translate3d(-815px, 0, 0) !important;
+            transform: translate3d(-815px, 0, 0) !important;
+    -webkit-transition: 0.7s;
+    transition: 0.7s;
+  }
+}
+
+@media (min-width: 310px) and (max-width: 315px) {
+  .card-translate {
+    -webkit-transform: translate3d(-805px, 0, 0) !important;
+            transform: translate3d(-805px, 0, 0) !important;
+    -webkit-transition: 0.7s;
+    transition: 0.7s;
   }
 }
 
 @media (min-width: 326px) and (max-width: 375px) {
-  .card-translate {
-    -webkit-transform: translate3d(-963px, 0, 0) !important;
-            transform: translate3d(-963px, 0, 0) !important;
-    -webkit-transition: 0.7s;
-    transition: 0.7s;
-  }
   .container-mobile-header-investors {
     height: 1060px !important;
   }
@@ -3375,12 +3489,6 @@ header nav .nav-section ul .dropdown button::after {
 }
 
 @media (max-width: 325px) {
-  .card-translate {
-    -webkit-transform: translate3d(-822px, 0, 0) !important;
-            transform: translate3d(-822px, 0, 0) !important;
-    -webkit-transition: 0.7s;
-    transition: 0.7s;
-  }
   .infoMarket-mobile__count-first {
     padding-left: 25px !important;
   }
