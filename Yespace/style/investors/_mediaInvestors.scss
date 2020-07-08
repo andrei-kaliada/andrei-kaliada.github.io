@@ -454,12 +454,20 @@
 }
 
 @media(min-width:376px) and (max-width:425px){
+    .card-translate{
+        transform: translate3d(-1092px,0,0)!important;
+        transition: 0.7s;
+    }
     .container-mobile-header-investors{
         height: 1100px!important;
     }
 }
 
 @media(min-width:326px) and (max-width: 375px){
+    .card-translate{
+        transform: translate3d(-963px,0,0)!important;
+        transition: 0.7s;
+    }
     .container-mobile-header-investors{
         height: 1060px!important;
     }
@@ -500,6 +508,12 @@
 }
 
 @media(max-width:325px){
+
+    .card-translate{
+        transform: translate3d(-822px,0,0)!important;
+        transition: 0.7s;
+    }
+
     .infoMarket-mobile__count-first{
         padding-left: 25px!important;
         img{

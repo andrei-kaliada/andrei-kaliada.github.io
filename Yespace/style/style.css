@@ -3330,12 +3330,24 @@ header nav .nav-section ul .dropdown button::after {
 }
 
 @media (min-width: 376px) and (max-width: 425px) {
+  .card-translate {
+    -webkit-transform: translate3d(-1092px, 0, 0) !important;
+            transform: translate3d(-1092px, 0, 0) !important;
+    -webkit-transition: 0.7s;
+    transition: 0.7s;
+  }
   .container-mobile-header-investors {
     height: 1100px !important;
   }
 }
 
 @media (min-width: 326px) and (max-width: 375px) {
+  .card-translate {
+    -webkit-transform: translate3d(-963px, 0, 0) !important;
+            transform: translate3d(-963px, 0, 0) !important;
+    -webkit-transition: 0.7s;
+    transition: 0.7s;
+  }
   .container-mobile-header-investors {
     height: 1060px !important;
   }
@@ -3363,6 +3375,12 @@ header nav .nav-section ul .dropdown button::after {
 }
 
 @media (max-width: 325px) {
+  .card-translate {
+    -webkit-transform: translate3d(-822px, 0, 0) !important;
+            transform: translate3d(-822px, 0, 0) !important;
+    -webkit-transition: 0.7s;
+    transition: 0.7s;
+  }
   .infoMarket-mobile__count-first {
     padding-left: 25px !important;
   }
@@ -5360,10 +5378,5 @@ body {
     text-align: center;
     color: #1BCF0B;
   }
-}
-
-.card-translate {
-  -webkit-transform: translate3d(-822px, 0, 0) !important;
-          transform: translate3d(-822px, 0, 0) !important;
 }
 /*# sourceMappingURL=style.css.map */
